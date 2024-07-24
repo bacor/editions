@@ -30,7 +30,6 @@ if __name__ == "__main__":
         "-e", "--export", action="append", help="Type of export or extension"
     )
 
-    # input = "export -c bach_cpe".split()
     args = parser.parse_args()
 
     if args.action == "export":
