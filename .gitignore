@@ -6,7 +6,10 @@ __pycache__
 .pytest_cache
 .vscode
 
+**/*.mp3
+
 tmp/
 env/
+scores/**/sources
 
 **/*-draft/*
