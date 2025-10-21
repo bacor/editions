@@ -13,3 +13,4 @@ env/
 scores/**/sources
 
 **/*-draft/*
+private/
