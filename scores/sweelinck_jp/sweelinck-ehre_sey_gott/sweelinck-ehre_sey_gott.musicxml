@@ -5,11 +5,11 @@
     <work-title>Ehre sei Gott</work-title>
     </work>
   <identification>
-    <creator type="composer">Jan Pieterszoon Sweelinck </creator>
-    <rights>Copyright © Bas Cornelissen 2024 and licensed under CC BY-SA 4.0. Score version 1.</rights>
+    <creator type="composer">Jan Pieterszoon Sweelinck (attrib.)</creator>
+    <rights>Copyright © Bas Cornelissen &amp; Riccardo Casamichiela 2024 and licensed under CC BY-SA 4.0. Last edited 5 December 2024.</rights>
     <encoding>
-      <software>MuseScore 4.3.2</software>
-      <encoding-date>2024-07-24</encoding-date>
+      <software>MuseScore 4.4.3</software>
+      <encoding-date>2025-10-21</encoding-date>
       <supports element="accidental" type="yes"/>
       <supports element="beam" type="yes"/>
       <supports element="print" attribute="new-page" type="no"/>
@@ -265,9 +265,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>der</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Gott</text>
           </lyric>
         </note>
       <note>
@@ -279,9 +283,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>uns</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">dem</text>
           </lyric>
         </note>
       <note>
@@ -293,9 +301,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>er</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">Va</text>
           </lyric>
         </note>
       <note>
@@ -309,9 +321,13 @@ generalis</part-name>
         <type>half</type>
         <accidental>sharp</accidental>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>schaf</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">ter</text>
           </lyric>
         </note>
       </measure>
@@ -325,9 +341,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>fen</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">Eh</text>
           </lyric>
         </note>
       <note>
@@ -339,9 +359,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>hat,</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">re</text>
           </lyric>
         </note>
       <note>
@@ -353,9 +377,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>er</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">sei</text>
           </lyric>
         </note>
       <note>
@@ -368,9 +396,13 @@ generalis</part-name>
         <type>half</type>
         <dot/>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>schaf</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Gott,</text>
           </lyric>
         </note>
       <note>
@@ -382,6 +414,10 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">dem</text>
+          </lyric>
         </note>
       </measure>
     <measure number="5">
@@ -394,6 +430,10 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">Va</text>
+          </lyric>
         </note>
       <note>
         <pitch>
@@ -436,9 +476,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>fen</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">ter</text>
           </lyric>
         </note>
       <note>
@@ -450,9 +494,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>hat,</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">Eh</text>
           </lyric>
         </note>
       <note>
@@ -464,9 +512,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>der</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">re</text>
           </lyric>
         </note>
       <note>
@@ -478,9 +530,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>uns</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">sei</text>
           </lyric>
         </note>
       </measure>
@@ -494,9 +550,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>hat</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Gott</text>
           </lyric>
         </note>
       <note>
@@ -508,9 +568,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>er</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">dem</text>
           </lyric>
         </note>
       <note>
@@ -522,9 +586,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>schaf</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">Va</text>
           </lyric>
         </note>
       <note>
@@ -538,14 +606,18 @@ generalis</part-name>
         <type>half</type>
         <accidental>sharp</accidental>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>fen,</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">ter,</text>
           </lyric>
         </note>
       </measure>
     <measure number="7">
-      <direction placement="above">
+      <direction placement="above" system="only-top">
         <direction-type>
           <rehearsal font-weight="bold" font-size="14">A</rehearsal>
           </direction-type>
@@ -571,9 +643,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>der</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">der</text>
           </lyric>
         </note>
       <note>
@@ -585,9 +661,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>uns</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">uns</text>
           </lyric>
         </note>
       <note>
@@ -599,9 +679,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>hat,</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">er</text>
           </lyric>
         </note>
       <note>
@@ -617,10 +701,14 @@ generalis</part-name>
         <notations>
           <tied type="start"/>
           </notations>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>der</text>
           <extend/>
+          </lyric>
+        <lyric number="1">
+          <syllabic>middle</syllabic>
+          <text font-style="italic">schaf</text>
           </lyric>
         </note>
       </measure>
@@ -648,9 +736,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>uns</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">fen,</text>
           </lyric>
         </note>
       <note>
@@ -662,9 +754,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>hat,</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">er</text>
           </lyric>
         </note>
       <note>
@@ -676,9 +772,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>der</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>middle</syllabic>
+          <text font-style="italic">schaf</text>
           </lyric>
         </note>
       <note>
@@ -693,7 +793,7 @@ generalis</part-name>
         <notations>
           <slur type="start" number="1"/>
           </notations>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>uns</text>
           <extend/>
@@ -722,6 +822,10 @@ generalis</part-name>
         <notations>
           <slur type="stop" number="1"/>
           </notations>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">fen</text>
+          </lyric>
         </note>
       </measure>
     <measure number="9">
@@ -734,9 +838,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>hat,</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">hat,</text>
           </lyric>
         </note>
       <note>
@@ -759,11 +867,6 @@ generalis</part-name>
         </note>
       </measure>
     <measure number="10">
-      <direction placement="above">
-        <direction-type>
-          <rehearsal font-weight="bold" font-size="14">B</rehearsal>
-          </direction-type>
-        </direction>
       <note>
         <pitch>
           <step>D</step>
@@ -864,16 +967,20 @@ generalis</part-name>
         </note>
       <note>
         <pitch>
-          <step>C</step>
+          <step>D</step>
           <octave>5</octave>
           </pitch>
         <duration>4</duration>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>der</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">uns</text>
           </lyric>
         </note>
       <note>
@@ -885,9 +992,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>uns</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">er</text>
           </lyric>
         </note>
       <note>
@@ -900,10 +1011,14 @@ generalis</part-name>
         <type>quarter</type>
         <dot/>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>hat</text>
           <extend/>
+          </lyric>
+        <lyric number="1">
+          <syllabic>middle</syllabic>
+          <text font-style="italic">schaf</text>
           </lyric>
         </note>
       <note>
@@ -915,6 +1030,10 @@ generalis</part-name>
         <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">fen</text>
+          </lyric>
         </note>
       </measure>
     <measure number="12">
@@ -927,6 +1046,10 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">hat</text>
+          </lyric>
         </note>
       <note>
         <pitch>
@@ -937,9 +1060,14 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>der</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">der</text>
+          <extend/>
           </lyric>
         </note>
       <note>
@@ -951,7 +1079,7 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>uns</text>
           </lyric>
@@ -965,9 +1093,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>hat,</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">uns,</text>
           </lyric>
         </note>
       <note>
@@ -979,9 +1111,14 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>der</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">der</text>
+          <extend/>
           </lyric>
         </note>
       <note>
@@ -993,7 +1130,7 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>uns</text>
           </lyric>
@@ -1009,9 +1146,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>hat</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">uns,</text>
           </lyric>
         </note>
       <note>
@@ -1085,9 +1226,9 @@ generalis</part-name>
           <text>hat,</text>
           </lyric>
         </note>
-      <direction placement="above">
+      <direction placement="above" system="only-top">
         <direction-type>
-          <rehearsal font-weight="bold" font-size="14">C</rehearsal>
+          <rehearsal font-weight="bold" font-size="14">B</rehearsal>
           </direction-type>
         </direction>
       <note>
@@ -1283,9 +1424,9 @@ generalis</part-name>
           <text>der</text>
           </lyric>
         </note>
-      <direction placement="above">
+      <direction placement="above" system="only-top">
         <direction-type>
-          <rehearsal font-weight="bold" font-size="14">D</rehearsal>
+          <rehearsal font-weight="bold" font-size="14">C</rehearsal>
           </direction-type>
         </direction>
       <note>
@@ -1305,12 +1446,12 @@ generalis</part-name>
       <note>
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>4</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <accidental>natural</accidental>
         <stem>down</stem>
         <lyric number="1">
           <syllabic>begin</syllabic>
@@ -1883,7 +2024,7 @@ generalis</part-name>
         <stem>down</stem>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hat:</text>
+          <text>hat.</text>
           <extend/>
           </lyric>
         </note>
@@ -1897,9 +2038,9 @@ generalis</part-name>
         <type>quarter</type>
         <stem>down</stem>
         </note>
-      <direction placement="above">
+      <direction placement="above" system="only-top">
         <direction-type>
-          <rehearsal font-weight="bold" font-size="14">E</rehearsal>
+          <rehearsal font-weight="bold" font-size="14">D</rehearsal>
           </direction-type>
         </direction>
       <note>
@@ -1927,9 +2068,13 @@ generalis</part-name>
         <duration>16</duration>
         <voice>1</voice>
         <type>whole</type>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>Ehr</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Ehr'</text>
           </lyric>
         </note>
       <note>
@@ -1941,9 +2086,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>sei</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">sei</text>
           </lyric>
         </note>
       </measure>
@@ -1959,9 +2108,13 @@ generalis</part-name>
         <type>quarter</type>
         <accidental>sharp</accidental>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>auch,</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Gott,</text>
           </lyric>
         </note>
       <note>
@@ -1982,7 +2135,7 @@ generalis</part-name>
         <stem>up</stem>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text font-style="italic">ehr</text>
+          <text font-style="italic">Ehr'</text>
           </lyric>
         </note>
       <note>
@@ -2012,7 +2165,7 @@ generalis</part-name>
         <stem>up</stem>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text font-style="italic">auch,</text>
+          <text font-style="italic">Gott,</text>
           </lyric>
         </note>
       <note>
@@ -2150,11 +2303,6 @@ generalis</part-name>
         </note>
       </measure>
     <measure number="34">
-      <direction placement="above">
-        <direction-type>
-          <rehearsal font-weight="bold" font-size="14">F</rehearsal>
-          </direction-type>
-        </direction>
       <note>
         <pitch>
           <step>F</step>
@@ -2166,9 +2314,13 @@ generalis</part-name>
         <type>quarter</type>
         <accidental>sharp</accidental>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>der</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">Eh</text>
           </lyric>
         </note>
       <note>
@@ -2180,9 +2332,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>uns</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">re</text>
           </lyric>
         </note>
       <note>
@@ -2194,11 +2350,20 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>hat</text>
           </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">sei</text>
+          </lyric>
         </note>
+      <direction placement="above" system="only-top">
+        <direction-type>
+          <rehearsal font-weight="bold" font-size="14">E</rehearsal>
+          </direction-type>
+        </direction>
       <note>
         <pitch>
           <step>D</step>
@@ -2208,9 +2373,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>ge</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Gott,</text>
           </lyric>
         </note>
       <note>
@@ -2222,9 +2391,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>hei</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">der</text>
           </lyric>
         </note>
       <note>
@@ -2237,6 +2410,11 @@ generalis</part-name>
         <type>eighth</type>
         <stem>down</stem>
         <beam number="1">begin</beam>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">uns</text>
+          <extend/>
+          </lyric>
         </note>
       <note>
         <pitch>
@@ -2314,6 +2492,10 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">ge</text>
+          </lyric>
         </note>
       <note>
         <pitch>
@@ -2325,6 +2507,10 @@ generalis</part-name>
         <type>eighth</type>
         <stem>up</stem>
         <beam number="1">begin</beam>
+        <lyric number="1">
+          <syllabic>middle</syllabic>
+          <text font-style="italic">hei</text>
+          </lyric>
         </note>
       <note>
         <pitch>
@@ -2356,24 +2542,32 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
-          <syllabic>middle</syllabic>
+        <lyric number="2">
+          <syllabic>end</syllabic>
           <text>li</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">ligt</text>
           </lyric>
         </note>
       </measure>
     <measure number="36">
       <note>
         <pitch>
-          <step>E</step>
+          <step>C</step>
           <octave>5</octave>
           </pitch>
         <duration>16</duration>
         <voice>1</voice>
         <type>whole</type>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>get:</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">hat,</text>
           </lyric>
         </note>
       <note>
@@ -2409,16 +2603,20 @@ generalis</part-name>
         <notations>
           <tied type="start"/>
           </notations>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>Eh</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">Eh</text>
           </lyric>
         </note>
       </measure>
     <measure number="38">
-      <direction placement="above">
+      <direction placement="above" system="only-top">
         <direction-type>
-          <rehearsal font-weight="bold" font-size="14">G</rehearsal>
+          <rehearsal font-weight="bold" font-size="14">F</rehearsal>
           </direction-type>
         </direction>
       <note>
@@ -2444,9 +2642,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>re</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">re</text>
           </lyric>
         </note>
       <note>
@@ -2458,9 +2660,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>sei</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">sei</text>
           </lyric>
         </note>
       <note>
@@ -2472,9 +2678,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>nun,</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Gott,</text>
           </lyric>
         </note>
       <note>
@@ -2492,7 +2702,7 @@ generalis</part-name>
           </notations>
         <lyric number="1">
           <syllabic>begin</syllabic>
-          <text font-style="italic">eh</text>
+          <text font-style="italic">Eh</text>
           </lyric>
         </note>
       </measure>
@@ -2550,7 +2760,7 @@ generalis</part-name>
         <stem>down</stem>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text font-style="italic">nun,</text>
+          <text font-style="italic">Gott,</text>
           </lyric>
         </note>
       <note>
@@ -2625,7 +2835,7 @@ generalis</part-name>
         <stem>down</stem>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text font-style="italic">nun</text>
+          <text font-style="italic">Gott</text>
           </lyric>
         </note>
       </measure>
@@ -2639,13 +2849,12 @@ generalis</part-name>
       <note>
         <pitch>
           <step>G</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <accidental>sharp</accidental>
+        <accidental cautionary="yes" parentheses="no">natural</accidental>
         <stem>up</stem>
         <lyric number="1">
           <syllabic>single</syllabic>
@@ -2708,9 +2917,9 @@ generalis</part-name>
           <text>ten</text>
           </lyric>
         </note>
-      <direction placement="above">
+      <direction placement="above" system="only-top">
         <direction-type>
-          <rehearsal font-weight="bold" font-size="14">H</rehearsal>
+          <rehearsal font-weight="bold" font-size="14">G</rehearsal>
           </direction-type>
         </direction>
       <note>
@@ -2737,9 +2946,13 @@ generalis</part-name>
         <type>half</type>
         <dot/>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>un</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">Eh</text>
           </lyric>
         </note>
       <note>
@@ -2751,9 +2964,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>zer</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">re</text>
           </lyric>
         </note>
       <note>
@@ -2765,9 +2982,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>theil</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">sei</text>
           </lyric>
         </note>
       </measure>
@@ -2781,9 +3002,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>ten</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Gott,</text>
           </lyric>
         </note>
       <note>
@@ -2796,9 +3021,13 @@ generalis</part-name>
         <type>half</type>
         <dot/>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>Drei</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">Eh</text>
           </lyric>
         </note>
       <note>
@@ -2810,9 +3039,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>fal</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">re</text>
           </lyric>
         </note>
       <note>
@@ -2824,9 +3057,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>tig</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">sei</text>
           </lyric>
         </note>
       </measure>
@@ -2840,9 +3077,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>keit</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Gott</text>
           </lyric>
         </note>
       <note>
@@ -2866,9 +3107,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>jetzt</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">der</text>
           </lyric>
         </note>
       <note>
@@ -2880,9 +3125,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>und</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">hoch</text>
           </lyric>
         </note>
       <note>
@@ -2894,9 +3143,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>in</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>middle</syllabic>
+          <text font-style="italic">ge</text>
           </lyric>
         </note>
       </measure>
@@ -2910,9 +3163,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>E</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>middle</syllabic>
+          <text font-style="italic">lob</text>
           </lyric>
         </note>
       <note>
@@ -2934,7 +3191,7 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>wig</text>
           </lyric>
@@ -2947,13 +3204,22 @@ generalis</part-name>
         <duration>16</duration>
         <voice>1</voice>
         <type>whole</type>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>keit,</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">ten</text>
           </lyric>
         </note>
       </measure>
     <measure number="47">
+      <direction placement="above" system="only-top">
+        <direction-type>
+          <rehearsal font-weight="bold" font-size="14">H</rehearsal>
+          </direction-type>
+        </direction>
       <note>
         <rest/>
         <duration>4</duration>
@@ -3046,11 +3312,6 @@ generalis</part-name>
           <text>keit</text>
           </lyric>
         </note>
-      <direction placement="above">
-        <direction-type>
-          <rehearsal font-weight="bold" font-size="14">I</rehearsal>
-          </direction-type>
-        </direction>
       <note>
         <pitch>
           <step>C</step>
@@ -3884,23 +4145,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>dem</text>
           </lyric>
-        </note>
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>5</octave>
-          </pitch>
-        <duration>4</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>down</stem>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text>Va</text>
+          <syllabic>single</syllabic>
+          <text font-style="italic">der</text>
           </lyric>
         </note>
       <note>
@@ -3912,9 +4163,31 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
+        <lyric number="2">
+          <syllabic>begin</syllabic>
+          <text>Va</text>
+          </lyric>
         <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">uns</text>
+          </lyric>
+        </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>ter,</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">er</text>
           </lyric>
         </note>
       </measure>
@@ -3928,9 +4201,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>der</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>middle</syllabic>
+          <text font-style="italic">schaf</text>
           </lyric>
         </note>
       <note>
@@ -3942,9 +4219,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>uns</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">fen,</text>
           </lyric>
         </note>
       <note>
@@ -3956,9 +4237,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>der</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">der</text>
           </lyric>
         </note>
       <note>
@@ -3970,9 +4255,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>uns</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">uns</text>
           </lyric>
         </note>
       <note>
@@ -3984,9 +4273,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>hat,</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">er</text>
           </lyric>
         </note>
       </measure>
@@ -4001,8 +4294,8 @@ generalis</part-name>
         <type>quarter</type>
         <stem>down</stem>
         <lyric number="1">
-          <syllabic>single</syllabic>
-          <text font-style="italic">der</text>
+          <syllabic>middle</syllabic>
+          <text font-style="italic">schaf</text>
           </lyric>
         </note>
       <note>
@@ -4015,8 +4308,8 @@ generalis</part-name>
         <type>quarter</type>
         <stem>down</stem>
         <lyric number="1">
-          <syllabic>single</syllabic>
-          <text font-style="italic">uns</text>
+          <syllabic>end</syllabic>
+          <text font-style="italic">fen</text>
           </lyric>
         </note>
       <note>
@@ -4497,7 +4790,7 @@ generalis</part-name>
         <stem>down</stem>
         <lyric number="1">
           <syllabic>end</syllabic>
-          <text>ne/</text>
+          <text>ne,</text>
           </lyric>
         </note>
       </measure>
@@ -4592,12 +4885,13 @@ generalis</part-name>
       <note>
         <pitch>
           <step>G</step>
+          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>16</duration>
         <voice>1</voice>
         <type>whole</type>
-        <accidental>natural</accidental>
+        <accidental>sharp</accidental>
         <lyric number="1">
           <syllabic>begin</syllabic>
           <text font-style="italic">Soh</text>
@@ -5028,16 +5322,20 @@ generalis</part-name>
           <text font-style="italic">set</text>
           </lyric>
         </note>
+      <direction placement="above">
+        <direction-type>
+          <words font-style="italic">(*)</words>
+          </direction-type>
+        </direction>
       <note>
         <pitch>
           <step>C</step>
-          <alter>1</alter>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
         <voice>1</voice>
         <type>half</type>
-        <accidental>sharp</accidental>
+        <accidental cautionary="yes" parentheses="no">natural</accidental>
         <stem>down</stem>
         <lyric number="1">
           <syllabic>single</syllabic>
@@ -5099,9 +5397,13 @@ generalis</part-name>
         <notations>
           <tied type="start"/>
           </notations>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>er</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">er</text>
           </lyric>
         </note>
       </measure>
@@ -5128,9 +5430,13 @@ generalis</part-name>
         <duration>16</duration>
         <voice>1</voice>
         <type>whole</type>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>lö</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>middle</syllabic>
+          <text font-style="italic">lö</text>
           </lyric>
         </note>
       <note>
@@ -5146,7 +5452,7 @@ generalis</part-name>
         <notations>
           <tied type="start"/>
           </notations>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>set</text>
           <extend/>
@@ -5224,8 +5530,12 @@ generalis</part-name>
         <duration>8</duration>
         <voice>1</voice>
         <type>half</type>
-        <accidental>sharp</accidental>
+        <accidental cautionary="yes" parentheses="no">sharp</accidental>
         <stem>up</stem>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">set</text>
+          </lyric>
         </note>
       </measure>
     <measure number="28">
@@ -5239,7 +5549,7 @@ generalis</part-name>
         <type>whole</type>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hat/</text>
+          <text>hat.</text>
           </lyric>
         </note>
       <note>
@@ -5257,9 +5567,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>Eh</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Ehr'</text>
           </lyric>
         </note>
       </measure>
@@ -5272,9 +5586,13 @@ generalis</part-name>
         <duration>32</duration>
         <voice>1</voice>
         <type>breve</type>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>re</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">sei</text>
           </lyric>
         </note>
       </measure>
@@ -5288,9 +5606,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>sei</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Gott,</text>
           </lyric>
         </note>
       <note>
@@ -5545,7 +5867,7 @@ generalis</part-name>
         <duration>8</duration>
         <voice>1</voice>
         <type>half</type>
-        <accidental>sharp</accidental>
+        <accidental cautionary="yes" parentheses="no">sharp</accidental>
         <stem>down</stem>
         </note>
       </measure>
@@ -5608,23 +5930,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>er</text>
           </lyric>
-        </note>
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>5</octave>
-          </pitch>
-        <duration>8</duration>
-        <voice>1</voice>
-        <type>half</type>
-        <stem>down</stem>
         <lyric number="1">
-          <syllabic>middle</syllabic>
-          <text>leuch</text>
+          <syllabic>begin</syllabic>
+          <text font-style="italic">ge</text>
           </lyric>
         </note>
       <note>
@@ -5636,16 +5948,38 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
+        <lyric number="2">
+          <syllabic>middle</syllabic>
+          <text>leuch</text>
+          </lyric>
         <lyric number="1">
+          <syllabic>middle</syllabic>
+          <text font-style="italic">hei</text>
+          </lyric>
+        </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>8</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>down</stem>
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>tet</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">ligt</text>
           </lyric>
         </note>
       </measure>
     <measure number="36">
       <note>
         <pitch>
-          <step>C</step>
+          <step>E</step>
           <octave>5</octave>
           </pitch>
         <duration>8</duration>
@@ -5654,7 +5988,7 @@ generalis</part-name>
         <stem>down</stem>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hat:</text>
+          <text>hat,</text>
           </lyric>
         </note>
       <note>
@@ -5697,7 +6031,7 @@ generalis</part-name>
         <stem>down</stem>
         <lyric number="1">
           <syllabic>begin</syllabic>
-          <text font-style="italic">er</text>
+          <text font-style="italic">ge</text>
           </lyric>
         </note>
       </measure>
@@ -5713,7 +6047,7 @@ generalis</part-name>
         <stem>up</stem>
         <lyric number="1">
           <syllabic>middle</syllabic>
-          <text font-style="italic">leuch</text>
+          <text font-style="italic">hei</text>
           </lyric>
         </note>
       <note>
@@ -5727,7 +6061,7 @@ generalis</part-name>
         <stem>up</stem>
         <lyric number="1">
           <syllabic>end</syllabic>
-          <text font-style="italic">tet</text>
+          <text font-style="italic">ligt</text>
           </lyric>
         </note>
       <note>
@@ -5761,9 +6095,13 @@ generalis</part-name>
         <type>half</type>
         <dot/>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>Eh</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">Eh</text>
           </lyric>
         </note>
       <note>
@@ -5775,9 +6113,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>re</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">re</text>
           </lyric>
         </note>
       <note>
@@ -5789,9 +6131,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>sei</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">sei</text>
           </lyric>
         </note>
       </measure>
@@ -5805,9 +6151,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>nun,</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Gott,</text>
           </lyric>
         </note>
       <note>
@@ -5866,7 +6216,7 @@ generalis</part-name>
         <stem>down</stem>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text font-style="italic">nun</text>
+          <text font-style="italic">Gott,</text>
           </lyric>
         </note>
       <note>
@@ -5884,13 +6234,12 @@ generalis</part-name>
       <note>
         <pitch>
           <step>G</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <accidental>sharp</accidental>
+        <accidental cautionary="yes" parentheses="no">natural</accidental>
         <stem>up</stem>
         <lyric number="1">
           <syllabic>single</syllabic>
@@ -6099,7 +6448,7 @@ generalis</part-name>
         <stem>up</stem>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>sey</text>
+          <text>sei</text>
           </lyric>
         </note>
       <note>
@@ -6258,8 +6607,8 @@ generalis</part-name>
         <type>half</type>
         <stem>up</stem>
         <lyric number="1">
-          <syllabic>single</syllabic>
-          <text font-style="italic">der</text>
+          <syllabic>begin</syllabic>
+          <text font-style="italic">drei</text>
           </lyric>
         </note>
       <note>
@@ -6271,8 +6620,8 @@ generalis</part-name>
         <voice>1</voice>
         <type>whole</type>
         <lyric number="1">
-          <syllabic>begin</syllabic>
-          <text font-style="italic">hoch</text>
+          <syllabic>middle</syllabic>
+          <text font-style="italic">fal</text>
           </lyric>
         </note>
       </measure>
@@ -6287,7 +6636,7 @@ generalis</part-name>
         <type>whole</type>
         <lyric number="1">
           <syllabic>middle</syllabic>
-          <text font-style="italic">ge</text>
+          <text font-style="italic">tig</text>
           </lyric>
         </note>
       <note>
@@ -6300,8 +6649,9 @@ generalis</part-name>
         <type>half</type>
         <stem>up</stem>
         <lyric number="1">
-          <syllabic>middle</syllabic>
-          <text font-style="italic">lob</text>
+          <syllabic>end</syllabic>
+          <text font-style="italic">keit</text>
+          <extend/>
           </lyric>
         </note>
       <note>
@@ -6343,18 +6693,10 @@ generalis</part-name>
         <stem>up</stem>
         </note>
       <note>
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-          </pitch>
+        <rest/>
         <duration>8</duration>
         <voice>1</voice>
         <type>half</type>
-        <stem>up</stem>
-        <lyric number="1">
-          <syllabic>end</syllabic>
-          <text font-style="italic">ten,</text>
-          </lyric>
         </note>
       <note>
         <rest/>
@@ -6379,9 +6721,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>der</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">jetzt</text>
           </lyric>
         </note>
       <note>
@@ -6394,9 +6740,13 @@ generalis</part-name>
         <type>half</type>
         <dot/>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>hoch</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">und</text>
           </lyric>
         </note>
       <note>
@@ -6408,9 +6758,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>ge</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">in</text>
           </lyric>
         </note>
       </measure>
@@ -6425,9 +6779,13 @@ generalis</part-name>
         <type>half</type>
         <dot/>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>lob</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">E</text>
           </lyric>
         </note>
       <note>
@@ -6439,9 +6797,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>ten</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>middle</syllabic>
+          <text font-style="italic">wig</text>
           </lyric>
         </note>
       <note>
@@ -6453,9 +6815,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>Drei</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">keit,</text>
           </lyric>
         </note>
       <note>
@@ -6471,9 +6837,13 @@ generalis</part-name>
         <notations>
           <tied type="start"/>
           </notations>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>fal</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">E</text>
           </lyric>
         </note>
       </measure>
@@ -6501,9 +6871,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>tig</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>middle</syllabic>
+          <text font-style="italic">wig</text>
           </lyric>
         </note>
       <note>
@@ -6515,9 +6889,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>keit,</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">keit,</text>
           </lyric>
         </note>
       <note>
@@ -6602,7 +6980,7 @@ generalis</part-name>
         <duration>4</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <accidental>sharp</accidental>
+        <accidental cautionary="yes" parentheses="no">sharp</accidental>
         <stem>down</stem>
         <lyric number="1">
           <syllabic>middle</syllabic>
@@ -6803,7 +7181,7 @@ generalis</part-name>
         <duration>8</duration>
         <voice>1</voice>
         <type>half</type>
-        <accidental>sharp</accidental>
+        <accidental cautionary="yes" parentheses="no">sharp</accidental>
         <stem>up</stem>
         <lyric number="1">
           <syllabic>middle</syllabic>
@@ -6933,9 +7311,13 @@ generalis</part-name>
         <type>half</type>
         <dot/>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>Va</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">Va</text>
           </lyric>
         </note>
       <note>
@@ -6947,7 +7329,7 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>ter,</text>
           </lyric>
@@ -6962,9 +7344,13 @@ generalis</part-name>
         <type>half</type>
         <dot/>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>der</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">ter</text>
           </lyric>
         </note>
       <note>
@@ -6976,9 +7362,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>uns</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">der</text>
           </lyric>
         </note>
       </measure>
@@ -6992,9 +7382,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>hat</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">uns</text>
           </lyric>
         </note>
       <note>
@@ -7006,9 +7400,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>er</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">er</text>
           </lyric>
         </note>
       <note>
@@ -7020,9 +7418,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>schaf</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>middle</syllabic>
+          <text font-style="italic">schaf</text>
           </lyric>
         </note>
       <note>
@@ -7036,6 +7438,10 @@ generalis</part-name>
         <type>quarter</type>
         <accidental>sharp</accidental>
         <stem>up</stem>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">fen</text>
+          </lyric>
         </note>
       <note>
         <pitch>
@@ -7046,9 +7452,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>fen,</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">hat,</text>
           </lyric>
         </note>
       </measure>
@@ -7062,29 +7472,19 @@ generalis</part-name>
       <note>
         <pitch>
           <step>A</step>
-          <octave>3</octave>
+          <octave>4</octave>
           </pitch>
         <duration>8</duration>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>er</text>
           </lyric>
-        </note>
-      <note>
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>4</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
         <lyric number="1">
-          <syllabic>middle</syllabic>
-          <text>schaf</text>
+          <syllabic>begin</syllabic>
+          <text font-style="italic">Eh</text>
           </lyric>
         </note>
       <note>
@@ -7096,9 +7496,31 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
+        <lyric number="2">
+          <syllabic>middle</syllabic>
+          <text>schaf</text>
+          </lyric>
         <lyric number="1">
           <syllabic>end</syllabic>
+          <text font-style="italic">re</text>
+          </lyric>
+        </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="2">
+          <syllabic>end</syllabic>
           <text>fen</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">sei</text>
           </lyric>
         </note>
       <note>
@@ -7110,9 +7532,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>hat,</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Gott,</text>
           </lyric>
         </note>
       </measure>
@@ -7132,9 +7558,14 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>der</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Gott</text>
+          <extend/>
           </lyric>
         </note>
       <note>
@@ -7146,7 +7577,7 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>uns</text>
           </lyric>
@@ -7160,9 +7591,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>er</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">dem</text>
           </lyric>
         </note>
       <note>
@@ -7174,9 +7609,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>schaf</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">Va</text>
           </lyric>
         </note>
       </measure>
@@ -7189,9 +7628,13 @@ generalis</part-name>
         <duration>32</duration>
         <voice>1</voice>
         <type>breve</type>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>fen</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">ter</text>
           </lyric>
         </note>
       </measure>
@@ -7207,9 +7650,13 @@ generalis</part-name>
         <type>quarter</type>
         <accidental>sharp</accidental>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>er</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">der</text>
           </lyric>
         </note>
       <note>
@@ -7221,9 +7668,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>schaf</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">uns</text>
           </lyric>
         </note>
       <note>
@@ -7235,11 +7686,15 @@ generalis</part-name>
         <duration>8</duration>
         <voice>1</voice>
         <type>half</type>
-        <accidental>sharp</accidental>
+        <accidental cautionary="yes" parentheses="no">sharp</accidental>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>fen,</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">hat,</text>
           </lyric>
         </note>
       <note>
@@ -7271,7 +7726,7 @@ generalis</part-name>
         <duration>4</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <accidental>sharp</accidental>
+        <accidental cautionary="yes" parentheses="no">sharp</accidental>
         <stem>up</stem>
         <lyric number="1">
           <syllabic>single</syllabic>
@@ -7284,9 +7739,13 @@ generalis</part-name>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
+        <tie type="start"/>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
+        <notations>
+          <tied type="start"/>
+          </notations>
         <lyric number="1">
           <syllabic>begin</syllabic>
           <text>er</text>
@@ -7294,6 +7753,20 @@ generalis</part-name>
         </note>
       </measure>
     <measure number="8">
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <tie type="stop"/>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <notations>
+          <tied type="stop"/>
+          </notations>
+        </note>
       <note>
         <pitch>
           <step>A</step>
@@ -7361,30 +7834,10 @@ generalis</part-name>
         <duration>4</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <accidental>sharp</accidental>
         <stem>up</stem>
         <lyric number="1">
           <syllabic>end</syllabic>
           <text>fen</text>
-          </lyric>
-        </note>
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>4</duration>
-        <tie type="start"/>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        <notations>
-          <tied type="start"/>
-          </notations>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>hat</text>
-          <extend/>
           </lyric>
         </note>
       </measure>
@@ -7395,13 +7848,13 @@ generalis</part-name>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
-        <tie type="stop"/>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <notations>
-          <tied type="stop"/>
-          </notations>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>hat,</text>
+          </lyric>
         </note>
       <note>
         <pitch>
@@ -7464,8 +7917,12 @@ generalis</part-name>
         <duration>8</duration>
         <voice>1</voice>
         <type>half</type>
-        <accidental>sharp</accidental>
+        <accidental cautionary="yes" parentheses="no">sharp</accidental>
         <stem>up</stem>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text>fen</text>
+          </lyric>
         </note>
       </measure>
     <measure number="10">
@@ -7478,8 +7935,8 @@ generalis</part-name>
         <voice>1</voice>
         <type>whole</type>
         <lyric number="1">
-          <syllabic>end</syllabic>
-          <text>fen,</text>
+          <syllabic>single</syllabic>
+          <text>hat</text>
           </lyric>
         </note>
       <note>
@@ -7596,8 +8053,7 @@ generalis</part-name>
         <stem>up</stem>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hat</text>
-          <extend/>
+          <text>hat,</text>
           </lyric>
         </note>
       </measure>
@@ -7610,6 +8066,10 @@ generalis</part-name>
         <duration>16</duration>
         <voice>1</voice>
         <type>whole</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">der</text>
+          </lyric>
         </note>
       <note>
         <pitch>
@@ -7621,6 +8081,10 @@ generalis</part-name>
         <voice>1</voice>
         <type>whole</type>
         <accidental>sharp</accidental>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">uns</text>
+          </lyric>
         </note>
       </measure>
     <measure number="13">
@@ -8391,9 +8855,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>Eh</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">Er</text>
           </lyric>
         </note>
       <note>
@@ -8408,9 +8876,13 @@ generalis</part-name>
         <dot/>
         <accidental>sharp</accidental>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>re</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>middle</syllabic>
+          <text font-style="italic">lö</text>
           </lyric>
         </note>
       <note>
@@ -8422,9 +8894,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>sei</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">set</text>
           </lyric>
         </note>
       </measure>
@@ -8437,9 +8913,53 @@ generalis</part-name>
         <duration>32</duration>
         <voice>1</voice>
         <type>breve</type>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>auch</text>
+          </lyric>
+        </note>
+      <backup>
+        <duration>32</duration>
+        </backup>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>8</duration>
+        <voice>2</voice>
+        <type size="cue">half</type>
+        <stem>down</stem>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">hat.</text>
+          </lyric>
+        </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>16</duration>
+        <voice>2</voice>
+        <type size="cue">whole</type>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Ehr'</text>
+          </lyric>
+        </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>8</duration>
+        <voice>2</voice>
+        <type size="cue">half</type>
+        <stem>down</stem>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">sei</text>
           </lyric>
         </note>
       </measure>
@@ -8545,7 +9065,7 @@ generalis</part-name>
         <duration>8</duration>
         <voice>1</voice>
         <type>half</type>
-        <accidental>sharp</accidental>
+        <accidental cautionary="yes" parentheses="no">sharp</accidental>
         <stem>up</stem>
         <lyric number="1">
           <syllabic>end</syllabic>
@@ -8986,7 +9506,7 @@ generalis</part-name>
         </note>
       <note>
         <pitch>
-          <step>C</step>
+          <step>E</step>
           <octave>4</octave>
           </pitch>
         <duration>16</duration>
@@ -9009,9 +9529,13 @@ generalis</part-name>
         <type>half</type>
         <dot/>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>Eh</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">Eh</text>
           </lyric>
         </note>
       <note>
@@ -9025,9 +9549,13 @@ generalis</part-name>
         <type>quarter</type>
         <accidental>sharp</accidental>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>re</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">re</text>
           </lyric>
         </note>
       <note>
@@ -9041,9 +9569,13 @@ generalis</part-name>
         <type>half</type>
         <accidental>sharp</accidental>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>sei</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">sei</text>
           </lyric>
         </note>
       <note>
@@ -9055,9 +9587,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>nun</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Gott,</text>
           </lyric>
         </note>
       </measure>
@@ -9072,13 +9608,12 @@ generalis</part-name>
       <note>
         <pitch>
           <step>G</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
         <voice>1</voice>
         <type>half</type>
-        <accidental>sharp</accidental>
+        <accidental cautionary="yes" parentheses="no">natural</accidental>
         <stem>up</stem>
         <lyric number="1">
           <syllabic>single</syllabic>
@@ -9150,7 +9685,6 @@ generalis</part-name>
       <note>
         <pitch>
           <step>G</step>
-          <alter>1</alter>
           <octave>4</octave>
           </pitch>
         <duration>4</duration>
@@ -9173,7 +9707,7 @@ generalis</part-name>
         <voice>1</voice>
         <type>whole</type>
         <lyric number="1">
-          <syllabic>single</syllabic>
+          <syllabic>begin</syllabic>
           <text>hoch–,</text>
           </lyric>
         </note>
@@ -9193,7 +9727,7 @@ generalis</part-name>
         <type>quarter</type>
         <stem>up</stem>
         <lyric number="1">
-          <syllabic>single</syllabic>
+          <syllabic>end</syllabic>
           <text>der</text>
           </lyric>
         </note>
@@ -9262,6 +9796,35 @@ generalis</part-name>
         <type>half</type>
         <stem>up</stem>
         </note>
+      <backup>
+        <duration>32</duration>
+        </backup>
+      <forward>
+        <duration>16</duration>
+        </forward>
+      <forward>
+        <duration>8</duration>
+        </forward>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>2</voice>
+        <type size="cue">quarter</type>
+        <stem>down</stem>
+        </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>2</voice>
+        <type size="cue">quarter</type>
+        <stem>down</stem>
+        </note>
       </measure>
     <measure number="43">
       <note>
@@ -9303,9 +9866,13 @@ generalis</part-name>
         <notations>
           <tied type="start"/>
           </notations>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>hoch</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">Eh</text>
           </lyric>
         </note>
       </measure>
@@ -9333,9 +9900,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>ge</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">re</text>
           </lyric>
         </note>
       <note>
@@ -9347,23 +9918,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>lob</text>
           </lyric>
-        </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>4</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
         <lyric number="1">
-          <syllabic>end</syllabic>
-          <text>ten,</text>
+          <syllabic>single</syllabic>
+          <text font-style="italic">sei</text>
           </lyric>
         </note>
       <note>
@@ -9375,7 +9936,26 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
+        <lyric number="2">
+          <syllabic>end</syllabic>
+          <text>ten,</text>
+          </lyric>
         <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">der</text>
+          <extend/>
+          </lyric>
+        </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>der</text>
           </lyric>
@@ -9696,7 +10276,7 @@ generalis</part-name>
         <duration>4</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <accidental>sharp</accidental>
+        <accidental cautionary="yes" parentheses="no">sharp</accidental>
         <stem>up</stem>
         <lyric number="1">
           <syllabic>middle</syllabic>
@@ -10104,7 +10684,7 @@ generalis</part-name>
         </note>
       <note>
         <pitch>
-          <step>G</step>
+          <step>A</step>
           <octave>4</octave>
           </pitch>
         <duration>16</duration>
@@ -10124,7 +10704,7 @@ generalis</part-name>
     <measure number="54">
       <note>
         <pitch>
-          <step>G</step>
+          <step>A</step>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -10166,7 +10746,7 @@ generalis</part-name>
         </note>
       <note>
         <pitch>
-          <step>E</step>
+          <step>F</step>
           <octave>4</octave>
           </pitch>
         <duration>8</duration>
@@ -10342,9 +10922,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>Va</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">Va</text>
           </lyric>
         </note>
       <note>
@@ -10378,6 +10962,10 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">ter,</text>
+          </lyric>
         </note>
       <note>
         <pitch>
@@ -10392,9 +10980,14 @@ generalis</part-name>
         <notations>
           <tied type="start"/>
           </notations>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>ter</text>
+          <extend/>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Gott</text>
           <extend/>
           </lyric>
         </note>
@@ -10423,7 +11016,7 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>Gott</text>
           </lyric>
@@ -10469,7 +11062,7 @@ generalis</part-name>
         <stem>up</stem>
         <lyric number="1">
           <syllabic>end</syllabic>
-          <text>ter,</text>
+          <text>ter</text>
           </lyric>
         </note>
       </measure>
@@ -10934,7 +11527,7 @@ generalis</part-name>
         <stem>down</stem>
         <lyric number="1">
           <syllabic>end</syllabic>
-          <text>ne/</text>
+          <text>ne,</text>
           </lyric>
         </note>
       </measure>
@@ -11094,7 +11687,7 @@ generalis</part-name>
           </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>sey</text>
+          <text>sei</text>
           <extend/>
           </lyric>
         </note>
@@ -11373,9 +11966,13 @@ generalis</part-name>
         <duration>16</duration>
         <voice>1</voice>
         <type>whole</type>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>Eh</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Ehr'</text>
           </lyric>
         </note>
       <note>
@@ -11387,9 +11984,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>re</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">sei</text>
           </lyric>
         </note>
       </measure>
@@ -11403,9 +12004,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>sei</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Gott,</text>
           </lyric>
         </note>
       <note>
@@ -11539,7 +12144,7 @@ generalis</part-name>
         <stem>up</stem>
         <lyric number="1">
           <syllabic>end</syllabic>
-          <text>te/</text>
+          <text>te,</text>
           </lyric>
         </note>
       <note>
@@ -11611,7 +12216,7 @@ generalis</part-name>
         <duration>8</duration>
         <voice>1</voice>
         <type>half</type>
-        <accidental>sharp</accidental>
+        <accidental cautionary="yes" parentheses="no">sharp</accidental>
         <stem>down</stem>
         <lyric number="1">
           <syllabic>begin</syllabic>
@@ -11651,9 +12256,13 @@ generalis</part-name>
         <type>quarter</type>
         <accidental>sharp</accidental>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>der</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">Eh</text>
           </lyric>
         </note>
       <note>
@@ -11665,9 +12274,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>uns</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">re</text>
           </lyric>
         </note>
       <note>
@@ -11678,9 +12291,13 @@ generalis</part-name>
         <duration>16</duration>
         <voice>1</voice>
         <type>whole</type>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>al</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">sei</text>
           </lyric>
         </note>
       </measure>
@@ -11693,9 +12310,13 @@ generalis</part-name>
         <duration>16</duration>
         <voice>1</voice>
         <type>whole</type>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>le</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Gott</text>
           </lyric>
         </note>
       <note>
@@ -11715,13 +12336,116 @@ generalis</part-name>
     <measure number="36">
       <note>
         <rest/>
-        <duration>4</duration>
+        <duration>8</duration>
         <voice>1</voice>
-        <type>quarter</type>
+        <type>half</type>
         </note>
       <note>
         <pitch>
           <step>A</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
+        <lyric number="2">
+          <syllabic>begin</syllabic>
+          <text>ge</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">der</text>
+          </lyric>
+        </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <beam number="1">begin</beam>
+        <lyric number="2">
+          <syllabic>end</syllabic>
+          <text>hei</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">uns</text>
+          <extend/>
+          </lyric>
+        </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <beam number="1">end</beam>
+        </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <beam number="1">begin</beam>
+        </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <beam number="1">continue</beam>
+        </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <beam number="1">continue</beam>
+        </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <beam number="1">end</beam>
+        </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        </note>
+      <note>
+        <pitch>
+          <step>G</step>
           <octave>3</octave>
           </pitch>
         <duration>4</duration>
@@ -11730,125 +12454,39 @@ generalis</part-name>
         <stem>up</stem>
         <lyric number="1">
           <syllabic>begin</syllabic>
-          <text>ge</text>
+          <text font-style="italic">ge</text>
           </lyric>
-        </note>
-      <note>
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>2</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <beam number="1">begin</beam>
-        <lyric number="1">
-          <syllabic>middle</syllabic>
-          <text>hei</text>
-          </lyric>
-        </note>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>2</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <beam number="1">continue</beam>
-        </note>
-      <note>
-        <pitch>
-          <step>A</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>2</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <beam number="1">continue</beam>
-        </note>
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>2</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <beam number="1">end</beam>
-        </note>
-      <note>
-        <pitch>
-          <step>A</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>2</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <beam number="1">begin</beam>
-        </note>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>2</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <beam number="1">end</beam>
-        </note>
-      <note>
-        <pitch>
-          <step>C</step>
-          <octave>4</octave>
-          </pitch>
-        <duration>4</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>down</stem>
-        </note>
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>4</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>up</stem>
-        </note>
-      <note>
-        <pitch>
-          <step>A</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>2</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <beam number="1">begin</beam>
-        </note>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>2</duration>
-        <voice>1</voice>
-        <type>eighth</type>
-        <stem>up</stem>
-        <beam number="1">end</beam>
         </note>
       </measure>
     <measure number="37">
       <note>
         <pitch>
+          <step>A</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <beam number="1">begin</beam>
+        <lyric number="1">
+          <syllabic>middle</syllabic>
+          <text font-style="italic">hei</text>
+          </lyric>
+        </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <beam number="1">end</beam>
+        </note>
+      <note>
+        <pitch>
           <step>C</step>
           <octave>4</octave>
           </pitch>
@@ -11862,26 +12500,34 @@ generalis</part-name>
           <step>B</step>
           <octave>3</octave>
           </pitch>
-        <duration>8</duration>
+        <duration>4</duration>
         <voice>1</voice>
-        <type>half</type>
+        <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>li</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">ligt</text>
           </lyric>
         </note>
       <note>
         <pitch>
-          <step>E</step>
+          <step>C</step>
           <octave>4</octave>
           </pitch>
         <duration>16</duration>
         <voice>1</voice>
         <type>whole</type>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>get,</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">hat,</text>
           </lyric>
         </note>
       </measure>
@@ -11949,9 +12595,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>nun</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Gott,</text>
           </lyric>
         </note>
       </measure>
@@ -12135,9 +12785,13 @@ generalis</part-name>
         <type>half</type>
         <dot/>
         <stem>up</stem>
+        <lyric number="2">
+          <syllabic>begin</syllabic>
+          <text>Drei</text>
+          </lyric>
         <lyric number="1">
           <syllabic>begin</syllabic>
-          <text>Drey</text>
+          <text font-style="italic">Eh</text>
           </lyric>
         </note>
       <note>
@@ -12149,9 +12803,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>fal</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">re</text>
           </lyric>
         </note>
       </measure>
@@ -12167,9 +12825,13 @@ generalis</part-name>
         <type>half</type>
         <accidental>sharp</accidental>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>tig</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">sei</text>
           </lyric>
         </note>
       <note>
@@ -12181,16 +12843,26 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
-          <text>heit,</text>
+          <text>keit,</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Gott</text>
           </lyric>
         </note>
       <note>
         <rest/>
-        <duration>16</duration>
+        <duration>8</duration>
         <voice>1</voice>
-        <type>whole</type>
+        <type>half</type>
+        </note>
+      <note>
+        <rest/>
+        <duration>8</duration>
+        <voice>1</voice>
+        <type>half</type>
         </note>
       </measure>
     <measure number="45">
@@ -12597,7 +13269,7 @@ generalis</part-name>
         <duration>4</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <accidental>sharp</accidental>
+        <accidental cautionary="yes" parentheses="no">sharp</accidental>
         <stem>down</stem>
         <lyric number="1">
           <syllabic>middle</syllabic>
@@ -12812,7 +13484,7 @@ generalis</part-name>
         <duration>4</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <accidental>sharp</accidental>
+        <accidental cautionary="yes" parentheses="no">sharp</accidental>
         <stem>down</stem>
         <lyric number="1">
           <syllabic>middle</syllabic>
@@ -12914,7 +13586,7 @@ generalis</part-name>
         <type>whole</type>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>ietzt</text>
+          <text>jetzt</text>
           </lyric>
         </note>
       <note>
@@ -13131,9 +13803,13 @@ generalis</part-name>
         <type>half</type>
         <dot/>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>Va</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">Va</text>
           </lyric>
         </note>
       <note>
@@ -13145,7 +13821,7 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>ter,</text>
           </lyric>
@@ -13160,10 +13836,14 @@ generalis</part-name>
         <type>half</type>
         <dot/>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>der</text>
           <extend/>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">ter,</text>
           </lyric>
         </note>
       <note>
@@ -13175,6 +13855,10 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">der</text>
+          </lyric>
         </note>
       </measure>
     <measure number="5">
@@ -13187,6 +13871,10 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">uns</text>
+          </lyric>
         </note>
       <note>
         <pitch>
@@ -13197,9 +13885,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>uns</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">er</text>
           </lyric>
         </note>
       <note>
@@ -13211,9 +13903,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>hat</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">schaf</text>
           </lyric>
         </note>
       <note>
@@ -13227,9 +13923,13 @@ generalis</part-name>
         <type>half</type>
         <accidental>sharp</accidental>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>er</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">fen</text>
           </lyric>
         </note>
       </measure>
@@ -13243,9 +13943,14 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>schaf</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">hat</text>
+          <extend/>
           </lyric>
         </note>
       <note>
@@ -13257,7 +13962,7 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>fen</text>
           </lyric>
@@ -13819,9 +14524,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>er</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">der</text>
           </lyric>
         </note>
       </measure>
@@ -13836,9 +14545,13 @@ generalis</part-name>
         <type>half</type>
         <dot/>
         <stem>up</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>lö</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">uns</text>
           </lyric>
         </note>
       <note>
@@ -13850,16 +14563,10 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>8</duration>
-        <voice>1</voice>
-        <type>half</type>
-        <stem>down</stem>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">er</text>
+          </lyric>
         </note>
       <note>
         <pitch>
@@ -13871,8 +14578,26 @@ generalis</part-name>
         <type>half</type>
         <stem>down</stem>
         <lyric number="1">
+          <syllabic>middle</syllabic>
+          <text font-style="italic">lö</text>
+          </lyric>
+        </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>8</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>down</stem>
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>set</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">set</text>
           </lyric>
         </note>
       </measure>
@@ -13885,9 +14610,13 @@ generalis</part-name>
         <duration>16</duration>
         <voice>1</voice>
         <type>whole</type>
+        <lyric number="2">
+          <syllabic>single</syllabic>
+          <text>hat.</text>
+          </lyric>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hat,</text>
+          <text font-style="italic">hat.</text>
           </lyric>
         </note>
       <note>
@@ -13898,9 +14627,13 @@ generalis</part-name>
         <duration>16</duration>
         <voice>1</voice>
         <type>whole</type>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>Eh</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Ehr</text>
           </lyric>
         </note>
       </measure>
@@ -13913,9 +14646,13 @@ generalis</part-name>
         <duration>32</duration>
         <voice>1</voice>
         <type>breve</type>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>re</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">sei</text>
           </lyric>
         </note>
       </measure>
@@ -13929,9 +14666,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>single</syllabic>
           <text>sei</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Gott,</text>
           </lyric>
         </note>
       <note>
@@ -14147,7 +14888,7 @@ generalis</part-name>
         <stem>down</stem>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>er</text>
+          <text>der</text>
           </lyric>
         </note>
       <note>
@@ -14490,9 +15231,13 @@ generalis</part-name>
         <type>half</type>
         <dot/>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>Drei</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">Eh</text>
           </lyric>
         </note>
       <note>
@@ -14504,9 +15249,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>fal</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">re</text>
           </lyric>
         </note>
       </measure>
@@ -14522,9 +15271,13 @@ generalis</part-name>
         <type>half</type>
         <accidental>sharp</accidental>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>tig</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">sei</text>
           </lyric>
         </note>
       <note>
@@ -14536,9 +15289,13 @@ generalis</part-name>
         <voice>1</voice>
         <type>half</type>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>keit</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">Gott</text>
           </lyric>
         </note>
       <note>
@@ -14730,9 +15487,14 @@ generalis</part-name>
         <notations>
           <tied type="start"/>
           </notations>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>begin</syllabic>
           <text>Drei</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">jetzt</text>
+          <extend/>
           </lyric>
         </note>
       </measure>
@@ -14761,9 +15523,13 @@ generalis</part-name>
         <type>half</type>
         <dot/>
         <stem>down</stem>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>fal</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">und</text>
           </lyric>
         </note>
       <note>
@@ -14775,16 +15541,10 @@ generalis</part-name>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        </note>
-      <note>
-        <pitch>
-          <step>F</step>
-          <octave>3</octave>
-          </pitch>
-        <duration>4</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>down</stem>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">in</text>
+          </lyric>
         </note>
       <note>
         <pitch>
@@ -14796,8 +15556,26 @@ generalis</part-name>
         <type>quarter</type>
         <stem>down</stem>
         <lyric number="1">
+          <syllabic>begin</syllabic>
+          <text font-style="italic">e</text>
+          </lyric>
+        </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>3</octave>
+          </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        <lyric number="2">
           <syllabic>middle</syllabic>
           <text>tig</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>end</syllabic>
+          <text font-style="italic">wig</text>
           </lyric>
         </note>
       </measure>
@@ -14810,9 +15588,13 @@ generalis</part-name>
         <duration>16</duration>
         <voice>1</voice>
         <type>whole</type>
-        <lyric number="1">
+        <lyric number="2">
           <syllabic>end</syllabic>
           <text>keit</text>
+          </lyric>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text font-style="italic">keit</text>
           </lyric>
         </note>
       <note>
@@ -16006,6 +16788,11 @@ generalis</part-name>
         </note>
       </measure>
     <measure number="24">
+      <direction placement="below">
+        <direction-type>
+          <words font-style="italic">(*) C sharp in source</words>
+          </direction-type>
+        </direction>
       <note>
         <pitch>
           <step>A</step>
@@ -16604,6 +17391,11 @@ generalis</part-name>
           <line>4</line>
           </clef>
         </attributes>
+      <direction placement="below">
+        <direction-type>
+          <words font-style="italic">N.B. the indicated G naturals are sharp in the source. </words>
+          </direction-type>
+        </direction>
       <note>
         <pitch>
           <step>E</step>
