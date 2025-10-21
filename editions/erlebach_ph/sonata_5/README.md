@@ -1,6 +1,7 @@
 ---
 composer: Philipp Heinrich Erlebach
 title: Sonata V in E minor (for Violin, Viola da Gamba & Basso Continuo)
+copyright: Bas Cornelissen, 2025
 license: CC BY-SA 4.0
 imslp: https://imslp.org/wiki/Special:ReverseLookup/996917
 ---
