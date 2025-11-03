@@ -8,21 +8,22 @@
   license: CC BY-SA 4.0
   versions:
     - pdf: albert_h-arien-1_01-vive_deo_soli.pdf
-    - musicxml: albert_h-arien-1_01-vive_deo_soli.musicxml
+      musicxml: albert_h-arien-1_01-vive_deo_soli.musicxml
 
 - composer: Carl Philipp Emanuel Bach
-  title: Prüfung am Abend (transposed to Gm)
+  title: Prüfung am Abend
   reference: Wq. 194/7
   created: 2024-07-24
   directory: editions/bach_cpe/bach_cpe-wq194_7-prufung_am_abend
   copyright: Copyright © Bas Cornelissen 2024
   license: CC BY-SA 4.0
   versions:
-    - pdf: bach_cpe-wq194_7-prufung_am_abend-Gm.pdf
-    - musicxml: bach_cpe-wq194_7-prufung_am_abend-Gm.musicxml
+    - title: Transposed to Gm
+      pdf: bach_cpe-wq194_7-prufung_am_abend-Gm.pdf
+      musicxml: bach_cpe-wq194_7-prufung_am_abend-Gm.musicxml
 
 - composer: Carl Philipp Emanuel Bach
-  title: An den Schlaf (transposed to Bm)
+  title: An den Schlaf
   reference: Wq. 202/H
   created: 2024-07-24
   directory: editions/bach_cpe/bach_cpe-wq202_H-an_den_schlaf
@@ -34,7 +35,7 @@
       musicxml: bach_cpe-wq202_H-an_den_schlaf-Bm.musicxml
 
 - composer: Giacomo Carissimi
-  title: O dulcissimum Mariae nomen (CC, original key)
+  title: O dulcissimum Mariae nomen
   created: 2025-10-21
   directory: editions/carissimi_g/carissimi_g-o_dulcissimum_mariæ_nomen
   copyright: Copyright © Bas Cornelissen 2025
@@ -78,13 +79,14 @@
       musicxml: Erlebach PH - Harmonische Freude II-15 - transposed Bm.musicxml
 
 - composer: Stefano Landi
-  tile: Superbi Colli (transposed to Em)
+  title: Superbi Colli
   copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   directory: editions/landi_s/landi_s-superbi_colli
   readme: README.md
   versions:
-    - pdf: landi_s-superbi_colli.pdf
+    - title: Transposed to Em
+      pdf: landi_s-superbi_colli.pdf
 
 - composer: Alessandro Melani
   title: Quae est ista  
