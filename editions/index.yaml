@@ -1,4 +1,4 @@
-- composer: Heinrich Albert
+- composer: Albert
   title: Vive Deo soli, quod amat caro querere noli!
   subtitle: Parodie des hernachfolgenden 13. Liedes
   created: 2024-07-24
@@ -10,7 +10,7 @@
     - pdf: albert_h-arien-1_01-vive_deo_soli.pdf
       musicxml: albert_h-arien-1_01-vive_deo_soli.musicxml
 
-- composer: Carl Philipp Emanuel Bach
+- composer: CPE Bach
   title: Prüfung am Abend
   reference: Wq. 194/7
   created: 2024-07-24
@@ -22,7 +22,7 @@
       pdf: bach_cpe-wq194_7-prufung_am_abend-Gm.pdf
       musicxml: bach_cpe-wq194_7-prufung_am_abend-Gm.musicxml
 
-- composer: Carl Philipp Emanuel Bach
+- composer: CPE Bach
   title: An den Schlaf
   reference: Wq. 202/H
   created: 2024-07-24
@@ -34,7 +34,7 @@
       pdf: bach_cpe-wq202_H-an_den_schlaf-Bm.pdf
       musicxml: bach_cpe-wq202_H-an_den_schlaf-Bm.musicxml
 
-- composer: Giacomo Carissimi
+- composer: Carissimi
   title: O dulcissimum Mariae nomen
   created: 2025-10-21
   directory: editions/carissimi_g/carissimi_g-o_dulcissimum_mariæ_nomen
@@ -48,7 +48,7 @@
       pdf: carissimi_g-o_dulcissimum_mariæ_nomen-transposed_tb.pdf
       musicxml: carissimi_g-o_dulcissimum_mariæ_nomen-transposed_tb.musicxml
 
-- composer: Philipp Heinrich Erlebach
+- composer: Erlebach
   title: Die Zeit verkehret, was uns beschweret
   created: 2025-10-22
   source: "Harmonische Freude musicalischer Freunde, Erster Theil, No. 26. Nürnberg: Christian Sigmund Froberg, 1697."
@@ -63,7 +63,7 @@
       pdf: Erlebach PH - Harmonische Freude I-26 - transposed Bm.pdf
       musicxml: Erlebach PH - Harmonische Freude I-26.musicxml
 
-- composer: Philipp Heinrich Erlebach
+- composer: Erlebach
   title: An Jammer und Beschwerlichkeit, da fehlt es hier zu keiner Zeit.
   source: "Harmonische Freude musicalischer Freunde, Anderer Theil. Nürnberg: Christian Sigmund Froberg, 1710, No. 15."
   created: 2025-10-22
@@ -78,7 +78,7 @@
       pdf: Erlebach PH - Harmonische Freude II-15 - transposed Bm.pdf
       musicxml: Erlebach PH - Harmonische Freude II-15 - transposed Bm.musicxml
 
-- composer: Stefano Landi
+- composer: Landi
   title: Superbi Colli
   copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
@@ -88,7 +88,7 @@
     - title: Transposed to Em
       pdf: landi_s-superbi_colli.pdf
 
-- composer: Alessandro Melani
+- composer: Melani
   title: Quae est ista  
   copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
