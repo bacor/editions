@@ -40,7 +40,7 @@
   directory: editions/carissimi_g/carissimi_g-o_dulcissimum_mariæ_nomen
   copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
-  files:
+  versions:
     - title: Original key for CC
       pdf: carissimi_g-o_dulcissimum_mariæ_nomen-cc.pdf
       musicxml: carissimi_g-o_dulcissimum_mariæ_nomen-cc.musicxml
