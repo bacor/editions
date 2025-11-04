@@ -15,6 +15,6 @@ composer:
 
 | Composer | Title | Ref. | PDF | MusicXML |
 | --- | --- | --- | --- | --- |
-| Sweelinck, JP | Ehre sei Gott |  | [PDF](editions/sweelinck-jp/ehre-sei-gott/ehre-sei-gott.pdf) | [MusicXML](editions/sweelinck-jp/ehre-sei-gott/ehre-sei-gott.musicxml) |
+| Sweelinck, JP | Ehre sei Gott |  | [PDF](ehre-sei-gott/ehre-sei-gott.pdf) | [MusicXML](ehre-sei-gott/ehre-sei-gott.musicxml) |
 
 

@@ -15,7 +15,7 @@ composer:
 
 | Composer | Title | Ref. | PDF | MusicXML |
 | --- | --- | --- | --- | --- |
-| Carissimi, G | O dulcissimum Mariae nomen |  | [PDF](editions/carissimi-g/o-dulcissimum/o-dulcissimum.pdf) | [MusicXML](editions/carissimi-g/o-dulcissimum/o-dulcissimum.musicxml) |
-| Carissimi, G | O dulcissimum Mariae nomen (transposed to Gm) |  | [PDF](editions/carissimi-g/o-dulcissimum-gm/o-dulcissimum-gm.pdf) | [MusicXML](editions/carissimi-g/o-dulcissimum-gm/o-dulcissimum-gm.musicxml) |
+| Carissimi, G | O dulcissimum Mariae nomen |  | [PDF](o-dulcissimum/o-dulcissimum.pdf) | [MusicXML](o-dulcissimum/o-dulcissimum.musicxml) |
+| Carissimi, G | O dulcissimum Mariae nomen (transposed to Gm) |  | [PDF](o-dulcissimum-gm/o-dulcissimum-gm.pdf) | [MusicXML](o-dulcissimum-gm/o-dulcissimum-gm.musicxml) |
 
 

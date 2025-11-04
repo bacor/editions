@@ -15,6 +15,6 @@ composer:
 
 | Composer | Title | Ref. | PDF | MusicXML |
 | --- | --- | --- | --- | --- |
-| Melani, A | Quae est ista |  | [PDF](editions/melani-a/quae-est-ista/quae-est-ista-v3.pdf) | [MusicXML](editions/melani-a/quae-est-ista/quae-est-ista-v3.musicxml) |
+| Melani, A | Quae est ista |  | [PDF](quae-est-ista/quae-est-ista-v3.pdf) | [MusicXML](quae-est-ista/quae-est-ista-v3.musicxml) |
 
 

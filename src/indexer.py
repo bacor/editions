@@ -7,7 +7,7 @@ from typing import Sequence
 
 import yaml
 
-from .readme import ReadmeDocument, relative_to_root, slugify
+from .readme import PROJECT_ROOT, ReadmeDocument, relative_to_root, slugify
 
 
 def _composer_entry(composer_dir: Path) -> tuple[dict, ReadmeDocument]:
@@ -168,7 +168,11 @@ def write_index(path: Path, data: dict) -> None:
     )
 
 
-def _render_index_table(composers: list[dict], editions: list[dict]) -> str:
+def _render_index_table(
+    composers: list[dict],
+    editions: list[dict],
+    base_dir: Path,
+) -> str:
     composer_lookup = {composer["id"]: composer for composer in composers}
 
     def composer_sort_key(composer_id: str) -> tuple[str, str]:
@@ -182,6 +186,30 @@ def _render_index_table(composers: list[dict], editions: list[dict]) -> str:
         lastname = composer_lookup.get(composer_id, {}).get("lastname") or composer_id
         title = entry.get("title") or ""
         return (lastname.lower(), title.lower())
+
+    resolved_base = base_dir.resolve()
+
+    def _link_target(path_str: str) -> str:
+        if not path_str:
+            return ""
+        if "://" in path_str:
+            return path_str
+
+        raw_path = Path(path_str)
+        if raw_path.is_absolute():
+            candidate = raw_path
+        else:
+            candidate = (PROJECT_ROOT / raw_path).resolve()
+
+        try:
+            relative = candidate.relative_to(resolved_base)
+            return relative.as_posix()
+        except ValueError:
+            try:
+                relative = candidate.relative_to(PROJECT_ROOT)
+                return relative.as_posix()
+            except ValueError:
+                return raw_path.as_posix()
 
     rows = []
     for entry in sorted(editions, key=edition_sort_key):
@@ -206,10 +234,13 @@ def _render_index_table(composers: list[dict], editions: list[dict]) -> str:
             path = file_entry.get("path")
             if not path:
                 continue
+            link_target = _link_target(path)
             if path.lower().endswith(".pdf") and not pdf_link:
-                pdf_link = f"[PDF]({path})"
+                if link_target:
+                    pdf_link = f"[PDF]({link_target})"
             elif path.lower().endswith(".musicxml") and not musicxml_link:
-                musicxml_link = f"[MusicXML]({path})"
+                if link_target:
+                    musicxml_link = f"[MusicXML]({link_target})"
 
         rows.append(f"| {display_name} | {title} | {reference} | {pdf_link} | {musicxml_link} |")
 
@@ -225,7 +256,7 @@ def update_readme_with_index(readme_path: Path, composers: list[dict], editions:
     if not readme_path.exists():
         return
 
-    table = _render_index_table(composers, editions)
+    table = _render_index_table(composers, editions, readme_path.parent)
     document = ReadmeDocument.load(readme_path)
     document.set_section("Index", table, level=2)
     document.write()

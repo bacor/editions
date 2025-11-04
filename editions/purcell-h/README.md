@@ -15,6 +15,6 @@ composer:
 
 | Composer | Title | Ref. | PDF | MusicXML |
 | --- | --- | --- | --- | --- |
-| Purcell, H | What power art thou? |  | [PDF](editions/purcell-h/what-power-art-thou/what-power-art-thou-continuo.pdf) | [MusicXML](editions/purcell-h/what-power-art-thou/what-power-art-thou.musicxml) |
+| Purcell, H | What power art thou? |  | [PDF](what-power-art-thou/what-power-art-thou-continuo.pdf) | [MusicXML](what-power-art-thou/what-power-art-thou.musicxml) |
 
 
