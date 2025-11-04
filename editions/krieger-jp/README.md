@@ -13,9 +13,9 @@ composer:
 
 ## Index
 
-| Composer name | Edition title | PDF | MusicXML |
-| --- | --- | --- | --- |
-| Krieger, JP | Einsamkeit, du Qual der Herzen | [PDF](editions/krieger-jp/einsamkeit-du-qual/einsamkeit-du-qual.pdf) | [MusicXML](editions/krieger-jp/einsamkeit-du-qual/einsamkeit-du-qual.musicxml) |
-| Krieger, JP | Einsamkeit, du Qual der Herzen | [PDF](editions/krieger-jp/einsamkeit-du-qual-Bb/einsamkeit-du-qual-Bb.pdf) | [MusicXML](editions/krieger-jp/einsamkeit-du-qual-Bb/einsamkeit-du-qual-Bb.musicxml) |
+| Composer | Title | Ref. | PDF | MusicXML |
+| --- | --- | --- | --- | --- |
+| Krieger, JP | Einsamkeit, du Qual der Herzen |  | [PDF](editions/krieger-jp/einsamkeit-du-qual/einsamkeit-du-qual.pdf) | [MusicXML](editions/krieger-jp/einsamkeit-du-qual/einsamkeit-du-qual.musicxml) |
+| Krieger, JP | Einsamkeit, du Qual der Herzen |  | [PDF](editions/krieger-jp/einsamkeit-du-qual-Bb/einsamkeit-du-qual-Bb.pdf) | [MusicXML](editions/krieger-jp/einsamkeit-du-qual-Bb/einsamkeit-du-qual-Bb.musicxml) |
 
 

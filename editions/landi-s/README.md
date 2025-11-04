@@ -13,8 +13,8 @@ composer:
 
 ## Index
 
-| Composer name | Edition title | PDF | MusicXML |
-| --- | --- | --- | --- |
-| Landi, S | Superbi colli | [PDF](editions/landi-s/superbi-colli/superbi-colli.pdf) | [MusicXML](editions/landi-s/superbi-colli/superbi-colli-01.musicxml) |
+| Composer | Title | Ref. | PDF | MusicXML |
+| --- | --- | --- | --- | --- |
+| Landi, S | Superbi colli |  | [PDF](editions/landi-s/superbi-colli/superbi-colli.pdf) | [MusicXML](editions/landi-s/superbi-colli/superbi-colli-01.musicxml) |
 
 

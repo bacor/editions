@@ -13,8 +13,8 @@ composer:
 
 ## Index
 
-| Composer name | Edition title | PDF | MusicXML |
-| --- | --- | --- | --- |
-| Sweelinck, JP | Ehre sei Gott | [PDF](editions/sweelinck-jp/ehre-sei-gott/ehre-sei-gott.pdf) | [MusicXML](editions/sweelinck-jp/ehre-sei-gott/ehre-sei-gott.musicxml) |
+| Composer | Title | Ref. | PDF | MusicXML |
+| --- | --- | --- | --- | --- |
+| Sweelinck, JP | Ehre sei Gott |  | [PDF](editions/sweelinck-jp/ehre-sei-gott/ehre-sei-gott.pdf) | [MusicXML](editions/sweelinck-jp/ehre-sei-gott/ehre-sei-gott.musicxml) |
 
 

@@ -509,7 +509,7 @@ def test_index_cli_updates_project_readme(tmp_path: Path, monkeypatch: pytest.Mo
 
     root_readme = (repo_root / "README.md").read_text(encoding="utf-8")
     assert "## Index" in root_readme
-    assert "| Composer name | Edition title | PDF | MusicXML |" in root_readme
+    assert "| Composer | Title | Ref. | PDF | MusicXML |" in root_readme
 
 
 def test_schema_cli_writes_default_file(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:

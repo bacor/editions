@@ -198,6 +198,7 @@ def _render_index_table(composers: list[dict], editions: list[dict]) -> str:
             display_name = name
 
         title = entry.get("title") or ""
+        reference = entry.get("reference") or ""
 
         pdf_link = ""
         musicxml_link = ""
@@ -210,10 +211,10 @@ def _render_index_table(composers: list[dict], editions: list[dict]) -> str:
             elif path.lower().endswith(".musicxml") and not musicxml_link:
                 musicxml_link = f"[MusicXML]({path})"
 
-        rows.append(f"| {display_name} | {title} | {pdf_link} | {musicxml_link} |")
+        rows.append(f"| {display_name} | {title} | {reference} | {pdf_link} | {musicxml_link} |")
 
-    header = "| Composer name | Edition title | PDF | MusicXML |\n"
-    separator = "| --- | --- | --- | --- |\n"
+    header = "| Composer | Title | Ref. | PDF | MusicXML |\n"
+    separator = "| --- | --- | --- | --- | --- |\n"
     table_body = "\n".join(rows)
     if table_body:
         table_body += "\n"

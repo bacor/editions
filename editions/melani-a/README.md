@@ -13,8 +13,8 @@ composer:
 
 ## Index
 
-| Composer name | Edition title | PDF | MusicXML |
-| --- | --- | --- | --- |
-| Melani, A | Quae est ista | [PDF](editions/melani-a/quae-est-ista/quae-est-ista-v3.pdf) | [MusicXML](editions/melani-a/quae-est-ista/quae-est-ista-v3.musicxml) |
+| Composer | Title | Ref. | PDF | MusicXML |
+| --- | --- | --- | --- | --- |
+| Melani, A | Quae est ista |  | [PDF](editions/melani-a/quae-est-ista/quae-est-ista-v3.pdf) | [MusicXML](editions/melani-a/quae-est-ista/quae-est-ista-v3.musicxml) |
 
 

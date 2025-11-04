@@ -71,7 +71,7 @@ def test_index_cli_builds_composer_and_global_indexes(tmp_path: Path) -> None:
 
     composer_readme = (composer_dir / "README.md").read_text(encoding="utf-8")
     assert "## Index" in composer_readme
-    assert "| Composer name | Edition title | PDF | MusicXML |" in composer_readme
+    assert "| Composer | Title | Ref. | PDF | MusicXML |" in composer_readme
 
 
 def test_index_cli_handles_composer_directory(tmp_path: Path) -> None:

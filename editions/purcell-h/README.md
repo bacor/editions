@@ -13,7 +13,8 @@ composer:
 
 ## Index
 
-| Composer name | Edition title | PDF | MusicXML |
-| --- | --- | --- | --- |
+| Composer | Title | Ref. | PDF | MusicXML |
+| --- | --- | --- | --- | --- |
+| Purcell, H | What power  art thou? |  | [PDF](editions/purcell-h/what-power-art-thou/what-power-art-thou-continuo.pdf) | [MusicXML](editions/purcell-h/what-power-art-thou/what-power-art-thou.musicxml) |
 
 

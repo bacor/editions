@@ -13,9 +13,9 @@ composer:
 
 ## Index
 
-| Composer name | Edition title | PDF | MusicXML |
-| --- | --- | --- | --- |
-| Bach, CPE | An den Schlaf | [PDF](editions/bach-cpe/wq202-h-an-den-schlaf/wq202-h-an-den-schlaf.pdf) | [MusicXML](editions/bach-cpe/wq202-h-an-den-schlaf/wq202-h-an-den-schlaf.musicxml) |
-| Bach, CPE | Prüfung am Abend | [PDF](editions/bach-cpe/wq194-7-prufung-am-abend/wq194-7-prufung-am-abend.pdf) | [MusicXML](editions/bach-cpe/wq194-7-prufung-am-abend/wq194-7-prufung-am-abend.musicxml) |
+| Composer | Title | Ref. | PDF | MusicXML |
+| --- | --- | --- | --- | --- |
+| Bach, CPE | An den Schlaf |  | [PDF](editions/bach-cpe/wq202-h-an-den-schlaf/wq202-h-an-den-schlaf.pdf) | [MusicXML](editions/bach-cpe/wq202-h-an-den-schlaf/wq202-h-an-den-schlaf.musicxml) |
+| Bach, CPE | Prüfung am Abend |  | [PDF](editions/bach-cpe/wq194-7-prufung-am-abend/wq194-7-prufung-am-abend.pdf) | [MusicXML](editions/bach-cpe/wq194-7-prufung-am-abend/wq194-7-prufung-am-abend.musicxml) |
 
 
