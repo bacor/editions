@@ -56,9 +56,11 @@ def test_index_cli_builds_composer_and_global_indexes(tmp_path: Path) -> None:
     composer_index = yaml.safe_load(composer_index_path.read_text(encoding="utf-8"))
     global_index = yaml.safe_load(global_index_path.read_text(encoding="utf-8"))
 
-    assert composer_index["composers"][0]["id"] == "composer-id"
-    edition_entry = composer_index["editions"][0]
-    assert edition_entry["composer"] == {"composer_id": "composer-id"}
+    assert isinstance(composer_index, list)
+    edition_entry = composer_index[0]
+    composer_info = edition_entry["composer"]
+    assert composer_info["id"] == "composer-id"
+    assert composer_info["name"] == "Composer Name"
     assert edition_entry["comments"] == "First draft"
     assert edition_entry["created"] == "2024-01-01"
     assert edition_entry["updated"] == "2024-01-01"
@@ -66,8 +68,8 @@ def test_index_cli_builds_composer_and_global_indexes(tmp_path: Path) -> None:
     assert "lyricist" not in edition_entry
     assert "other" not in edition_entry
 
-    assert global_index["composers"][0]["id"] == "composer-id"
-    assert global_index["editions"][0]["composer"] == {"composer_id": "composer-id"}
+    assert isinstance(global_index, list)
+    assert global_index[0]["composer"]["id"] == "composer-id"
 
     composer_readme = (composer_dir / "README.md").read_text(encoding="utf-8")
     assert "## Index" in composer_readme

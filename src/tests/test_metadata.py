@@ -33,14 +33,13 @@ def test_index_yaml_matches_schema() -> None:
     raw_data = yaml.safe_load(yaml_path.read_text(encoding="utf-8"))
 
     index = EditionIndex.model_validate(raw_data)
-    assert len(index.editions) > 0
+    assert len(index.entries) > 0
 
 
 def test_json_schema_generation_produces_expected_structure() -> None:
     schema_dict = edition_index_schema_dict()
     assert schema_dict["title"] == "EditionIndex"
-    assert "composers" in schema_dict["properties"]
-    assert "editions" in schema_dict["properties"]
+    assert "entries" in schema_dict["properties"]
 
     schema_json = edition_index_schema()
     parsed = json.loads(schema_json)

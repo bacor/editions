@@ -99,19 +99,6 @@
       "title": "ComposerIndexEntry",
       "type": "object"
     },
-    "ComposerReference": {
-      "properties": {
-        "composer_id": {
-          "title": "Composer Id",
-          "type": "string"
-        }
-      },
-      "required": [
-        "composer_id"
-      ],
-      "title": "ComposerReference",
-      "type": "object"
-    },
     "EditionFile": {
       "additionalProperties": false,
       "description": "Represents a file associated with an edition.",
@@ -156,7 +143,7 @@
           "title": "Id"
         },
         "composer": {
-          "$ref": "#/$defs/ComposerReference"
+          "$ref": "#/$defs/ComposerIndexEntry"
         },
         "parent": {
           "anyOf": [
@@ -296,24 +283,16 @@
   "additionalProperties": false,
   "description": "Container that aggregates all edition metadata entries.",
   "properties": {
-    "composers": {
-      "items": {
-        "$ref": "#/$defs/ComposerIndexEntry"
-      },
-      "title": "Composers",
-      "type": "array"
-    },
-    "editions": {
+    "entries": {
       "items": {
         "$ref": "#/$defs/EditionListing"
       },
-      "title": "Editions",
+      "title": "Entries",
       "type": "array"
     }
   },
   "required": [
-    "composers",
-    "editions"
+    "entries"
   ],
   "title": "EditionIndex",
   "type": "object"

@@ -56,10 +56,10 @@ def run(argv: Sequence[str] | None = None) -> int:
 
     if _is_composer_directory(target):
         data = build_composer_index(target)
-        write_index(target / "index.yaml", data)
+        write_index(target / "index.yaml", data["editions"])
         if not args.no_readme:
             update_readme_with_index(
-                target / "README.md", data["composers"], data["editions"]
+                target / "README.md", data["editions"]
             )
         print(f"Written {target / 'index.yaml'}")
         return 0
@@ -70,14 +70,14 @@ def run(argv: Sequence[str] | None = None) -> int:
         if not args.no_readme and target.resolve() == default_editions_root:
             extra_readmes = [PROJECT_ROOT / "README.md"]
 
-        data = build_root_index(
+        editions = build_root_index(
             target,
             write_composer_indexes=not args.no_readme,
             update_readmes=not args.no_readme,
             extra_readmes=extra_readmes,
         )
         if not args.no_global:
-            write_index(target / "index.yaml", data)
+            write_index(target / "index.yaml", editions)
             print(f"Written {target / 'index.yaml'}")
         return 0
 

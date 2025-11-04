@@ -203,10 +203,6 @@ class EditionMetadata(BaseModel):
         return self
 
 
-class ComposerReference(BaseModel):
-    composer_id: str
-
-
 class ComposerIndexEntry(BaseModel):
     model_config = ConfigDict(extra="ignore")
 
@@ -224,7 +220,7 @@ class EditionListing(BaseModel):
     model_config = ConfigDict(extra="ignore")
 
     id: str | None = None
-    composer: ComposerReference
+    composer: ComposerIndexEntry
     parent: str | None = None
     title: str | None = None
     reference: str | None = None
@@ -242,8 +238,7 @@ class EditionIndex(BaseModel):
 
     model_config = ConfigDict(extra="forbid")
 
-    composers: list[ComposerIndexEntry]
-    editions: list[EditionListing]
+    entries: list[EditionListing]
 
 
 def load_index(path: str | Path) -> EditionIndex:
