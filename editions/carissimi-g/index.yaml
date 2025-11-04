@@ -16,8 +16,7 @@ editions:
   title: O dulcissimum Mariae nomen
   created: '2025-10-21'
   updated: '2025-10-21'
-  copyright: Copyright © Bas Cornelissen 2025, CC BY-SA 4.0. Derived from a reconstruction
-    and edition by Anthony Maydwell. Version 1.
+  copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   readme: editions/carissimi-g/o-dulcissimum/README.md
@@ -26,16 +25,16 @@ editions:
     title: README
   - path: editions/carissimi-g/o-dulcissimum/o-dulcissimum.musicxml
   - path: editions/carissimi-g/o-dulcissimum/o-dulcissimum.pdf
+  comments: Derived from a reconstruction and edition by Anthony Maydwell. Version
+    1.
 - id: editions-carissimi-g-o-dulcissimum-gm
   composer:
     composer_id: carissimi-g
   parent: ../README.md
-  title: O dulcissimum Mariae nomen
+  title: O dulcissimum Mariae nomen (transposed to Gm)
   created: '2025-10-21'
   updated: '2025-10-21'
-  copyright: Copyright © Bas Cornelissen 2025, CC BY-SA 4.0. Derived from a reconstruction
-    and edition by Anthony Maydwell based on the sources BnF Res F1674 (1) and  BSB
-    Hss Mus 274 g. Version 1.
+  copyright: Copyright © Bas Cornelissen 2025.
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   readme: editions/carissimi-g/o-dulcissimum-gm/README.md
@@ -44,3 +43,7 @@ editions:
     title: README
   - path: editions/carissimi-g/o-dulcissimum-gm/o-dulcissimum-gm.musicxml
   - path: editions/carissimi-g/o-dulcissimum-gm/o-dulcissimum-gm.pdf
+  comments: 'Derived from a reconstruction and edition by Anthony Maydwell based on
+    the sources  BnF Res F1674 (1) and  BSB Hss Mus 274 g. Version 1.
+
+    '

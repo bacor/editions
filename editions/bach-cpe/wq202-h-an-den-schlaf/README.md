@@ -6,11 +6,10 @@ title: An den Schlaf
 reference: Wq. 202/H
 created: 2024-07-24
 updated: 2024-07-24
-copyright: "Copyright © Bas Cornelissen and licensed under CC BY-SA 4.0.,
-
-  Based on CPEB:CW Vol. VI/3, edited by Christoph Wolff (see cpebach.org)."
+copyright: Copyright © Bas Cornelissen 2024
 license: CC BY-SA 4.0
 editor: Bas Cornelissen
+comments: Based on CPEB:CW Vol. VI/3, edited by Christoph Wolff (see cpebach.org)
 files:
   - path: editions/bach-cpe/wq202-h-an-den-schlaf/README.md
     title: README
@@ -18,12 +17,11 @@ files:
   - path: editions/bach-cpe/wq202-h-an-den-schlaf/wq202-h-an-den-schlaf.musicxml
   - path: editions/bach-cpe/wq202-h-an-den-schlaf/wq202-h-an-den-schlaf.pdf
 other:
-  movement_name: wq202-h-an-den-schlaf.musicxml
   software: MuseScore 4.3.2
   key: E minor
   time_signature: 2/4
   parts:
-    - Piano
+    - Voice
     - Piano
 ---
 

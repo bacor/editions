@@ -15,6 +15,6 @@ composer:
 
 | Composer | Title | Ref. | PDF | MusicXML |
 | --- | --- | --- | --- | --- |
-| Landi, S | Superbi colli |  | [PDF](editions/landi-s/superbi-colli/superbi-colli.pdf) | [MusicXML](editions/landi-s/superbi-colli/superbi-colli-01.musicxml) |
+| Landi, S | Superbi colli (transposed to Em) |  | [PDF](editions/landi-s/superbi-colli/superbi-colli.pdf) | [MusicXML](editions/landi-s/superbi-colli/superbi-colli-01.musicxml) |
 
 

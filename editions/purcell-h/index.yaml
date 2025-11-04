@@ -13,12 +13,10 @@ editions:
   composer:
     composer_id: h-purcell
   parent: ../README.md
-  title: What power  art thou?
+  title: What power art thou?
   created: '2025-11-04'
   updated: '2025-11-04'
-  copyright: Copyright © Bas Cornelissen 2025, CC BY-SA 4.0. Score derived from Jean-Charles
-    Malahieude's edition (CC BY 3.0), based on the Musical Antiquarian Society edition
-    of Edward Taylor.
+  copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   lyricist: John Dryden
@@ -32,3 +30,7 @@ editions:
   - path: editions/purcell-h/what-power-art-thou/what-power-art-thou-violin-2.pdf
   - path: editions/purcell-h/what-power-art-thou/what-power-art-thou.musicxml
   - path: editions/purcell-h/what-power-art-thou/what-power-art-thou.pdf
+  comments: 'Score derived from Jean-Charles Malahieude''s edition (CC BY 3.0),  based
+    on the Musical Antiquarian Society edition of Edward Taylor.
+
+    '

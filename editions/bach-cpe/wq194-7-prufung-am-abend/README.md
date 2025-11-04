@@ -18,12 +18,11 @@ files:
   - path: editions/bach-cpe/wq194-7-prufung-am-abend/wq194-7-prufung-am-abend.pdf
 comments: Based on CPEB:CW Vol. VI/1, edited by Darrell M. Berg (see cpebach.org).
 other:
-  movement_name: wq194-7-prufung-am-abend.musicxml
   software: MuseScore 4.3.2
   key: G minor
   time_signature: 2/2
   parts:
-    - Piano
+    - Voice
     - Piano
 ---
 

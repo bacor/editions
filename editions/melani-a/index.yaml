@@ -16,7 +16,7 @@ editions:
   title: Quae est ista
   created: '2025-10-21'
   updated: '2025-10-21'
-  copyright: Copyright © Bas Cornelissen 2025, CC BY-SA 4.0. Version 3.
+  copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   readme: editions/melani-a/quae-est-ista/README.md
@@ -25,3 +25,4 @@ editions:
     title: README
   - path: editions/melani-a/quae-est-ista/quae-est-ista-v3.musicxml
   - path: editions/melani-a/quae-est-ista/quae-est-ista-v3.pdf
+  comments: Version 3

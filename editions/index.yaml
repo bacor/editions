@@ -80,7 +80,7 @@ editions:
   title: Ach, lasst uns Gott doch einig leben
   created: '2024-07-24'
   updated: '2024-07-24'
-  copyright: Copyright © Bas Cornelissen 2024; CC BY-SA 4.0.
+  copyright: Copyright © Bas Cornelissen 2024
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   lyricist: Simon Drach
@@ -98,7 +98,7 @@ editions:
   title: Ploratus nimios sanctorum funera spernunt
   created: '2024-07-24'
   updated: '2024-07-24'
-  copyright: Copyright © Bas Cornelissen 2024; CC BY-SA 4.0.
+  copyright: Copyright © Bas Cornelissen 2024
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   lyricist: Simon Drach
@@ -137,9 +137,7 @@ editions:
   reference: Wq. 202/H
   created: '2024-07-24'
   updated: '2024-07-24'
-  copyright: 'Copyright © Bas Cornelissen and licensed under CC BY-SA 4.0.,
-
-    Based on CPEB:CW Vol. VI/3, edited by Christoph Wolff (see cpebach.org).'
+  copyright: Copyright © Bas Cornelissen 2024
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   readme: editions/bach-cpe/wq202-h-an-den-schlaf/README.md
@@ -149,6 +147,7 @@ editions:
   - path: editions/bach-cpe/wq202-h-an-den-schlaf/wq202-h-an-den-schlaf.mscz
   - path: editions/bach-cpe/wq202-h-an-den-schlaf/wq202-h-an-den-schlaf.musicxml
   - path: editions/bach-cpe/wq202-h-an-den-schlaf/wq202-h-an-den-schlaf.pdf
+  comments: Based on CPEB:CW Vol. VI/3, edited by Christoph Wolff (see cpebach.org)
 - id: editions-carissimi-g-o-dulcissimum
   composer:
     composer_id: carissimi-g
@@ -156,8 +155,7 @@ editions:
   title: O dulcissimum Mariae nomen
   created: '2025-10-21'
   updated: '2025-10-21'
-  copyright: Copyright © Bas Cornelissen 2025, CC BY-SA 4.0. Derived from a reconstruction
-    and edition by Anthony Maydwell. Version 1.
+  copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   readme: editions/carissimi-g/o-dulcissimum/README.md
@@ -166,16 +164,16 @@ editions:
     title: README
   - path: editions/carissimi-g/o-dulcissimum/o-dulcissimum.musicxml
   - path: editions/carissimi-g/o-dulcissimum/o-dulcissimum.pdf
+  comments: Derived from a reconstruction and edition by Anthony Maydwell. Version
+    1.
 - id: editions-carissimi-g-o-dulcissimum-gm
   composer:
     composer_id: carissimi-g
   parent: ../README.md
-  title: O dulcissimum Mariae nomen
+  title: O dulcissimum Mariae nomen (transposed to Gm)
   created: '2025-10-21'
   updated: '2025-10-21'
-  copyright: Copyright © Bas Cornelissen 2025, CC BY-SA 4.0. Derived from a reconstruction
-    and edition by Anthony Maydwell based on the sources BnF Res F1674 (1) and  BSB
-    Hss Mus 274 g. Version 1.
+  copyright: Copyright © Bas Cornelissen 2025.
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   readme: editions/carissimi-g/o-dulcissimum-gm/README.md
@@ -184,6 +182,10 @@ editions:
     title: README
   - path: editions/carissimi-g/o-dulcissimum-gm/o-dulcissimum-gm.musicxml
   - path: editions/carissimi-g/o-dulcissimum-gm/o-dulcissimum-gm.pdf
+  comments: 'Derived from a reconstruction and edition by Anthony Maydwell based on
+    the sources  BnF Res F1674 (1) and  BSB Hss Mus 274 g. Version 1.
+
+    '
 - id: editions-erlebach-ph-harmonische-freude-1-26
   composer:
     composer_id: erlebach-ph
@@ -191,7 +193,7 @@ editions:
   title: Die Zeit verkehret, was uns beschweret
   created: '2025-10-23'
   updated: '2025-10-23'
-  copyright: Copyright © Bas Cornelissen 2025, CC BY-SA 4.0
+  copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   readme: editions/erlebach-ph/harmonische-freude-1-26/README.md
@@ -204,10 +206,10 @@ editions:
   composer:
     composer_id: erlebach-ph
   parent: ../README.md
-  title: Die Zeit verkehret, was uns beschweret
+  title: Die Zeit verkehret, was uns beschweret (transposed to Bm)
   created: '2025-10-23'
   updated: '2025-10-23'
-  copyright: Copyright © Bas Cornelissen 2025, CC BY-SA 4.0
+  copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   readme: editions/erlebach-ph/harmonische-freude-1-26-Bm/README.md
@@ -223,7 +225,7 @@ editions:
   title: An Jammer und Beschwerlichkeit, da fehlt es hier zu keiner Zeit.
   created: '2025-10-23'
   updated: '2025-10-23'
-  copyright: Copyright © Bas Cornelissen 2025, CC BY-SA 4.0
+  copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   readme: editions/erlebach-ph/harmonische-freude-2-15/README.md
@@ -236,10 +238,11 @@ editions:
   composer:
     composer_id: erlebach-ph
   parent: ../README.md
-  title: An Jammer und Beschwerlichkeit, da fehlt es hier zu keiner Zeit.
+  title: An Jammer und Beschwerlichkeit, da fehlt es hier zu keiner Zeit (transposed
+    to Bm)
   created: '2025-10-23'
   updated: '2025-10-23'
-  copyright: Copyright © Bas Cornelissen 2025, CC BY-SA 4.0
+  copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   readme: editions/erlebach-ph/harmonische-freude-2-15-Bm/README.md
@@ -255,7 +258,7 @@ editions:
   title: Des Prahlers Worte, die zwar gleißen, sind nicht stracks echtes Gold zu heißen
   created: '2025-10-23'
   updated: '2025-10-23'
-  copyright: Copyright © Bas Cornelissen 2025, CC BY-SA 4.0
+  copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   readme: editions/erlebach-ph/harmonische-freude-2-16/README.md
@@ -313,10 +316,10 @@ editions:
   composer:
     composer_id: krieger-jp
   parent: ../README.md
-  title: Einsamkeit, du Qual der Herzen
+  title: Einsamkeit, du Qual der Herzen (transposed to Bb)
   created: '2025-10-23'
   updated: '2025-10-23'
-  copyright: Copyright © Bas Cornelissen 2025, CC BY-SA 4.0.
+  copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   readme: editions/krieger-jp/einsamkeit-du-qual-Bb/README.md
@@ -329,10 +332,10 @@ editions:
   composer:
     composer_id: landi-s
   parent: ../README.md
-  title: Superbi colli
+  title: Superbi colli (transposed to Em)
   created: '2025-10-21'
   updated: '2025-10-21'
-  copyright: Bas Cornelissen, 2025
+  copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   lyricist: Baldassare Castiglioni
@@ -352,7 +355,7 @@ editions:
   title: Quae est ista
   created: '2025-10-21'
   updated: '2025-10-21'
-  copyright: Copyright © Bas Cornelissen 2025, CC BY-SA 4.0. Version 3.
+  copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   readme: editions/melani-a/quae-est-ista/README.md
@@ -361,16 +364,15 @@ editions:
     title: README
   - path: editions/melani-a/quae-est-ista/quae-est-ista-v3.musicxml
   - path: editions/melani-a/quae-est-ista/quae-est-ista-v3.pdf
+  comments: Version 3
 - id: editions-purcell-h-what-power-art-thou
   composer:
     composer_id: h-purcell
   parent: ../README.md
-  title: What power  art thou?
+  title: What power art thou?
   created: '2025-11-04'
   updated: '2025-11-04'
-  copyright: Copyright © Bas Cornelissen 2025, CC BY-SA 4.0. Score derived from Jean-Charles
-    Malahieude's edition (CC BY 3.0), based on the Musical Antiquarian Society edition
-    of Edward Taylor.
+  copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   lyricist: John Dryden
@@ -384,17 +386,20 @@ editions:
   - path: editions/purcell-h/what-power-art-thou/what-power-art-thou-violin-2.pdf
   - path: editions/purcell-h/what-power-art-thou/what-power-art-thou.musicxml
   - path: editions/purcell-h/what-power-art-thou/what-power-art-thou.pdf
+  comments: 'Score derived from Jean-Charles Malahieude''s edition (CC BY 3.0),  based
+    on the Musical Antiquarian Society edition of Edward Taylor.
+
+    '
 - id: editions-sweelinck-jp-ehre-sei-gott
   composer:
     composer_id: sweelinck-jp
   parent: ../README.md
   title: Ehre sei Gott
-  created: '2025-10-21'
-  updated: '2025-10-21'
-  copyright: Copyright © Bas Cornelissen & Riccardo Casamichiela 2024 and licensed
-    under CC BY-SA 4.0. Last edited 5 December 2024.
+  created: '2024-12-05'
+  updated: '2024-12-05'
+  copyright: Copyright © Bas Cornelissen & Riccardo Casamichiela 2024
   license: CC BY-SA 4.0
-  editor: Bas Cornelissen
+  editor: Bas Cornelissen & Riccardo Casamichiela
   readme: editions/sweelinck-jp/ehre-sei-gott/README.md
   files:
   - path: editions/sweelinck-jp/ehre-sei-gott/README.md
