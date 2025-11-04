@@ -29,6 +29,7 @@ def test_index_cli_builds_composer_and_global_indexes(tmp_path: Path) -> None:
         "id: composer-work\n"
         "parent: ../README.md\n"
         "title: Work Title\n"
+        "reference: Wq. 162\n"
         "source: Source Info\n"
         "created: 2024-01-01\n"
         "copyright: Copyright Info\n"
@@ -61,6 +62,7 @@ def test_index_cli_builds_composer_and_global_indexes(tmp_path: Path) -> None:
     assert edition_entry["comments"] == "First draft"
     assert edition_entry["created"] == "2024-01-01"
     assert edition_entry["updated"] == "2024-01-01"
+    assert edition_entry["reference"] == "Wq. 162"
     assert "lyricist" not in edition_entry
     assert "other" not in edition_entry
 

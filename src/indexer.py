@@ -53,6 +53,8 @@ def _edition_entry(readme_path: Path, composer_id: str) -> dict:
         entry["parent"] = fm["parent"]
     if fm.get("title"):
         entry["title"] = fm["title"]
+    if fm.get("reference"):
+        entry["reference"] = fm["reference"]
     if fm.get("source"):
         entry["source"] = fm["source"]
 

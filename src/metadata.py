@@ -227,6 +227,7 @@ class EditionListing(BaseModel):
     composer: ComposerReference
     parent: str | None = None
     title: str | None = None
+    reference: str | None = None
     source: str | None = None
     created: date | str | None = None
     copyright: str | None = None

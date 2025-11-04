@@ -245,6 +245,7 @@ def apply_musicxml_metadata(
         "id",
         "parent",
         "title",
+        "reference",
         "source",
         "created",
         "updated",

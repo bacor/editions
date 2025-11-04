@@ -182,6 +182,18 @@
           "default": null,
           "title": "Title"
         },
+        "reference": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reference"
+        },
         "source": {
           "anyOf": [
             {
