@@ -1,8 +1,0 @@
-# Yaml
-PyYAML==6.0.1
-
-# Fancy progress bars
-tqdm==4.66.4
-
-# Code formatting
-black==24.4.2

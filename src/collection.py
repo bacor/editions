@@ -3,23 +3,22 @@
 # Author: Bas Cornelissen
 # Copyright © 2024 Bas Cornelissen
 # -------------------------------------------------------------------
-import os
 import glob
+import os
 import subprocess
-import yaml
+from typing import Iterable
 
-# from datetime import datetime
+import yaml
 from tqdm.auto import tqdm
 
 MSCORE_EXECUTABLE = "/Applications/MuseScore 4.app/Contents/MacOS/mscore"
+
 CUR_DIR = os.path.dirname(__file__)
 ROOT_DIR = os.path.abspath(os.path.join(CUR_DIR, os.pardir))
 
 
 class Collection:
-
     # Memoized properties
-    # _config = None
     _works = None
 
     config = {
@@ -30,12 +29,12 @@ class Collection:
 
     def __init__(
         self,
-        name: str = None,
-        directory: str = None,
+        name: str | None = None,
+        directory: str | None = None,
         config_fn: str = "config.yaml",
         mscore_executable: str = MSCORE_EXECUTABLE,
-        config: dict = None,
-    ):
+        config: dict | None = None,
+    ) -> None:
         if name is None and directory is None:
             raise ValueError("Either 'name' or 'directory' must be provided")
         elif name is None:
@@ -53,23 +52,23 @@ class Collection:
         self.mscore_exec = mscore_executable
 
         # Update configuration
-        config_fn = os.path.join(self.dir, config_fn)
-        if os.path.exists(config_fn):
-            with open(config_fn, "r") as file:
+        config_path = os.path.join(self.dir, config_fn)
+        if os.path.exists(config_path):
+            with open(config_path, "r") as file:
                 loaded_config = yaml.safe_load(file)
                 if loaded_config is not None:
                     self.config.update(loaded_config)
         if config is not None:
             self.config.update(config)
 
-    def __len__(self):
+    def __len__(self) -> int:
         return len(self.works)
 
-    def __repr__(self):
+    def __repr__(self) -> str:
         return f"<Collection {self.name} of {len(self)} works>"
 
     @property
-    def works(self):
+    def works(self) -> list[dict]:
         if self._works is None:
             excluded = []
             for pattern in self.config["exclude"]:
@@ -94,13 +93,15 @@ class Collection:
                     "exports": {},
                 }
                 basepath = os.path.splitext(path)[0]
-                for format, export_config in self.config["exports"].items():
-                    work["exports"][format] = f"{basepath}.{export_config['extension']}"
+                for export_type, export_config in self.config["exports"].items():
+                    work["exports"][export_type] = (
+                        f"{basepath}.{export_config['extension']}"
+                    )
                 self._works.append(work)
 
         return self._works
 
-    def clear_export(self, export_type: str = None) -> None:
+    def clear_export(self, export_type: str) -> None:
         if export_type not in self.config["exports"]:
             raise ValueError(f'Unknown export type "{export_type}"')
 
@@ -113,7 +114,7 @@ class Collection:
         for export_type in self.config["exports"].keys():
             self.clear_export(export_type)
 
-    def mscore(self, *args):
+    def mscore(self, *args: Iterable[str]) -> subprocess.CompletedProcess:
         """Run the mscore executable in a subprocess"""
         if not os.path.exists(self.mscore_exec):
             raise FileNotFoundError(
@@ -121,11 +122,10 @@ class Collection:
             )
         return subprocess.run([self.mscore_exec, *args])
 
-    def export_work(self, work, export_type, refresh: bool = False):
+    def export_work(self, work: dict, export_type: str, refresh: bool = False) -> None:
         if export_type not in self.config["exports"]:
             raise ValueError(f'Unknown export type "{export_type}"')
 
-        export_config = self.config["exports"][export_type]
         source = work["path"]
         target = work["exports"][export_type]
         if not os.path.exists(source):
@@ -138,9 +138,11 @@ class Collection:
                     f"Error converting {source} to {export_type}: {result.stderr}"
                 )
 
-    def export(self, export_types: list[str] = None, refresh: bool = False):
+    def export(
+        self, export_types: list[str] | None = None, refresh: bool = False
+    ) -> None:
         if export_types is None:
-            export_types = self.config["exports"].keys()
+            export_types = list(self.config["exports"].keys())
 
         exports = [
             (work, export_type) for work in self.works for export_type in export_types

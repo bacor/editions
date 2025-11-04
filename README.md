@@ -2,6 +2,13 @@
 
 A collection of musical scores with some command line utility to quickly export all musescore files to PDF and musicxml.
 
+## Development
+
+- Install Poetry 1.9+ and run `poetry config virtualenvs.in-project true --global` once to keep the virtualenv in `.venv`.
+- Install dependencies with `poetry install`.
+- Use the CLI via `poetry run scores-manager ...`.
+- Run the test-suite with `poetry run pytest`.
+
 ## Index
 
 | Composer      | Title                                       | Ref       | pdf                                                                                               |

@@ -4,12 +4,12 @@ __pycache__
 *.zip
 .mscbackup
 .pytest_cache
-.vscode
 
 **/*.mp3
 
 tmp/
 env/
+.venv/
 scores/**/sources
 
 **/*-draft/*

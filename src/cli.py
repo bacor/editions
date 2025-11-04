@@ -1,7 +1,9 @@
 import argparse
-from collection import Collection
 
-if __name__ == "__main__":
+from .collection import Collection
+
+
+def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="ScoresManager", description="Manage the collection of scores"
     )
@@ -29,7 +31,11 @@ if __name__ == "__main__":
     parser.add_argument(
         "-e", "--export", action="append", help="Type of export or extension"
     )
+    return parser
 
+
+def main() -> None:
+    parser = build_parser()
     args = parser.parse_args()
 
     if args.action == "export":
@@ -48,3 +54,7 @@ if __name__ == "__main__":
                     collection.clear_export(export_type)
             else:
                 collection.clear_all_exports()
+
+
+if __name__ == "__main__":
+    main()
