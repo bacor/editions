@@ -14,6 +14,7 @@ editions:
     composer_id: bach-cpe
   parent: ../README.md
   title: Prüfung am Abend
+  reference: Wq. 194/7
   created: '2024-07-24'
   updated: '2024-07-24'
   copyright: Copyright © Bas Cornelissen
@@ -33,6 +34,7 @@ editions:
     composer_id: bach-cpe
   parent: ../README.md
   title: An den Schlaf
+  reference: Wq. 202/H
   created: '2024-07-24'
   updated: '2024-07-24'
   copyright: 'Copyright © Bas Cornelissen and licensed under CC BY-SA 4.0.,

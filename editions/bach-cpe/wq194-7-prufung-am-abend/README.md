@@ -3,6 +3,7 @@
 id: editions-bach-cpe-wq194-7-prufung-am-abend
 parent: ../README.md
 title: Prüfung am Abend
+reference: Wq. 194/7
 created: 2024-07-24
 updated: 2024-07-24
 copyright: Copyright © Bas Cornelissen
