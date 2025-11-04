@@ -1,0 +1,308 @@
+{
+  "$defs": {
+    "ComposerIndexEntry": {
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Name"
+        },
+        "lastname": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Lastname"
+        },
+        "initials": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Initials"
+        },
+        "year_born": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Year Born"
+        },
+        "year_death": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Year Death"
+        },
+        "wikidata": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Wikidata"
+        },
+        "readme": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Readme"
+        }
+      },
+      "required": [
+        "id"
+      ],
+      "title": "ComposerIndexEntry",
+      "type": "object"
+    },
+    "ComposerReference": {
+      "properties": {
+        "composer_id": {
+          "title": "Composer Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "composer_id"
+      ],
+      "title": "ComposerReference",
+      "type": "object"
+    },
+    "EditionFile": {
+      "additionalProperties": false,
+      "description": "Represents a file associated with an edition.",
+      "properties": {
+        "title": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Optional human-readable label for this file (e.g. Full score PDF).",
+          "title": "Title"
+        },
+        "path": {
+          "description": "Relative path to the file (relative to the README that defines this metadata).",
+          "title": "Path",
+          "type": "string"
+        }
+      },
+      "required": [
+        "path"
+      ],
+      "title": "EditionFile",
+      "type": "object"
+    },
+    "EditionListing": {
+      "properties": {
+        "id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Id"
+        },
+        "composer": {
+          "$ref": "#/$defs/ComposerReference"
+        },
+        "parent": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Parent"
+        },
+        "title": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Title"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source"
+        },
+        "created": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Created"
+        },
+        "copyright": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Copyright"
+        },
+        "license": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "License"
+        },
+        "readme": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Readme"
+        },
+        "files": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/EditionFile"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Files"
+        },
+        "comments": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Comments"
+        }
+      },
+      "required": [
+        "composer"
+      ],
+      "title": "EditionListing",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Container that aggregates all edition metadata entries.",
+  "properties": {
+    "composers": {
+      "items": {
+        "$ref": "#/$defs/ComposerIndexEntry"
+      },
+      "title": "Composers",
+      "type": "array"
+    },
+    "editions": {
+      "items": {
+        "$ref": "#/$defs/EditionListing"
+      },
+      "title": "Editions",
+      "type": "array"
+    }
+  },
+  "required": [
+    "composers",
+    "editions"
+  ],
+  "title": "EditionIndex",
+  "type": "object"
+}

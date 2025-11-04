@@ -1,0 +1,228 @@
+from __future__ import annotations
+
+import copy
+from datetime import date
+from pathlib import Path
+from typing import Sequence
+
+import yaml
+
+from .readme import ReadmeDocument, relative_to_root, slugify
+
+
+def _composer_entry(composer_dir: Path) -> tuple[dict, ReadmeDocument]:
+    readme_path = composer_dir / "README.md"
+    if not readme_path.exists():
+        raise FileNotFoundError(f"Composer README not found: {readme_path}")
+
+    document = ReadmeDocument.load(readme_path)
+    composer_data = document.front_matter.get("composer") or {}
+    composer_data = copy.deepcopy(composer_data)
+    composer_id = composer_data.get("id") or slugify(composer_dir.name)
+    composer_data["id"] = composer_id
+    composer_data.pop("other", None)
+    composer_data.pop("files", None)
+
+    entry: dict[str, object] = {}
+    for key in (
+        "id",
+        "name",
+        "lastname",
+        "initials",
+        "year_born",
+        "year_death",
+        "wikidata",
+    ):
+        if composer_data.get(key) is not None:
+            entry[key] = composer_data[key]
+    entry["readme"] = relative_to_root(readme_path)
+    return entry, document
+
+
+def _edition_entry(readme_path: Path, composer_id: str) -> dict:
+    document = ReadmeDocument.load(readme_path)
+    fm = document.front_matter
+
+    entry: dict[str, object] = {}
+    if fm.get("id"):
+        entry["id"] = fm["id"]
+
+    entry["composer"] = {"composer_id": composer_id}
+
+    if fm.get("parent"):
+        entry["parent"] = fm["parent"]
+    if fm.get("title"):
+        entry["title"] = fm["title"]
+    if fm.get("source"):
+        entry["source"] = fm["source"]
+
+    def _serialize_date(value: object) -> str | None:
+        if isinstance(value, date):
+            return value.isoformat()
+        if isinstance(value, str) and value:
+            return value
+        return None
+
+    created = _serialize_date(fm.get("created"))
+    if created:
+        entry["created"] = created
+
+    updated = _serialize_date(fm.get("updated"))
+    if updated:
+        entry["updated"] = updated
+    elif created:
+        entry["updated"] = created
+
+    if fm.get("copyright"):
+        entry["copyright"] = fm["copyright"]
+    if fm.get("license"):
+        entry["license"] = fm["license"]
+    if fm.get("editor"):
+        entry["editor"] = fm["editor"]
+    if fm.get("lyricist"):
+        entry["lyricist"] = fm["lyricist"]
+
+    entry["readme"] = relative_to_root(readme_path)
+
+    if fm.get("files"):
+        entry["files"] = copy.deepcopy(fm["files"])
+    if fm.get("comments"):
+        entry["comments"] = fm["comments"]
+
+    return entry
+
+
+def build_composer_index(composer_dir: Path) -> dict:
+    composer_entry, _ = _composer_entry(composer_dir)
+    composer_id = composer_entry["id"]
+
+    editions = []
+    for child in sorted(composer_dir.iterdir()):
+        if not child.is_dir():
+            continue
+        readme_path = child / "README.md"
+        if not readme_path.exists():
+            continue
+        editions.append(_edition_entry(readme_path, composer_id))
+
+    editions.sort(key=lambda item: item.get("id") or "")
+
+    return {"composers": [composer_entry], "editions": editions}
+
+
+def build_root_index(
+    root_dir: Path,
+    write_composer_indexes: bool = True,
+    *,
+    update_readmes: bool = True,
+    extra_readmes: Sequence[Path] | None = None,
+) -> dict:
+    composer_map: dict[str, dict] = {}
+    editions: list[dict] = []
+
+    composer_docs: dict[str, ReadmeDocument | None] = {}
+    for composer_dir in sorted(p for p in root_dir.iterdir() if p.is_dir()):
+        try:
+            composer_index = build_composer_index(composer_dir)
+        except FileNotFoundError:
+            continue
+
+        if write_composer_indexes:
+            write_index(composer_dir / "index.yaml", composer_index)
+        if update_readmes:
+            update_readme_with_index(
+                composer_dir / "README.md",
+                composer_index["composers"],
+                composer_index["editions"],
+            )
+
+        for composer in composer_index["composers"]:
+            composer_map[composer["id"]] = composer
+        editions.extend(composer_index["editions"])
+
+    composers = sorted(composer_map.values(), key=lambda item: item["id"])
+    editions.sort(key=lambda item: item.get("id") or "")
+    result = {"composers": composers, "editions": editions}
+
+    if update_readmes:
+        root_readme = root_dir / "README.md"
+        if root_readme.exists():
+            update_readme_with_index(root_readme, composers, editions)
+
+        if extra_readmes:
+            for path in extra_readmes:
+                if path.exists():
+                    update_readme_with_index(path, composers, editions)
+
+    return result
+
+
+def write_index(path: Path, data: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    payload = yaml.safe_dump(data, sort_keys=False, allow_unicode=True)
+    path.write_text(
+        "# This file is autogenerated; do not edit.\n" + payload,
+        encoding="utf-8",
+    )
+
+
+def _render_index_table(composers: list[dict], editions: list[dict]) -> str:
+    composer_lookup = {composer["id"]: composer for composer in composers}
+
+    def composer_sort_key(composer_id: str) -> tuple[str, str]:
+        comp = composer_lookup.get(composer_id, {})
+        lastname = comp.get("lastname") or comp.get("name") or composer_id
+        title = comp.get("name") or ""
+        return (lastname.lower(), title.lower())
+
+    def edition_sort_key(entry: dict) -> tuple[str, str]:
+        composer_id = entry.get("composer", {}).get("composer_id", "")
+        lastname = composer_lookup.get(composer_id, {}).get("lastname") or composer_id
+        title = entry.get("title") or ""
+        return (lastname.lower(), title.lower())
+
+    rows = []
+    for entry in sorted(editions, key=edition_sort_key):
+        composer_id = entry.get("composer", {}).get("composer_id", "")
+        composer = composer_lookup.get(composer_id, {})
+        lastname = composer.get("lastname")
+        initials = composer.get("initials")
+        name = composer.get("name") or composer_id
+        if lastname:
+            display_name = lastname
+            if initials:
+                display_name += f", {initials}"
+        else:
+            display_name = name
+
+        title = entry.get("title") or ""
+
+        pdf_link = ""
+        musicxml_link = ""
+        for file_entry in entry.get("files", []) or []:
+            path = file_entry.get("path")
+            if not path:
+                continue
+            if path.lower().endswith(".pdf") and not pdf_link:
+                pdf_link = f"[PDF]({path})"
+            elif path.lower().endswith(".musicxml") and not musicxml_link:
+                musicxml_link = f"[MusicXML]({path})"
+
+        rows.append(f"| {display_name} | {title} | {pdf_link} | {musicxml_link} |")
+
+    header = "| Composer name | Edition title | PDF | MusicXML |\n"
+    separator = "| --- | --- | --- | --- |\n"
+    table_body = "\n".join(rows)
+    if table_body:
+        table_body += "\n"
+    return header + separator + table_body + "\n\n"
+
+
+def update_readme_with_index(readme_path: Path, composers: list[dict], editions: list[dict]) -> None:
+    if not readme_path.exists():
+        return
+
+    table = _render_index_table(composers, editions)
+    document = ReadmeDocument.load(readme_path)
+    document.set_section("Index", table, level=2)
+    document.write()
