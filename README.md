@@ -22,7 +22,7 @@ Metadata tooling for the editions stored in this repository.
 | Krieger, JP | Einsamkeit, du Qual der Herzen (transposed to Bb) |  | [PDF](editions/krieger-jp/einsamkeit-du-qual-Bb/einsamkeit-du-qual-Bb.pdf) | [MusicXML](editions/krieger-jp/einsamkeit-du-qual-Bb/einsamkeit-du-qual-Bb.musicxml) |
 | Landi, S | Superbi colli (transposed to Em) |  | [PDF](editions/landi-s/superbi-colli/superbi-colli.pdf) | [MusicXML](editions/landi-s/superbi-colli/superbi-colli-01.musicxml) |
 | Melani, A | Quae est ista |  | [PDF](editions/melani-a/quae-est-ista/quae-est-ista-v3.pdf) | [MusicXML](editions/melani-a/quae-est-ista/quae-est-ista-v3.musicxml) |
-| Purcell, H | What power art thou? |  | [PDF](editions/purcell-h/what-power-art-thou/what-power-art-thou-continuo.pdf) | [MusicXML](editions/purcell-h/what-power-art-thou/what-power-art-thou.musicxml) |
+| Purcell, H | What power art thou? |  | [PDF](editions/purcell-h/what-power-art-thou/what-power-art-thou.pdf) | [MusicXML](editions/purcell-h/what-power-art-thou/what-power-art-thou.musicxml) |
 | Sweelinck, JP | Ehre sei Gott |  | [PDF](editions/sweelinck-jp/ehre-sei-gott/ehre-sei-gott.pdf) | [MusicXML](editions/sweelinck-jp/ehre-sei-gott/ehre-sei-gott.musicxml) |
 
 
