@@ -39,7 +39,17 @@ def test_index_yaml_matches_schema() -> None:
 def test_json_schema_generation_produces_expected_structure() -> None:
     schema_dict = edition_index_schema_dict()
     assert schema_dict["title"] == "EditionIndex"
-    assert "entries" in schema_dict["properties"]
+    assert schema_dict["type"] == "array"
+    assert "items" in schema_dict
+    item_schema = schema_dict["items"]
+    if "$ref" in item_schema:
+        ref_key = item_schema["$ref"]
+        defs = schema_dict.get("$defs", {})
+        ref_name = ref_key.split("/")[-1]
+        assert ref_name in defs
+    else:
+        assert item_schema.get("type") == "object"
+        assert "composer" in item_schema.get("properties", {})
 
     schema_json = edition_index_schema()
     parsed = json.loads(schema_json)

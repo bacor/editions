@@ -5,7 +5,15 @@ from pathlib import Path
 import json
 from typing import Any, Literal
 import yaml
-from pydantic import AnyUrl, BaseModel, ConfigDict, Field, field_validator, model_validator
+from pydantic import (
+    AnyUrl,
+    BaseModel,
+    ConfigDict,
+    Field,
+    RootModel,
+    field_validator,
+    model_validator,
+)
 
 
 class Composer(BaseModel):
@@ -233,12 +241,12 @@ class EditionListing(BaseModel):
     comments: str | None = None
 
 
-class EditionIndex(BaseModel):
+class EditionIndex(RootModel[list[EditionListing]]):
     """Container that aggregates all edition metadata entries."""
 
-    model_config = ConfigDict(extra="forbid")
-
-    entries: list[EditionListing]
+    @property
+    def entries(self) -> list[EditionListing]:
+        return self.root
 
 
 def load_index(path: str | Path) -> EditionIndex:
@@ -246,9 +254,7 @@ def load_index(path: str | Path) -> EditionIndex:
 
     with Path(path).open("r", encoding="utf-8") as fh:
         data = yaml.safe_load(fh)
-    if not isinstance(data, list):
-        raise ValueError("expected the index YAML to contain a list of entries")
-    return EditionIndex(entries=data)
+    return EditionIndex.model_validate(data)
 
 
 def edition_index_schema_dict() -> dict[str, Any]:

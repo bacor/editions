@@ -280,20 +280,10 @@
       "type": "object"
     }
   },
-  "additionalProperties": false,
   "description": "Container that aggregates all edition metadata entries.",
-  "properties": {
-    "entries": {
-      "items": {
-        "$ref": "#/$defs/EditionListing"
-      },
-      "title": "Entries",
-      "type": "array"
-    }
+  "items": {
+    "$ref": "#/$defs/EditionListing"
   },
-  "required": [
-    "entries"
-  ],
   "title": "EditionIndex",
-  "type": "object"
+  "type": "array"
 }
