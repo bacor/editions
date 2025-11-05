@@ -13,9 +13,13 @@ files:
   - path: editions/landi-s/superbi-colli/README.md
     title: README
   - path: editions/landi-s/superbi-colli/superbi-colli-01.musicxml
+    title: part 1
   - path: editions/landi-s/superbi-colli/superbi-colli-02.musicxml
+    title: part 2
   - path: editions/landi-s/superbi-colli/superbi-colli-03.musicxml
+    title: part 3
   - path: editions/landi-s/superbi-colli/superbi-colli-04.musicxml
+    title: part 4
   - path: editions/landi-s/superbi-colli/superbi-colli.pdf
 other:
   software: Dorico 5

@@ -16,11 +16,16 @@ files:
   - path: editions/purcell-h/what-power-art-thou/README.md
     title: README
   - path: editions/purcell-h/what-power-art-thou/what-power-art-thou-continuo.pdf
+    title: bc
   - path: editions/purcell-h/what-power-art-thou/what-power-art-thou-viola.pdf
+    title: vla
   - path: editions/purcell-h/what-power-art-thou/what-power-art-thou-violin-1.pdf
+    title: vn 1
   - path: editions/purcell-h/what-power-art-thou/what-power-art-thou-violin-2.pdf
-  - path: editions/purcell-h/what-power-art-thou/what-power-art-thou.musicxml
+    title: vn 2
   - path: editions/purcell-h/what-power-art-thou/what-power-art-thou.pdf
+    title: full score
+  - path: editions/purcell-h/what-power-art-thou/what-power-art-thou.musicxml
 other:
   software: Dorico 5.1.81.2225
   key: C minor

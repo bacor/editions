@@ -415,9 +415,13 @@
   - path: editions/landi-s/superbi-colli/README.md
     title: README
   - path: editions/landi-s/superbi-colli/superbi-colli-01.musicxml
+    title: part 1
   - path: editions/landi-s/superbi-colli/superbi-colli-02.musicxml
+    title: part 2
   - path: editions/landi-s/superbi-colli/superbi-colli-03.musicxml
+    title: part 3
   - path: editions/landi-s/superbi-colli/superbi-colli-04.musicxml
+    title: part 4
   - path: editions/landi-s/superbi-colli/superbi-colli.pdf
 - id: editions-melani-a-quae-est-ista
   composer:
@@ -464,11 +468,16 @@
   - path: editions/purcell-h/what-power-art-thou/README.md
     title: README
   - path: editions/purcell-h/what-power-art-thou/what-power-art-thou-continuo.pdf
+    title: bc
   - path: editions/purcell-h/what-power-art-thou/what-power-art-thou-viola.pdf
+    title: vla
   - path: editions/purcell-h/what-power-art-thou/what-power-art-thou-violin-1.pdf
+    title: vn 1
   - path: editions/purcell-h/what-power-art-thou/what-power-art-thou-violin-2.pdf
-  - path: editions/purcell-h/what-power-art-thou/what-power-art-thou.musicxml
+    title: vn 2
   - path: editions/purcell-h/what-power-art-thou/what-power-art-thou.pdf
+    title: full score
+  - path: editions/purcell-h/what-power-art-thou/what-power-art-thou.musicxml
   comments: 'Score derived from Jean-Charles Malahieude''s edition (CC BY 3.0),  based
     on the Musical Antiquarian Society edition of Edward Taylor.
 
