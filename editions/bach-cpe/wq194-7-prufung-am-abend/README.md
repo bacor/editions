@@ -10,6 +10,7 @@ copyright: Copyright © Bas Cornelissen
 license: CC BY-SA 4.0
 editor: Bas Cornelissen
 lyricist: Christian Fürchtegott Gellert
+comments: Based on CPEB:CW Vol. VI/1, edited by Darrell M. Berg (see cpebach.org).
 files:
   - path: editions/bach-cpe/wq194-7-prufung-am-abend/README.md
     title: README

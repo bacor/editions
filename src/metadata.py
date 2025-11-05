@@ -143,10 +143,6 @@ class EditionMetadata(BaseModel):
         default=None,
         description="Date the metadata was last updated (ISO format).",
     )
-    readme: str | None = Field(
-        default=None,
-        description="Optional relative path to an edition-specific README file.",
-    )
     copyright: str | None = Field(
         default=None,
         description="Copyright notice covering the materials in this edition.",
@@ -236,7 +232,6 @@ class EditionListing(BaseModel):
     created: date | str | None = None
     copyright: str | None = None
     license: str | None = None
-    readme: str | None = None
     files: list[EditionFile] | None = None
     comments: str | None = None
 

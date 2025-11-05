@@ -11,17 +11,24 @@
     readme: editions/erlebach-ph/README.md
   parent: ../README.md
   title: Die Zeit verkehret, was uns beschweret
+  source: '_Harmonische Freude musicalischer Freunde, Erster Theil_, No. 26. Nürnberg:
+    Christian Sigmund Froberg, 1697.
+
+    '
   created: '2025-10-23'
   updated: '2025-10-23'
   copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
-  readme: editions/erlebach-ph/harmonische-freude-1-26/README.md
   files:
   - path: editions/erlebach-ph/harmonische-freude-1-26/README.md
     title: README
   - path: editions/erlebach-ph/harmonische-freude-1-26/harmonische-freude-1-26.musicxml
   - path: editions/erlebach-ph/harmonische-freude-1-26/harmonische-freude-1-26.pdf
+  comments: 'Derived from _Denkmäle deutscher Tonkunst, Erste Folge; Bd.46-47_. Leipzig:
+    Breitkopf und Härtel, 1914.
+
+    '
 - id: editions-erlebach-ph-harmonische-freude-1-26-bm
   composer:
     id: erlebach-ph
@@ -34,17 +41,24 @@
     readme: editions/erlebach-ph/README.md
   parent: ../README.md
   title: Die Zeit verkehret, was uns beschweret (transposed to Bm)
+  source: '_Harmonische Freude musicalischer Freunde, Erster Theil_, No. 26. Nürnberg:
+    Christian Sigmund Froberg, 1697.
+
+    '
   created: '2025-10-23'
   updated: '2025-10-23'
   copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
-  readme: editions/erlebach-ph/harmonische-freude-1-26-Bm/README.md
   files:
   - path: editions/erlebach-ph/harmonische-freude-1-26-Bm/README.md
     title: README
   - path: editions/erlebach-ph/harmonische-freude-1-26-Bm/harmonische-freude-1-26-Bm.musicxml
   - path: editions/erlebach-ph/harmonische-freude-1-26-Bm/harmonische-freude-1-26-Bm.pdf
+  comments: 'Derived from _Denkmäle deutscher Tonkunst, Erste Folge; Bd.46-47_. Leipzig:
+    Breitkopf und Härtel, 1914.
+
+    '
 - id: editions-erlebach-ph-harmonische-freude-2-15
   composer:
     id: erlebach-ph
@@ -56,18 +70,25 @@
     wikidata: https://www.wikidata.org/wiki/Q54575
     readme: editions/erlebach-ph/README.md
   parent: ../README.md
-  title: An Jammer und Beschwerlichkeit, da fehlt es hier zu keiner Zeit.
+  title: An Jammer und Beschwerlichkeit, da fehlt es hier zu keiner Zeit
+  source: '_Harmonische Freude musicalischer Freunde, Anderer Theil_, No. 15. Nürnberg:
+    Christian Sigmund Froberg, 1710.
+
+    '
   created: '2025-10-23'
   updated: '2025-10-23'
   copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
-  readme: editions/erlebach-ph/harmonische-freude-2-15/README.md
   files:
   - path: editions/erlebach-ph/harmonische-freude-2-15/README.md
     title: README
   - path: editions/erlebach-ph/harmonische-freude-2-15/harmonische-freude-2-15.musicxml
   - path: editions/erlebach-ph/harmonische-freude-2-15/harmonische-freude-2-15.pdf
+  comments: 'Derived from _Denkmäler deutscher Tonkunst, Erste Folge; Bd.46-47_, Leipzig:
+    Breitkopf und Härtel, 1914. P
+
+    '
 - id: editions-erlebach-ph-harmonische-freude-2-15-bm
   composer:
     id: erlebach-ph
@@ -81,17 +102,24 @@
   parent: ../README.md
   title: An Jammer und Beschwerlichkeit, da fehlt es hier zu keiner Zeit (transposed
     to Bm)
+  source: '_Harmonische Freude musicalischer Freunde, Anderer Theil_, No. 15. Nürnberg:
+    Christian Sigmund Froberg, 1710.
+
+    '
   created: '2025-10-23'
   updated: '2025-10-23'
   copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
-  readme: editions/erlebach-ph/harmonische-freude-2-15-Bm/README.md
   files:
   - path: editions/erlebach-ph/harmonische-freude-2-15-Bm/README.md
     title: README
   - path: editions/erlebach-ph/harmonische-freude-2-15-Bm/harmonische-freude-2-15-Bm.musicxml
   - path: editions/erlebach-ph/harmonische-freude-2-15-Bm/harmonische-freude-2-15-Bm.pdf
+  comments: 'Derived from _Denkmäler deutscher Tonkunst, Erste Folge; Bd.46-47_, Leipzig:
+    Breitkopf und Härtel, 1914. P
+
+    '
 - id: editions-erlebach-ph-harmonische-freude-2-16
   composer:
     id: erlebach-ph
@@ -104,17 +132,24 @@
     readme: editions/erlebach-ph/README.md
   parent: ../README.md
   title: Des Prahlers Worte, die zwar gleißen, sind nicht stracks echtes Gold zu heißen
+  source: '_Harmonische Freude musicalischer Freunde, Anderer Theil_, No. 16. Nürnberg:
+    Christian Sigmund Froberg, 1710.
+
+    '
   created: '2025-10-23'
   updated: '2025-10-23'
   copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
-  readme: editions/erlebach-ph/harmonische-freude-2-16/README.md
   files:
   - path: editions/erlebach-ph/harmonische-freude-2-16/README.md
     title: README
   - path: editions/erlebach-ph/harmonische-freude-2-16/harmonische-freude-2-16.musicxml
   - path: editions/erlebach-ph/harmonische-freude-2-16/harmonische-freude-2-16.pdf
+  comments: 'Derived from _Denkmäler deutscher Tonkunst, Erste Folge; Bd.46-47_, Leipzig:
+    Breitkopf und Härtel, 1914. P
+
+    '
 - id: editions-erlebach-ph-sonata-5
   composer:
     id: erlebach-ph
@@ -127,12 +162,15 @@
     readme: editions/erlebach-ph/README.md
   parent: ../README.md
   title: Sonata V in E minor (for Violin, Viola da Gamba & Basso Continuo)
+  source: '_VI. Sonate a violino e viola da gamba col suo basso continuo_. Nürnberg:
+    Wolfgang Moritz Endter, 1694.
+
+    '
   created: '2025-10-21'
   updated: '2025-10-21'
   copyright: Bas Cornelissen, 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
-  readme: editions/erlebach-ph/sonata-5/README.md
   files:
   - path: editions/erlebach-ph/sonata-5/README.md
     title: README
@@ -151,3 +189,4 @@
   - path: editions/erlebach-ph/sonata-5/sonata-5-7-gigue.musicxml
     title: 7. Gigue
   - path: editions/erlebach-ph/sonata-5/sonata-5.pdf
+  comments: Derived from an edition by Llorenç Lledó (CC BY-SA 3.0).

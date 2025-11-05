@@ -84,13 +84,12 @@ def _edition_entry(readme_path: Path, composer_data: dict) -> dict:
     if fm.get("lyricist"):
         entry["lyricist"] = fm["lyricist"]
 
-    entry["readme"] = relative_to_root(readme_path)
-
     if fm.get("files"):
         entry["files"] = copy.deepcopy(fm["files"])
     if fm.get("comments"):
         entry["comments"] = fm["comments"]
 
+    entry.pop("readme", None)
     return entry
 
 

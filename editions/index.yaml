@@ -17,7 +17,6 @@
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   lyricist: Simon Drach
-  readme: editions/albert-h/arien-1-01/README.md
   files:
   - path: editions/albert-h/arien-1-01/README.md
     title: README
@@ -42,7 +41,6 @@
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   lyricist: Simon Drach
-  readme: editions/albert-h/arien-1-02/README.md
   files:
   - path: editions/albert-h/arien-1-02/README.md
     title: README
@@ -68,7 +66,6 @@
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   lyricist: Christian Fürchtegott Gellert
-  readme: editions/bach-cpe/wq194-7-prufung-am-abend/README.md
   files:
   - path: editions/bach-cpe/wq194-7-prufung-am-abend/README.md
     title: README
@@ -94,7 +91,6 @@
   copyright: Copyright © Bas Cornelissen 2024
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
-  readme: editions/bach-cpe/wq202-h-an-den-schlaf/README.md
   files:
   - path: editions/bach-cpe/wq202-h-an-den-schlaf/README.md
     title: README
@@ -119,7 +115,6 @@
   copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
-  readme: editions/carissimi-g/o-dulcissimum/README.md
   files:
   - path: editions/carissimi-g/o-dulcissimum/README.md
     title: README
@@ -144,7 +139,6 @@
   copyright: Copyright © Bas Cornelissen 2025.
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
-  readme: editions/carissimi-g/o-dulcissimum-gm/README.md
   files:
   - path: editions/carissimi-g/o-dulcissimum-gm/README.md
     title: README
@@ -166,17 +160,24 @@
     readme: editions/erlebach-ph/README.md
   parent: ../README.md
   title: Die Zeit verkehret, was uns beschweret
+  source: '_Harmonische Freude musicalischer Freunde, Erster Theil_, No. 26. Nürnberg:
+    Christian Sigmund Froberg, 1697.
+
+    '
   created: '2025-10-23'
   updated: '2025-10-23'
   copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
-  readme: editions/erlebach-ph/harmonische-freude-1-26/README.md
   files:
   - path: editions/erlebach-ph/harmonische-freude-1-26/README.md
     title: README
   - path: editions/erlebach-ph/harmonische-freude-1-26/harmonische-freude-1-26.musicxml
   - path: editions/erlebach-ph/harmonische-freude-1-26/harmonische-freude-1-26.pdf
+  comments: 'Derived from _Denkmäle deutscher Tonkunst, Erste Folge; Bd.46-47_. Leipzig:
+    Breitkopf und Härtel, 1914.
+
+    '
 - id: editions-erlebach-ph-harmonische-freude-1-26-bm
   composer:
     id: erlebach-ph
@@ -189,17 +190,24 @@
     readme: editions/erlebach-ph/README.md
   parent: ../README.md
   title: Die Zeit verkehret, was uns beschweret (transposed to Bm)
+  source: '_Harmonische Freude musicalischer Freunde, Erster Theil_, No. 26. Nürnberg:
+    Christian Sigmund Froberg, 1697.
+
+    '
   created: '2025-10-23'
   updated: '2025-10-23'
   copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
-  readme: editions/erlebach-ph/harmonische-freude-1-26-Bm/README.md
   files:
   - path: editions/erlebach-ph/harmonische-freude-1-26-Bm/README.md
     title: README
   - path: editions/erlebach-ph/harmonische-freude-1-26-Bm/harmonische-freude-1-26-Bm.musicxml
   - path: editions/erlebach-ph/harmonische-freude-1-26-Bm/harmonische-freude-1-26-Bm.pdf
+  comments: 'Derived from _Denkmäle deutscher Tonkunst, Erste Folge; Bd.46-47_. Leipzig:
+    Breitkopf und Härtel, 1914.
+
+    '
 - id: editions-erlebach-ph-harmonische-freude-2-15
   composer:
     id: erlebach-ph
@@ -211,18 +219,25 @@
     wikidata: https://www.wikidata.org/wiki/Q54575
     readme: editions/erlebach-ph/README.md
   parent: ../README.md
-  title: An Jammer und Beschwerlichkeit, da fehlt es hier zu keiner Zeit.
+  title: An Jammer und Beschwerlichkeit, da fehlt es hier zu keiner Zeit
+  source: '_Harmonische Freude musicalischer Freunde, Anderer Theil_, No. 15. Nürnberg:
+    Christian Sigmund Froberg, 1710.
+
+    '
   created: '2025-10-23'
   updated: '2025-10-23'
   copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
-  readme: editions/erlebach-ph/harmonische-freude-2-15/README.md
   files:
   - path: editions/erlebach-ph/harmonische-freude-2-15/README.md
     title: README
   - path: editions/erlebach-ph/harmonische-freude-2-15/harmonische-freude-2-15.musicxml
   - path: editions/erlebach-ph/harmonische-freude-2-15/harmonische-freude-2-15.pdf
+  comments: 'Derived from _Denkmäler deutscher Tonkunst, Erste Folge; Bd.46-47_, Leipzig:
+    Breitkopf und Härtel, 1914. P
+
+    '
 - id: editions-erlebach-ph-harmonische-freude-2-15-bm
   composer:
     id: erlebach-ph
@@ -236,17 +251,24 @@
   parent: ../README.md
   title: An Jammer und Beschwerlichkeit, da fehlt es hier zu keiner Zeit (transposed
     to Bm)
+  source: '_Harmonische Freude musicalischer Freunde, Anderer Theil_, No. 15. Nürnberg:
+    Christian Sigmund Froberg, 1710.
+
+    '
   created: '2025-10-23'
   updated: '2025-10-23'
   copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
-  readme: editions/erlebach-ph/harmonische-freude-2-15-Bm/README.md
   files:
   - path: editions/erlebach-ph/harmonische-freude-2-15-Bm/README.md
     title: README
   - path: editions/erlebach-ph/harmonische-freude-2-15-Bm/harmonische-freude-2-15-Bm.musicxml
   - path: editions/erlebach-ph/harmonische-freude-2-15-Bm/harmonische-freude-2-15-Bm.pdf
+  comments: 'Derived from _Denkmäler deutscher Tonkunst, Erste Folge; Bd.46-47_, Leipzig:
+    Breitkopf und Härtel, 1914. P
+
+    '
 - id: editions-erlebach-ph-harmonische-freude-2-16
   composer:
     id: erlebach-ph
@@ -259,17 +281,24 @@
     readme: editions/erlebach-ph/README.md
   parent: ../README.md
   title: Des Prahlers Worte, die zwar gleißen, sind nicht stracks echtes Gold zu heißen
+  source: '_Harmonische Freude musicalischer Freunde, Anderer Theil_, No. 16. Nürnberg:
+    Christian Sigmund Froberg, 1710.
+
+    '
   created: '2025-10-23'
   updated: '2025-10-23'
   copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
-  readme: editions/erlebach-ph/harmonische-freude-2-16/README.md
   files:
   - path: editions/erlebach-ph/harmonische-freude-2-16/README.md
     title: README
   - path: editions/erlebach-ph/harmonische-freude-2-16/harmonische-freude-2-16.musicxml
   - path: editions/erlebach-ph/harmonische-freude-2-16/harmonische-freude-2-16.pdf
+  comments: 'Derived from _Denkmäler deutscher Tonkunst, Erste Folge; Bd.46-47_, Leipzig:
+    Breitkopf und Härtel, 1914. P
+
+    '
 - id: editions-erlebach-ph-sonata-5
   composer:
     id: erlebach-ph
@@ -282,12 +311,15 @@
     readme: editions/erlebach-ph/README.md
   parent: ../README.md
   title: Sonata V in E minor (for Violin, Viola da Gamba & Basso Continuo)
+  source: '_VI. Sonate a violino e viola da gamba col suo basso continuo_. Nürnberg:
+    Wolfgang Moritz Endter, 1694.
+
+    '
   created: '2025-10-21'
   updated: '2025-10-21'
   copyright: Bas Cornelissen, 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
-  readme: editions/erlebach-ph/sonata-5/README.md
   files:
   - path: editions/erlebach-ph/sonata-5/README.md
     title: README
@@ -306,6 +338,7 @@
   - path: editions/erlebach-ph/sonata-5/sonata-5-7-gigue.musicxml
     title: 7. Gigue
   - path: editions/erlebach-ph/sonata-5/sonata-5.pdf
+  comments: Derived from an edition by Llorenç Lledó (CC BY-SA 3.0).
 - id: editions-krieger-jp-einsamkeit-du-qual
   composer:
     id: krieger-jp
@@ -318,17 +351,21 @@
     readme: editions/krieger-jp/README.md
   parent: ../README.md
   title: Einsamkeit, du Qual der Herzen
+  source: 'From _Auserlesenen In denen Dreyen Sing-Spielen Flora, Cecrops und Procris,
+    enthaltene Arien_ (Nürnberg: Wolfgang Moritz Endter, 1690).
+
+    '
   created: '2025-10-23'
   updated: '2025-10-23'
   copyright: Copyright © Bas Cornelissen 2025, CC BY-SA 4.0.
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
-  readme: editions/krieger-jp/einsamkeit-du-qual/README.md
   files:
   - path: editions/krieger-jp/einsamkeit-du-qual/README.md
     title: README
   - path: editions/krieger-jp/einsamkeit-du-qual/einsamkeit-du-qual.musicxml
   - path: editions/krieger-jp/einsamkeit-du-qual/einsamkeit-du-qual.pdf
+  comments: Transposition of a diplomatic edition of S-L, Engelhart 26, p.92-93.
 - id: editions-krieger-jp-einsamkeit-du-qual-bb
   composer:
     id: krieger-jp
@@ -341,17 +378,21 @@
     readme: editions/krieger-jp/README.md
   parent: ../README.md
   title: Einsamkeit, du Qual der Herzen (transposed to Bb)
+  source: 'From _Auserlesenen In denen Dreyen Sing-Spielen Flora, Cecrops und Procris,
+    enthaltene Arien_ (Nürnberg: Wolfgang Moritz Endter, 1690).
+
+    '
   created: '2025-10-23'
   updated: '2025-10-23'
   copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
-  readme: editions/krieger-jp/einsamkeit-du-qual-Bb/README.md
   files:
   - path: editions/krieger-jp/einsamkeit-du-qual-Bb/README.md
     title: README
   - path: editions/krieger-jp/einsamkeit-du-qual-Bb/einsamkeit-du-qual-Bb.musicxml
   - path: editions/krieger-jp/einsamkeit-du-qual-Bb/einsamkeit-du-qual-Bb.pdf
+  comments: Transposition of a diplomatic edition of S-L, Engelhart 26, p.92-93.
 - id: editions-landi-s-superbi-colli
   composer:
     id: landi-s
@@ -370,7 +411,6 @@
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   lyricist: Baldassare Castiglioni
-  readme: editions/landi-s/superbi-colli/README.md
   files:
   - path: editions/landi-s/superbi-colli/README.md
     title: README
@@ -396,7 +436,6 @@
   copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
-  readme: editions/melani-a/quae-est-ista/README.md
   files:
   - path: editions/melani-a/quae-est-ista/README.md
     title: README
@@ -421,7 +460,6 @@
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   lyricist: John Dryden
-  readme: editions/purcell-h/what-power-art-thou/README.md
   files:
   - path: editions/purcell-h/what-power-art-thou/README.md
     title: README
@@ -447,12 +485,12 @@
     readme: editions/sweelinck-jp/README.md
   parent: ../README.md
   title: Ehre sei Gott
+  source: Profe’s _Geistlicher Concerten und Harmonien_, Volume I (1641)
   created: '2024-12-05'
   updated: '2024-12-05'
   copyright: Copyright © Bas Cornelissen & Riccardo Casamichiela 2024
   license: CC BY-SA 4.0
   editor: Bas Cornelissen & Riccardo Casamichiela
-  readme: editions/sweelinck-jp/ehre-sei-gott/README.md
   files:
   - path: editions/sweelinck-jp/ehre-sei-gott/README.md
     title: README

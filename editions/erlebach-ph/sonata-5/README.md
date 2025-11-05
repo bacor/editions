@@ -3,6 +3,9 @@
 id: editions-erlebach-ph-sonata-5
 parent: ../README.md
 title: Sonata V in E minor (for Violin, Viola da Gamba & Basso Continuo)
+source: >
+  _VI. Sonate a violino e viola da gamba col suo basso continuo_. Nürnberg: Wolfgang Moritz Endter, 1694.
+comments: Derived from an edition by Llorenç Lledó (CC BY-SA 3.0).
 created: 2025-10-21
 updated: 2025-10-21
 copyright: Bas Cornelissen, 2025

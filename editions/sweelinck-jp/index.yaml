@@ -11,12 +11,12 @@
     readme: editions/sweelinck-jp/README.md
   parent: ../README.md
   title: Ehre sei Gott
+  source: Profe’s _Geistlicher Concerten und Harmonien_, Volume I (1641)
   created: '2024-12-05'
   updated: '2024-12-05'
   copyright: Copyright © Bas Cornelissen & Riccardo Casamichiela 2024
   license: CC BY-SA 4.0
   editor: Bas Cornelissen & Riccardo Casamichiela
-  readme: editions/sweelinck-jp/ehre-sei-gott/README.md
   files:
   - path: editions/sweelinck-jp/ehre-sei-gott/README.md
     title: README

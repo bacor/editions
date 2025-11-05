@@ -11,17 +11,21 @@
     readme: editions/krieger-jp/README.md
   parent: ../README.md
   title: Einsamkeit, du Qual der Herzen
+  source: 'From _Auserlesenen In denen Dreyen Sing-Spielen Flora, Cecrops und Procris,
+    enthaltene Arien_ (Nürnberg: Wolfgang Moritz Endter, 1690).
+
+    '
   created: '2025-10-23'
   updated: '2025-10-23'
   copyright: Copyright © Bas Cornelissen 2025, CC BY-SA 4.0.
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
-  readme: editions/krieger-jp/einsamkeit-du-qual/README.md
   files:
   - path: editions/krieger-jp/einsamkeit-du-qual/README.md
     title: README
   - path: editions/krieger-jp/einsamkeit-du-qual/einsamkeit-du-qual.musicxml
   - path: editions/krieger-jp/einsamkeit-du-qual/einsamkeit-du-qual.pdf
+  comments: Transposition of a diplomatic edition of S-L, Engelhart 26, p.92-93.
 - id: editions-krieger-jp-einsamkeit-du-qual-bb
   composer:
     id: krieger-jp
@@ -34,14 +38,18 @@
     readme: editions/krieger-jp/README.md
   parent: ../README.md
   title: Einsamkeit, du Qual der Herzen (transposed to Bb)
+  source: 'From _Auserlesenen In denen Dreyen Sing-Spielen Flora, Cecrops und Procris,
+    enthaltene Arien_ (Nürnberg: Wolfgang Moritz Endter, 1690).
+
+    '
   created: '2025-10-23'
   updated: '2025-10-23'
   copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
-  readme: editions/krieger-jp/einsamkeit-du-qual-Bb/README.md
   files:
   - path: editions/krieger-jp/einsamkeit-du-qual-Bb/README.md
     title: README
   - path: editions/krieger-jp/einsamkeit-du-qual-Bb/einsamkeit-du-qual-Bb.musicxml
   - path: editions/krieger-jp/einsamkeit-du-qual-Bb/einsamkeit-du-qual-Bb.pdf
+  comments: Transposition of a diplomatic edition of S-L, Engelhart 26, p.92-93.

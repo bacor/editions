@@ -233,18 +233,6 @@
           "default": null,
           "title": "License"
         },
-        "readme": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ],
-          "default": null,
-          "title": "Readme"
-        },
         "files": {
           "anyOf": [
             {
