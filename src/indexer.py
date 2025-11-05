@@ -55,8 +55,12 @@ def _edition_entry(readme_path: Path, composer_data: dict) -> dict:
         entry["title"] = fm["title"]
     if fm.get("reference"):
         entry["reference"] = fm["reference"]
-    if fm.get("source"):
-        entry["source"] = fm["source"]
+
+    source = fm.get("source")
+    if isinstance(source, str):
+        source = source.strip()
+    if source:
+        entry["source"] = source
 
     def _serialize_date(value: object) -> str | None:
         if isinstance(value, date):
@@ -86,8 +90,11 @@ def _edition_entry(readme_path: Path, composer_data: dict) -> dict:
 
     if fm.get("files"):
         entry["files"] = copy.deepcopy(fm["files"])
-    if fm.get("comments"):
-        entry["comments"] = fm["comments"]
+    comments = fm.get("comments")
+    if isinstance(comments, str):
+        comments = comments.strip()
+    if comments:
+        entry["comments"] = comments
 
     entry.pop("readme", None)
     return entry

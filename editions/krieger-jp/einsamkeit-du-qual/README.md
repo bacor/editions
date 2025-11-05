@@ -8,7 +8,7 @@ source: >
 comments: Transposition of a diplomatic edition of S-L, Engelhart 26, p.92-93.
 created: 2025-10-23
 updated: 2025-10-23
-copyright: Copyright © Bas Cornelissen 2025, CC BY-SA 4.0.
+copyright: Copyright © Bas Cornelissen 2025
 license: CC BY-SA 4.0
 editor: Bas Cornelissen
 files:

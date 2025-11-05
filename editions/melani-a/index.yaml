@@ -11,6 +11,7 @@
     readme: editions/melani-a/README.md
   parent: ../README.md
   title: Quae est ista
+  source: '_Concerti Spirituali_, op. 3. Rome: Vitale Mascardi, 1682'
   created: '2025-10-21'
   updated: '2025-10-21'
   copyright: Copyright © Bas Cornelissen 2025
@@ -21,4 +22,5 @@
     title: README
   - path: editions/melani-a/quae-est-ista/quae-est-ista-v3.musicxml
   - path: editions/melani-a/quae-est-ista/quae-est-ista-v3.pdf
-  comments: Version 3
+  comments: 'Diplomatic edition of Museo internazionale e Bibl. della musica, Bologna
+    (I-Bc): RISM A/I: M-2214 (scans available via IMSLP)'

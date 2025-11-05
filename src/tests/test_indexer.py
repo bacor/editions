@@ -30,7 +30,7 @@ def test_index_cli_builds_composer_and_global_indexes(tmp_path: Path) -> None:
         "parent: ../README.md\n"
         "title: Work Title\n"
         "reference: Wq. 162\n"
-        "source: Source Info\n"
+        "source: \"  Source Info  \"\n"
         "created: 2024-01-01\n"
         "copyright: Copyright Info\n"
         "license: CC BY-SA 4.0\n"
@@ -38,7 +38,7 @@ def test_index_cli_builds_composer_and_global_indexes(tmp_path: Path) -> None:
         "  - path: editions/composer/work/README.md\n"
         "    title: README\n"
         "  - path: editions/composer/work/work.pdf\n"
-        "comments: First draft\n"
+        "comments: \"  First draft  \"\n"
         "---\n\n# Composer Name — Work Title\n",
         encoding="utf-8",
     )
@@ -61,6 +61,7 @@ def test_index_cli_builds_composer_and_global_indexes(tmp_path: Path) -> None:
     composer_info = edition_entry["composer"]
     assert composer_info["id"] == "composer-id"
     assert composer_info["name"] == "Composer Name"
+    assert edition_entry["source"] == "Source Info"
     assert edition_entry["comments"] == "First draft"
     assert edition_entry["created"] == "2024-01-01"
     assert edition_entry["updated"] == "2024-01-01"
@@ -69,7 +70,9 @@ def test_index_cli_builds_composer_and_global_indexes(tmp_path: Path) -> None:
     assert "other" not in edition_entry
 
     assert isinstance(global_index, list)
-    assert global_index[0]["composer"]["id"] == "composer-id"
+    first_global = global_index[0]
+    assert first_global["composer"]["id"] == "composer-id"
+    assert first_global["source"] == "Source Info"
 
     composer_readme = (composer_dir / "README.md").read_text(encoding="utf-8")
     assert "## Index" in composer_readme

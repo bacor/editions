@@ -144,10 +144,8 @@
     title: README
   - path: editions/carissimi-g/o-dulcissimum-gm/o-dulcissimum-gm.musicxml
   - path: editions/carissimi-g/o-dulcissimum-gm/o-dulcissimum-gm.pdf
-  comments: 'Derived from a reconstruction and edition by Anthony Maydwell based on
+  comments: Derived from a reconstruction and edition by Anthony Maydwell based on
     the sources  BnF Res F1674 (1) and  BSB Hss Mus 274 g. Version 1.
-
-    '
 - id: editions-erlebach-ph-harmonische-freude-1-26
   composer:
     id: erlebach-ph
@@ -161,9 +159,7 @@
   parent: ../README.md
   title: Die Zeit verkehret, was uns beschweret
   source: '_Harmonische Freude musicalischer Freunde, Erster Theil_, No. 26. Nürnberg:
-    Christian Sigmund Froberg, 1697.
-
-    '
+    Christian Sigmund Froberg, 1697.'
   created: '2025-10-23'
   updated: '2025-10-23'
   copyright: Copyright © Bas Cornelissen 2025
@@ -175,9 +171,7 @@
   - path: editions/erlebach-ph/harmonische-freude-1-26/harmonische-freude-1-26.musicxml
   - path: editions/erlebach-ph/harmonische-freude-1-26/harmonische-freude-1-26.pdf
   comments: 'Derived from _Denkmäle deutscher Tonkunst, Erste Folge; Bd.46-47_. Leipzig:
-    Breitkopf und Härtel, 1914.
-
-    '
+    Breitkopf und Härtel, 1914.'
 - id: editions-erlebach-ph-harmonische-freude-1-26-bm
   composer:
     id: erlebach-ph
@@ -191,9 +185,7 @@
   parent: ../README.md
   title: Die Zeit verkehret, was uns beschweret (transposed to Bm)
   source: '_Harmonische Freude musicalischer Freunde, Erster Theil_, No. 26. Nürnberg:
-    Christian Sigmund Froberg, 1697.
-
-    '
+    Christian Sigmund Froberg, 1697.'
   created: '2025-10-23'
   updated: '2025-10-23'
   copyright: Copyright © Bas Cornelissen 2025
@@ -205,9 +197,7 @@
   - path: editions/erlebach-ph/harmonische-freude-1-26-Bm/harmonische-freude-1-26-Bm.musicxml
   - path: editions/erlebach-ph/harmonische-freude-1-26-Bm/harmonische-freude-1-26-Bm.pdf
   comments: 'Derived from _Denkmäle deutscher Tonkunst, Erste Folge; Bd.46-47_. Leipzig:
-    Breitkopf und Härtel, 1914.
-
-    '
+    Breitkopf und Härtel, 1914.'
 - id: editions-erlebach-ph-harmonische-freude-2-15
   composer:
     id: erlebach-ph
@@ -221,9 +211,7 @@
   parent: ../README.md
   title: An Jammer und Beschwerlichkeit, da fehlt es hier zu keiner Zeit
   source: '_Harmonische Freude musicalischer Freunde, Anderer Theil_, No. 15. Nürnberg:
-    Christian Sigmund Froberg, 1710.
-
-    '
+    Christian Sigmund Froberg, 1710.'
   created: '2025-10-23'
   updated: '2025-10-23'
   copyright: Copyright © Bas Cornelissen 2025
@@ -235,9 +223,7 @@
   - path: editions/erlebach-ph/harmonische-freude-2-15/harmonische-freude-2-15.musicxml
   - path: editions/erlebach-ph/harmonische-freude-2-15/harmonische-freude-2-15.pdf
   comments: 'Derived from _Denkmäler deutscher Tonkunst, Erste Folge; Bd.46-47_, Leipzig:
-    Breitkopf und Härtel, 1914. P
-
-    '
+    Breitkopf und Härtel, 1914. P'
 - id: editions-erlebach-ph-harmonische-freude-2-15-bm
   composer:
     id: erlebach-ph
@@ -252,9 +238,7 @@
   title: An Jammer und Beschwerlichkeit, da fehlt es hier zu keiner Zeit (transposed
     to Bm)
   source: '_Harmonische Freude musicalischer Freunde, Anderer Theil_, No. 15. Nürnberg:
-    Christian Sigmund Froberg, 1710.
-
-    '
+    Christian Sigmund Froberg, 1710.'
   created: '2025-10-23'
   updated: '2025-10-23'
   copyright: Copyright © Bas Cornelissen 2025
@@ -266,9 +250,7 @@
   - path: editions/erlebach-ph/harmonische-freude-2-15-Bm/harmonische-freude-2-15-Bm.musicxml
   - path: editions/erlebach-ph/harmonische-freude-2-15-Bm/harmonische-freude-2-15-Bm.pdf
   comments: 'Derived from _Denkmäler deutscher Tonkunst, Erste Folge; Bd.46-47_, Leipzig:
-    Breitkopf und Härtel, 1914. P
-
-    '
+    Breitkopf und Härtel, 1914. P'
 - id: editions-erlebach-ph-harmonische-freude-2-16
   composer:
     id: erlebach-ph
@@ -282,9 +264,7 @@
   parent: ../README.md
   title: Des Prahlers Worte, die zwar gleißen, sind nicht stracks echtes Gold zu heißen
   source: '_Harmonische Freude musicalischer Freunde, Anderer Theil_, No. 16. Nürnberg:
-    Christian Sigmund Froberg, 1710.
-
-    '
+    Christian Sigmund Froberg, 1710.'
   created: '2025-10-23'
   updated: '2025-10-23'
   copyright: Copyright © Bas Cornelissen 2025
@@ -296,9 +276,7 @@
   - path: editions/erlebach-ph/harmonische-freude-2-16/harmonische-freude-2-16.musicxml
   - path: editions/erlebach-ph/harmonische-freude-2-16/harmonische-freude-2-16.pdf
   comments: 'Derived from _Denkmäler deutscher Tonkunst, Erste Folge; Bd.46-47_, Leipzig:
-    Breitkopf und Härtel, 1914. P
-
-    '
+    Breitkopf und Härtel, 1914. P'
 - id: editions-erlebach-ph-sonata-5
   composer:
     id: erlebach-ph
@@ -312,9 +290,7 @@
   parent: ../README.md
   title: Sonata V in E minor (for Violin, Viola da Gamba & Basso Continuo)
   source: '_VI. Sonate a violino e viola da gamba col suo basso continuo_. Nürnberg:
-    Wolfgang Moritz Endter, 1694.
-
-    '
+    Wolfgang Moritz Endter, 1694.'
   created: '2025-10-21'
   updated: '2025-10-21'
   copyright: Bas Cornelissen, 2025
@@ -352,12 +328,10 @@
   parent: ../README.md
   title: Einsamkeit, du Qual der Herzen
   source: '_Auserlesenen In denen Dreyen Sing-Spielen Flora, Cecrops und Procris,
-    enthaltene Arien_ (Nürnberg: Wolfgang Moritz Endter, 1690).
-
-    '
+    enthaltene Arien_ (Nürnberg: Wolfgang Moritz Endter, 1690).'
   created: '2025-10-23'
   updated: '2025-10-23'
-  copyright: Copyright © Bas Cornelissen 2025, CC BY-SA 4.0.
+  copyright: Copyright © Bas Cornelissen 2025
   license: CC BY-SA 4.0
   editor: Bas Cornelissen
   files:
@@ -379,9 +353,7 @@
   parent: ../README.md
   title: Einsamkeit, du Qual der Herzen (transposed to Bb)
   source: '_Auserlesenen In denen Dreyen Sing-Spielen Flora, Cecrops und Procris,
-    enthaltene Arien_ (Nürnberg: Wolfgang Moritz Endter, 1690).
-
-    '
+    enthaltene Arien_ (Nürnberg: Wolfgang Moritz Endter, 1690).'
   created: '2025-10-23'
   updated: '2025-10-23'
   copyright: Copyright © Bas Cornelissen 2025
@@ -435,6 +407,7 @@
     readme: editions/melani-a/README.md
   parent: ../README.md
   title: Quae est ista
+  source: '_Concerti Spirituali_, op. 3. Rome: Vitale Mascardi, 1682'
   created: '2025-10-21'
   updated: '2025-10-21'
   copyright: Copyright © Bas Cornelissen 2025
@@ -445,7 +418,8 @@
     title: README
   - path: editions/melani-a/quae-est-ista/quae-est-ista-v3.musicxml
   - path: editions/melani-a/quae-est-ista/quae-est-ista-v3.pdf
-  comments: Version 3
+  comments: 'Diplomatic edition of Museo internazionale e Bibl. della musica, Bologna
+    (I-Bc): RISM A/I: M-2214 (scans available via IMSLP)'
 - id: editions-purcell-h-what-power-art-thou
   composer:
     id: h-purcell
@@ -478,10 +452,8 @@
   - path: editions/purcell-h/what-power-art-thou/what-power-art-thou-continuo.pdf
     title: bc
   - path: editions/purcell-h/what-power-art-thou/what-power-art-thou.musicxml
-  comments: 'Score derived from Jean-Charles Malahieude''s edition (CC BY 3.0),  based
+  comments: Score derived from Jean-Charles Malahieude's edition (CC BY 3.0),  based
     on the Musical Antiquarian Society edition of Edward Taylor.
-
-    '
 - id: editions-sweelinck-jp-ehre-sei-gott
   composer:
     id: sweelinck-jp
@@ -505,8 +477,6 @@
     title: README
   - path: editions/sweelinck-jp/ehre-sei-gott/ehre-sei-gott.musicxml
   - path: editions/sweelinck-jp/ehre-sei-gott/ehre-sei-gott.pdf
-  comments: 'The attribution to Sweelinck in Profe’s _Geistlicher Concerten und Harmonien_
+  comments: The attribution to Sweelinck in Profe’s _Geistlicher Concerten und Harmonien_
     is questionable,  and the work has not been included in Sweelincks _Opera Omnia_
     (1968).
-
-    '
