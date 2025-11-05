@@ -4,8 +4,9 @@ id: editions-sweelinck-jp-ehre-sei-gott
 parent: ../README.md
 title: Ehre sei Gott
 source: Profe’s _Geistlicher Concerten und Harmonien_, Volume I (1641)
-comment: >
-  The attribution to Sweelinck in Profe’s _Geistlicher Concerten und Harmonien_ is questionable, and the work has not been included in Sweelincks _Opera Omnia_ (1968).
+comments: >
+  The attribution to Sweelinck in Profe’s _Geistlicher Concerten und Harmonien_ is questionable, 
+  and the work has not been included in Sweelincks _Opera Omnia_ (1968).
 created: 2024-12-05
 updated: 2024-12-05
 copyright: Copyright © Bas Cornelissen & Riccardo Casamichiela 2024
