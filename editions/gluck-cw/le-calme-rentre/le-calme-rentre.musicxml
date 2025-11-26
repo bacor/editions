@@ -400,7 +400,15 @@
       </note>
     </measure>
     <measure number="16">
-      <print new-system="no" new-page="no"/>
+      <print new-page="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <top-system-distance>117.5</top-system-distance>
+        </system-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -424,15 +432,7 @@
       </note>
     </measure>
     <measure number="18">
-      <print new-page="yes">
-        <system-layout>
-          <system-margins>
-            <left-margin>0</left-margin>
-            <right-margin>0</right-margin>
-          </system-margins>
-          <top-system-distance>117.5</top-system-distance>
-        </system-layout>
-      </print>
+      <print new-system="no" new-page="no"/>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -516,7 +516,15 @@
       </note>
     </measure>
     <measure number="25">
-      <print new-system="no" new-page="no"/>
+      <print new-system="yes" new-page="no">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <system-distance>141.25</system-distance>
+        </system-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -564,15 +572,7 @@
       </note>
     </measure>
     <measure number="29">
-      <print new-system="yes" new-page="no">
-        <system-layout>
-          <system-margins>
-            <left-margin>0</left-margin>
-            <right-margin>0</right-margin>
-          </system-margins>
-          <system-distance>141.25</system-distance>
-        </system-layout>
-      </print>
+      <print new-system="no" new-page="no"/>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -676,7 +676,15 @@
       </note>
     </measure>
     <measure number="34">
-      <print new-system="no" new-page="no"/>
+      <print new-page="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <top-system-distance>117.5</top-system-distance>
+        </system-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -832,15 +840,7 @@
       </note>
     </measure>
     <measure number="40">
-      <print new-page="yes">
-        <system-layout>
-          <system-margins>
-            <left-margin>0</left-margin>
-            <right-margin>0</right-margin>
-          </system-margins>
-          <top-system-distance>117.5</top-system-distance>
-        </system-layout>
-      </print>
+      <print new-system="no" new-page="no"/>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -904,7 +904,15 @@
       </note>
     </measure>
     <measure number="43">
-      <print new-system="no" new-page="no"/>
+      <print new-system="yes" new-page="no">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <system-distance>141.25</system-distance>
+        </system-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -1065,13 +1073,13 @@
       </note>
     </measure>
     <measure number="51">
-      <print new-system="yes" new-page="no">
+      <print new-page="yes">
         <system-layout>
           <system-margins>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.25</system-distance>
+          <top-system-distance>117.5</top-system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -1157,13 +1165,13 @@
       </note>
     </measure>
     <measure number="58">
-      <print new-page="yes">
+      <print new-system="yes" new-page="no">
         <system-layout>
           <system-margins>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <top-system-distance>117.5</top-system-distance>
+          <system-distance>141.25</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -1436,7 +1444,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
       </note>
       <note>
         <rest/>
@@ -1455,7 +1462,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
       </note>
     </measure>
     <measure number="3">
@@ -1541,7 +1547,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
       </note>
       <note>
         <rest/>
@@ -1560,7 +1565,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
       </note>
       <barline location="right">
         <bar-style>light-light</bar-style>
@@ -1653,7 +1657,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
       </note>
       <note>
         <rest/>
@@ -1672,7 +1675,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
       </note>
     </measure>
     <measure number="7">
@@ -1769,7 +1771,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
       </note>
       <note>
         <rest/>
@@ -1788,7 +1789,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
       </note>
     </measure>
     <measure number="9">
@@ -1875,7 +1875,6 @@
         <accidental>natural</accidental>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
       </note>
       <note>
         <rest/>
@@ -1894,7 +1893,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
       </note>
     </measure>
     <measure number="11">
@@ -1983,7 +1981,6 @@
         <accidental>sharp</accidental>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
       </note>
       <note>
         <rest/>
@@ -2003,7 +2000,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
       </note>
     </measure>
     <measure number="13">
@@ -2171,7 +2167,18 @@
       </note>
     </measure>
     <measure number="16">
-      <print new-system="no" new-page="no"/>
+      <print new-page="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <top-system-distance>117.5</top-system-distance>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>125.625</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -2270,18 +2277,7 @@
       </note>
     </measure>
     <measure number="18">
-      <print new-page="yes">
-        <system-layout>
-          <system-margins>
-            <left-margin>0</left-margin>
-            <right-margin>0</right-margin>
-          </system-margins>
-          <top-system-distance>117.5</top-system-distance>
-        </system-layout>
-        <staff-layout number="1">
-          <staff-distance>125.625</staff-distance>
-        </staff-layout>
-      </print>
+      <print new-system="no" new-page="no"/>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -2624,7 +2620,18 @@
       </note>
     </measure>
     <measure number="25">
-      <print new-system="no" new-page="no"/>
+      <print new-system="yes" new-page="no">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <system-distance>141.25</system-distance>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>125.625</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -2833,18 +2840,7 @@
       </note>
     </measure>
     <measure number="29">
-      <print new-system="yes" new-page="no">
-        <system-layout>
-          <system-margins>
-            <left-margin>0</left-margin>
-            <right-margin>0</right-margin>
-          </system-margins>
-          <system-distance>141.25</system-distance>
-        </system-layout>
-        <staff-layout number="1">
-          <staff-distance>125.625</staff-distance>
-        </staff-layout>
-      </print>
+      <print new-system="no" new-page="no"/>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -3116,7 +3112,18 @@
       </note>
     </measure>
     <measure number="34">
-      <print new-system="no" new-page="no"/>
+      <print new-page="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <top-system-distance>117.5</top-system-distance>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>125.625</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -3505,18 +3512,7 @@
       </note>
     </measure>
     <measure number="40">
-      <print new-page="yes">
-        <system-layout>
-          <system-margins>
-            <left-margin>0</left-margin>
-            <right-margin>0</right-margin>
-          </system-margins>
-          <top-system-distance>117.5</top-system-distance>
-        </system-layout>
-        <staff-layout number="1">
-          <staff-distance>125.625</staff-distance>
-        </staff-layout>
-      </print>
+      <print new-system="no" new-page="no"/>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -3692,7 +3688,18 @@
       </note>
     </measure>
     <measure number="43">
-      <print new-system="no" new-page="no"/>
+      <print new-system="yes" new-page="no">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <system-distance>141.25</system-distance>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>125.625</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -4131,13 +4138,13 @@
       </note>
     </measure>
     <measure number="51">
-      <print new-system="yes" new-page="no">
+      <print new-page="yes">
         <system-layout>
           <system-margins>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.25</system-distance>
+          <top-system-distance>117.5</top-system-distance>
         </system-layout>
         <staff-layout number="1">
           <staff-distance>125.625</staff-distance>
@@ -4520,16 +4527,16 @@
       </note>
     </measure>
     <measure number="58">
-      <print new-page="yes">
+      <print new-system="yes" new-page="no">
         <system-layout>
           <system-margins>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <top-system-distance>117.5</top-system-distance>
+          <system-distance>141.25</system-distance>
         </system-layout>
         <staff-layout number="1">
-          <staff-distance>80</staff-distance>
+          <staff-distance>125.625</staff-distance>
         </staff-layout>
       </print>
       <attributes>
@@ -5765,7 +5772,18 @@
       </note>
     </measure>
     <measure number="16">
-      <print new-system="no" new-page="no"/>
+      <print new-page="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <top-system-distance>117.5</top-system-distance>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>94.375</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -5869,18 +5887,7 @@
       </note>
     </measure>
     <measure number="18">
-      <print new-page="yes">
-        <system-layout>
-          <system-margins>
-            <left-margin>0</left-margin>
-            <right-margin>0</right-margin>
-          </system-margins>
-          <top-system-distance>117.5</top-system-distance>
-        </system-layout>
-        <staff-layout number="1">
-          <staff-distance>94.375</staff-distance>
-        </staff-layout>
-      </print>
+      <print new-system="no" new-page="no"/>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -6233,7 +6240,18 @@
       </note>
     </measure>
     <measure number="25">
-      <print new-system="no" new-page="no"/>
+      <print new-system="yes" new-page="no">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <system-distance>141.25</system-distance>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>94.375</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -6440,18 +6458,7 @@
       </note>
     </measure>
     <measure number="29">
-      <print new-system="yes" new-page="no">
-        <system-layout>
-          <system-margins>
-            <left-margin>0</left-margin>
-            <right-margin>0</right-margin>
-          </system-margins>
-          <system-distance>141.25</system-distance>
-        </system-layout>
-        <staff-layout number="1">
-          <staff-distance>94.375</staff-distance>
-        </staff-layout>
-      </print>
+      <print new-system="no" new-page="no"/>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -6700,7 +6707,18 @@
       </note>
     </measure>
     <measure number="34">
-      <print new-system="no" new-page="no"/>
+      <print new-page="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <top-system-distance>117.5</top-system-distance>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>94.375</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -6977,18 +6995,7 @@
       </note>
     </measure>
     <measure number="40">
-      <print new-page="yes">
-        <system-layout>
-          <system-margins>
-            <left-margin>0</left-margin>
-            <right-margin>0</right-margin>
-          </system-margins>
-          <top-system-distance>117.5</top-system-distance>
-        </system-layout>
-        <staff-layout number="1">
-          <staff-distance>94.375</staff-distance>
-        </staff-layout>
-      </print>
+      <print new-system="no" new-page="no"/>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -7137,7 +7144,18 @@
       </note>
     </measure>
     <measure number="43">
-      <print new-system="no" new-page="no"/>
+      <print new-system="yes" new-page="no">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <system-distance>141.25</system-distance>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>94.375</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -7578,13 +7596,13 @@
       </note>
     </measure>
     <measure number="51">
-      <print new-system="yes" new-page="no">
+      <print new-page="yes">
         <system-layout>
           <system-margins>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.25</system-distance>
+          <top-system-distance>117.5</top-system-distance>
         </system-layout>
         <staff-layout number="1">
           <staff-distance>94.375</staff-distance>
@@ -7967,16 +7985,16 @@
       </note>
     </measure>
     <measure number="58">
-      <print new-page="yes">
+      <print new-system="yes" new-page="no">
         <system-layout>
           <system-margins>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <top-system-distance>117.5</top-system-distance>
+          <system-distance>141.25</system-distance>
         </system-layout>
         <staff-layout number="1">
-          <staff-distance>60</staff-distance>
+          <staff-distance>94.375</staff-distance>
         </staff-layout>
       </print>
       <attributes>
@@ -9718,7 +9736,18 @@
       </note>
     </measure>
     <measure number="16">
-      <print new-system="no" new-page="no"/>
+      <print new-page="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <top-system-distance>117.5</top-system-distance>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>125.625</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -9810,18 +9839,7 @@
       </note>
     </measure>
     <measure number="18">
-      <print new-page="yes">
-        <system-layout>
-          <system-margins>
-            <left-margin>0</left-margin>
-            <right-margin>0</right-margin>
-          </system-margins>
-          <top-system-distance>117.5</top-system-distance>
-        </system-layout>
-        <staff-layout number="1">
-          <staff-distance>125.625</staff-distance>
-        </staff-layout>
-      </print>
+      <print new-system="no" new-page="no"/>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -10143,7 +10161,18 @@
       </note>
     </measure>
     <measure number="25">
-      <print new-system="no" new-page="no"/>
+      <print new-system="yes" new-page="no">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <system-distance>141.25</system-distance>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>125.625</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -10327,18 +10356,7 @@
       </note>
     </measure>
     <measure number="29">
-      <print new-system="yes" new-page="no">
-        <system-layout>
-          <system-margins>
-            <left-margin>0</left-margin>
-            <right-margin>0</right-margin>
-          </system-margins>
-          <system-distance>141.25</system-distance>
-        </system-layout>
-        <staff-layout number="1">
-          <staff-distance>125.625</staff-distance>
-        </staff-layout>
-      </print>
+      <print new-system="no" new-page="no"/>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -10568,7 +10586,18 @@
       </note>
     </measure>
     <measure number="34">
-      <print new-system="no" new-page="no"/>
+      <print new-page="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <top-system-distance>117.5</top-system-distance>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>125.625</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -10850,18 +10879,7 @@
       </note>
     </measure>
     <measure number="40">
-      <print new-page="yes">
-        <system-layout>
-          <system-margins>
-            <left-margin>0</left-margin>
-            <right-margin>0</right-margin>
-          </system-margins>
-          <top-system-distance>117.5</top-system-distance>
-        </system-layout>
-        <staff-layout number="1">
-          <staff-distance>125.625</staff-distance>
-        </staff-layout>
-      </print>
+      <print new-system="no" new-page="no"/>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -11005,7 +11023,18 @@
       </note>
     </measure>
     <measure number="43">
-      <print new-system="no" new-page="no"/>
+      <print new-system="yes" new-page="no">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <system-distance>141.25</system-distance>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>125.625</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -11379,13 +11408,13 @@
       </note>
     </measure>
     <measure number="51">
-      <print new-system="yes" new-page="no">
+      <print new-page="yes">
         <system-layout>
           <system-margins>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.25</system-distance>
+          <top-system-distance>117.5</top-system-distance>
         </system-layout>
         <staff-layout number="1">
           <staff-distance>125.625</staff-distance>
@@ -11712,16 +11741,16 @@
       </note>
     </measure>
     <measure number="58">
-      <print new-page="yes">
+      <print new-system="yes" new-page="no">
         <system-layout>
           <system-margins>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <top-system-distance>117.5</top-system-distance>
+          <system-distance>141.25</system-distance>
         </system-layout>
         <staff-layout number="1">
-          <staff-distance>80</staff-distance>
+          <staff-distance>125.625</staff-distance>
         </staff-layout>
       </print>
       <attributes>
@@ -12416,7 +12445,18 @@
       </note>
     </measure>
     <measure number="16">
-      <print new-system="no" new-page="no"/>
+      <print new-page="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <top-system-distance>117.5</top-system-distance>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>94.375</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -12481,18 +12521,7 @@
       </note>
     </measure>
     <measure number="18">
-      <print new-page="yes">
-        <system-layout>
-          <system-margins>
-            <left-margin>0</left-margin>
-            <right-margin>0</right-margin>
-          </system-margins>
-          <top-system-distance>117.5</top-system-distance>
-        </system-layout>
-        <staff-layout number="1">
-          <staff-distance>94.375</staff-distance>
-        </staff-layout>
-      </print>
+      <print new-system="no" new-page="no"/>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -12710,7 +12739,18 @@
       </note>
     </measure>
     <measure number="25">
-      <print new-system="no" new-page="no"/>
+      <print new-system="yes" new-page="no">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <system-distance>141.25</system-distance>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>94.375</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -12813,18 +12853,7 @@
       </note>
     </measure>
     <measure number="29">
-      <print new-system="yes" new-page="no">
-        <system-layout>
-          <system-margins>
-            <left-margin>0</left-margin>
-            <right-margin>0</right-margin>
-          </system-margins>
-          <system-distance>141.25</system-distance>
-        </system-layout>
-        <staff-layout number="1">
-          <staff-distance>94.375</staff-distance>
-        </staff-layout>
-      </print>
+      <print new-system="no" new-page="no"/>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -12993,7 +13022,18 @@
       </note>
     </measure>
     <measure number="34">
-      <print new-system="no" new-page="no"/>
+      <print new-page="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <top-system-distance>117.5</top-system-distance>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>94.375</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -13182,18 +13222,7 @@
       </note>
     </measure>
     <measure number="40">
-      <print new-page="yes">
-        <system-layout>
-          <system-margins>
-            <left-margin>0</left-margin>
-            <right-margin>0</right-margin>
-          </system-margins>
-          <top-system-distance>117.5</top-system-distance>
-        </system-layout>
-        <staff-layout number="1">
-          <staff-distance>94.375</staff-distance>
-        </staff-layout>
-      </print>
+      <print new-system="no" new-page="no"/>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -13255,7 +13284,18 @@
       </note>
     </measure>
     <measure number="43">
-      <print new-system="no" new-page="no"/>
+      <print new-system="yes" new-page="no">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <system-distance>141.25</system-distance>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>94.375</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -13452,13 +13492,13 @@
       </note>
     </measure>
     <measure number="51">
-      <print new-system="yes" new-page="no">
+      <print new-page="yes">
         <system-layout>
           <system-margins>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.25</system-distance>
+          <top-system-distance>117.5</top-system-distance>
         </system-layout>
         <staff-layout number="1">
           <staff-distance>94.375</staff-distance>
@@ -13674,16 +13714,16 @@
       </note>
     </measure>
     <measure number="58">
-      <print new-page="yes">
+      <print new-system="yes" new-page="no">
         <system-layout>
           <system-margins>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <top-system-distance>117.5</top-system-distance>
+          <system-distance>141.25</system-distance>
         </system-layout>
         <staff-layout number="1">
-          <staff-distance>60</staff-distance>
+          <staff-distance>94.375</staff-distance>
         </staff-layout>
       </print>
       <attributes>
@@ -14332,7 +14372,18 @@
       </note>
     </measure>
     <measure number="16">
-      <print new-system="no" new-page="no"/>
+      <print new-page="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <top-system-distance>117.5</top-system-distance>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>94.375</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -14398,18 +14449,7 @@
       </note>
     </measure>
     <measure number="18">
-      <print new-page="yes">
-        <system-layout>
-          <system-margins>
-            <left-margin>0</left-margin>
-            <right-margin>0</right-margin>
-          </system-margins>
-          <top-system-distance>117.5</top-system-distance>
-        </system-layout>
-        <staff-layout number="1">
-          <staff-distance>94.375</staff-distance>
-        </staff-layout>
-      </print>
+      <print new-system="no" new-page="no"/>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -14649,7 +14689,18 @@
       </note>
     </measure>
     <measure number="25">
-      <print new-system="no" new-page="no"/>
+      <print new-system="yes" new-page="no">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <system-distance>141.25</system-distance>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>94.375</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -14763,18 +14814,7 @@
       </note>
     </measure>
     <measure number="29">
-      <print new-system="yes" new-page="no">
-        <system-layout>
-          <system-margins>
-            <left-margin>0</left-margin>
-            <right-margin>0</right-margin>
-          </system-margins>
-          <system-distance>141.25</system-distance>
-        </system-layout>
-        <staff-layout number="1">
-          <staff-distance>94.375</staff-distance>
-        </staff-layout>
-      </print>
+      <print new-system="no" new-page="no"/>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -14930,7 +14970,18 @@
       </note>
     </measure>
     <measure number="34">
-      <print new-system="no" new-page="no"/>
+      <print new-page="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <top-system-distance>117.5</top-system-distance>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>94.375</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -15132,18 +15183,7 @@
       </note>
     </measure>
     <measure number="40">
-      <print new-page="yes">
-        <system-layout>
-          <system-margins>
-            <left-margin>0</left-margin>
-            <right-margin>0</right-margin>
-          </system-margins>
-          <top-system-distance>117.5</top-system-distance>
-        </system-layout>
-        <staff-layout number="1">
-          <staff-distance>94.375</staff-distance>
-        </staff-layout>
-      </print>
+      <print new-system="no" new-page="no"/>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -15256,7 +15296,18 @@
       </note>
     </measure>
     <measure number="43">
-      <print new-system="no" new-page="no"/>
+      <print new-system="yes" new-page="no">
+        <system-layout>
+          <system-margins>
+            <left-margin>0</left-margin>
+            <right-margin>0</right-margin>
+          </system-margins>
+          <system-distance>141.25</system-distance>
+        </system-layout>
+        <staff-layout number="1">
+          <staff-distance>94.375</staff-distance>
+        </staff-layout>
+      </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
@@ -15507,13 +15558,13 @@
       </note>
     </measure>
     <measure number="51">
-      <print new-system="yes" new-page="no">
+      <print new-page="yes">
         <system-layout>
           <system-margins>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.25</system-distance>
+          <top-system-distance>117.5</top-system-distance>
         </system-layout>
         <staff-layout number="1">
           <staff-distance>94.375</staff-distance>
@@ -15740,16 +15791,16 @@
       </note>
     </measure>
     <measure number="58">
-      <print new-page="yes">
+      <print new-system="yes" new-page="no">
         <system-layout>
           <system-margins>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <top-system-distance>117.5</top-system-distance>
+          <system-distance>141.25</system-distance>
         </system-layout>
         <staff-layout number="1">
-          <staff-distance>60</staff-distance>
+          <staff-distance>94.375</staff-distance>
         </staff-layout>
       </print>
       <attributes>
