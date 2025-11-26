@@ -315,6 +315,39 @@
     title: 7. Gigue
   - path: editions/erlebach-ph/sonata-5/sonata-5.pdf
   comments: Derived from an edition by Llorenç Lledó (CC BY-SA 3.0).
+- id: editions-gluck-cw-le-calme-rentre
+  composer:
+    id: gluck-cw
+    name: Christoph Willibald Gluck
+    lastname: Gluck
+    initials: CW
+    year_born: 1714
+    year_death: 1775
+    wikidata: https://www.wikidata.org/wiki/Q130759
+    readme: editions/gluck-cw/README.md
+  title: Le calme rentre dans mon coeur
+  created: '2025-11-26'
+  updated: '2025-11-26'
+  copyright: Copyright © Bas Cornelissen 2025, CC BY-SA 4.0
+  license: CC BY-SA 4.0
+  editor: Bas Cornelissen
+  lyricist: Nicolas-François Guillard
+  files:
+  - path: editions/gluck-cw/le-calme-rentre/README.md
+    title: README
+  - path: editions/gluck-cw/le-calme-rentre/le-calme-rentre-full-score.pdf
+    title: full score
+  - path: editions/gluck-cw/le-calme-rentre/le-calme-rentre-oboe.pdf
+    title: oboe
+  - path: editions/gluck-cw/le-calme-rentre/le-calme-rentre-violin-1.pdf
+    title: violin 1
+  - path: editions/gluck-cw/le-calme-rentre/le-calme-rentre-violin-2.pdf
+    title: violin 2
+  - path: editions/gluck-cw/le-calme-rentre/le-calme-rentre-viola.pdf
+    title: viola
+  - path: editions/gluck-cw/le-calme-rentre/le-calme-rentre-bassi.pdf
+    title: basses
+  - path: editions/gluck-cw/le-calme-rentre/le-calme-rentre.musicxml
 - id: editions-krieger-jp-einsamkeit-du-qual
   composer:
     id: krieger-jp
