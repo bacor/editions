@@ -11,6 +11,8 @@ composer:
 
 ## Index
 
-| Composer     | Title                                         | Ref. | PDF                                   | MusicXML                                   |
-| ------------ | --------------------------------------------- | ---- | ------------------------------------- | ------------------------------------------ |
-| Buxtehude, D | Mit Fried und Freud ich fahr dahin & Klaglied |      | [PDF](buxwv76-gm/buxwv76-Gm-full.pdf) | [MusicXML](buxwv76-gm/buxwv76-Gm.musicxml) |
+| Composer | Title | Ref. | PDF | MusicXML |
+| --- | --- | --- | --- | --- |
+| Buxtehude, D | Mit Fried und Freud ich fahr dahin & Klaglied (transposed to Gm) |  | [PDF](buxwv76-gm/buxwv76-Gm-full.pdf) | [MusicXML](buxwv76-gm/buxwv76-Gm.musicxml) |
+
+
