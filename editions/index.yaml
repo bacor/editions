@@ -128,6 +128,35 @@
   - path: editions/bruhns-n/bruhns-de-profundis/bruhns-de-profundis-continuo.pdf
     title: continuo
   - path: editions/bruhns-n/bruhns-de-profundis/bruhns-de-profundis.musicxml
+- id: editions-buxtehude-d-buxvw38-d
+  composer:
+    id: buxtehude-d
+    name: Dieterich Buxtehude
+    lastname: Buxtehude
+    initials: D
+    year_born: 1637
+    year_death: 1707
+    wikidata: https://www.wikidata.org/wiki/Q153637
+    readme: editions/buxtehude-d/README.md
+  parent: ../README.md
+  title: Herr, wenn ich nur Dich hab (transposed to D)
+  created: '2026-01-07'
+  updated: '2026-01-07'
+  copyright: Copyright ©
+  license: CC BY-SA 4.0
+  editor: Bas Cornelissen
+  files:
+  - path: editions/buxtehude-d/buxvw38-D/README.md
+    title: README
+  - path: editions/buxtehude-d/buxvw38-D/buxwv38-D-full.pdf
+    title: full score
+  - path: editions/buxtehude-d/buxvw38-D/buxwv38-D-vn1.pdf
+    title: vn 1
+  - path: editions/buxtehude-d/buxvw38-D/buxwv38-D-vn2.pdf
+    title: vn 2
+  - path: editions/buxtehude-d/buxvw38-D/buxwv38-D-bc.pdf
+    title: continuo
+  - path: editions/buxtehude-d/buxvw38-D/buxwv38-D.musicxml
 - id: editions-buxtehude-d-buxwv76-gm
   composer:
     id: buxtehude-d
