@@ -3,6 +3,7 @@
 id: editions-buxtehude-d-buxvw38-d
 parent: ../README.md
 title: Herr, wenn ich nur Dich hab (transposed to D)
+reference: BuxWV 38
 created: 2026-01-07
 updated: 2026-01-07
 copyright: Copyright ©

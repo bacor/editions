@@ -2,6 +2,7 @@
 # Composer: Dietrich Buxtehude (details inherited from parent)
 id: editions-buxtehude-d-buxwv76-gm
 title: Mit Fried und Freud ich fahr dahin & Klaglied (transposed to Gm)
+reference: BuxWV 76
 created: 2024-10-19
 updated: 2024-10-19
 copyright: Copyright © Bas Cornelissen 2024; CC BY-SA 4.0.
