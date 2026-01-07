@@ -370,6 +370,33 @@
   - path: editions/erlebach-ph/harmonische-freude-2-16/harmonische-freude-2-16.pdf
   comments: 'Derived from _Denkmäler deutscher Tonkunst, Erste Folge; Bd.46-47_, Leipzig:
     Breitkopf und Härtel, 1914. P'
+- id: editions-erlebach-ph-harmonische-freude-2-25
+  composer:
+    id: erlebach-ph
+    name: Philipp Heinrich Erlebach
+    lastname: Erlebach
+    initials: PH
+    year_born: 1657
+    year_death: 1714
+    wikidata: https://www.wikidata.org/wiki/Q54575
+    readme: editions/erlebach-ph/README.md
+  parent: ../README.md
+  title: Das Versprochne redlich halten
+  source: '_Harmonische Freude musicalischer Freunde, Anderer Theil_, No. 25. Nürnberg:
+    Christian Sigmund Froberg, 1710.'
+  created: '2026-01-07'
+  updated: '2026-01-07'
+  copyright: Copyright © Bas Cornelissen 2025, CC BY-SA 4.0
+  license: CC BY-SA 4.0
+  editor: Bas Cornelissen
+  files:
+  - path: editions/erlebach-ph/harmonische-freude-2-25/README.md
+    title: README
+  - path: editions/erlebach-ph/harmonische-freude-2-25/harmonische-freude-2-25.pdf
+    title: full score
+  - path: editions/erlebach-ph/harmonische-freude-2-25/harmonische-freude-2-25.musicxml
+  comments: 'Derived from _Denkmäler deutscher Tonkunst, Erste Folge; Bd.46-47_, Leipzig:
+    Breitkopf und Härtel, 1914. P'
 - id: editions-erlebach-ph-sonata-5
   composer:
     id: erlebach-ph
