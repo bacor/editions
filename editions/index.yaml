@@ -98,6 +98,68 @@
   - path: editions/bach-cpe/wq202-h-an-den-schlaf/wq202-h-an-den-schlaf.musicxml
   - path: editions/bach-cpe/wq202-h-an-den-schlaf/wq202-h-an-den-schlaf.pdf
   comments: Based on CPEB:CW Vol. VI/3, edited by Christoph Wolff (see cpebach.org)
+- id: editions-bruhns-n-bruhns-de-profundis
+  composer:
+    id: bruhns-n
+    name: Nicolaus Bruhns
+    lastname: Brunhs
+    initials: N
+    year_born: 1665
+    year_death: 1697
+    wikidata: https://www.wikidata.org/wiki/Q57369
+    readme: editions/bruhns-n/README.md
+  parent: ../README.md
+  title: De profundis clamavi (transposed to Bm)
+  created: '2026-01-07'
+  updated: '2026-01-07'
+  copyright: Copyright © Bas Cornelissen 2025, CC BY-SA 4.0
+  license: CC BY-SA 4.0
+  editor: Bas Cornelissen
+  lyricist: Psalm 130
+  files:
+  - path: editions/bruhns-n/bruhns-de-profundis/README.md
+    title: README
+  - path: editions/bruhns-n/bruhns-de-profundis/bruhns-de-profundis-full-score.pdf
+    title: full score
+  - path: editions/bruhns-n/bruhns-de-profundis/bruhns-de-profundis-violin-1.pdf
+    title: vn 1
+  - path: editions/bruhns-n/bruhns-de-profundis/bruhns-de-profundis-violin-2.pdf
+    title: vn 2
+  - path: editions/bruhns-n/bruhns-de-profundis/bruhns-de-profundis-continuo.pdf
+    title: continuo
+  - path: editions/bruhns-n/bruhns-de-profundis/bruhns-de-profundis.musicxml
+- id: editions-buxtehude-d-buxwv76-gm
+  composer:
+    id: buxtehude-d
+    name: Dieterich Buxtehude
+    lastname: Buxtehude
+    initials: D
+    year_born: 1637
+    year_death: 1707
+    wikidata: https://www.wikidata.org/wiki/Q153637
+    readme: editions/buxtehude-d/README.md
+  title: Mit Fried und Freud ich fahr dahin & Klaglied (transposed to Gm)
+  created: '2024-10-19'
+  updated: '2024-10-19'
+  copyright: Copyright © Bas Cornelissen 2024; CC BY-SA 4.0.
+  license: CC BY-SA 4.0
+  editor: Bas Cornelissen
+  files:
+  - path: editions/buxtehude-d/buxwv76-gm/README.md
+    title: README
+  - path: editions/buxtehude-d/buxwv76-gm/buxwv76-Gm-full.pdf
+    title: full score
+  - path: editions/buxtehude-d/buxwv76-gm/buxwv76-Gm-alto.pdf
+    title: alto
+  - path: editions/buxtehude-d/buxwv76-gm/buxwv76-Gm-soprano.pdf
+    title: soprano
+  - path: editions/buxtehude-d/buxwv76-gm/buxwv76-Gm-tenor.pdf
+    title: tenor
+  - path: editions/buxtehude-d/buxwv76-gm/buxwv76-Gm-bass.pdf
+    title: bass
+  - path: editions/buxtehude-d/buxwv76-gm/buxwv76-Gm.musicxml
+  comments: 'Derived from the edition by Gottfried Grote (Edition Merseburger 913).
+    Berlin: Verlag Merseburger, n.d. (preface dated 1948).'
 - id: editions-carissimi-g-o-dulcissimum
   composer:
     id: carissimi-g

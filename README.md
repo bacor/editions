@@ -10,6 +10,8 @@ Metadata tooling for the editions stored in this repository.
 | Albert, H | Ploratus nimios sanctorum funera spernunt |  | [PDF](editions/albert-h/arien-1-02/arien-1-02.pdf) | [MusicXML](editions/albert-h/arien-1-02/arien-1-02.musicxml) |
 | Bach, CPE | An den Schlaf | Wq. 202/H | [PDF](editions/bach-cpe/wq202-h-an-den-schlaf/wq202-h-an-den-schlaf.pdf) | [MusicXML](editions/bach-cpe/wq202-h-an-den-schlaf/wq202-h-an-den-schlaf.musicxml) |
 | Bach, CPE | Prüfung am Abend | Wq. 194/7 | [PDF](editions/bach-cpe/wq194-7-prufung-am-abend/wq194-7-prufung-am-abend.pdf) | [MusicXML](editions/bach-cpe/wq194-7-prufung-am-abend/wq194-7-prufung-am-abend.musicxml) |
+| Brunhs, N | De profundis clamavi (transposed to Bm) |  | [PDF](editions/bruhns-n/bruhns-de-profundis/bruhns-de-profundis-full-score.pdf) | [MusicXML](editions/bruhns-n/bruhns-de-profundis/bruhns-de-profundis.musicxml) |
+| Buxtehude, D | Mit Fried und Freud ich fahr dahin & Klaglied (transposed to Gm) |  | [PDF](editions/buxtehude-d/buxwv76-gm/buxwv76-Gm-full.pdf) | [MusicXML](editions/buxtehude-d/buxwv76-gm/buxwv76-Gm.musicxml) |
 | Carissimi, G | O dulcissimum Mariae nomen |  | [PDF](editions/carissimi-g/o-dulcissimum/o-dulcissimum.pdf) | [MusicXML](editions/carissimi-g/o-dulcissimum/o-dulcissimum.musicxml) |
 | Carissimi, G | O dulcissimum Mariae nomen (transposed to Gm) |  | [PDF](editions/carissimi-g/o-dulcissimum-gm/o-dulcissimum-gm.pdf) | [MusicXML](editions/carissimi-g/o-dulcissimum-gm/o-dulcissimum-gm.musicxml) |
 | Erlebach, PH | An Jammer und Beschwerlichkeit, da fehlt es hier zu keiner Zeit |  | [PDF](editions/erlebach-ph/harmonische-freude-2-15/harmonische-freude-2-15.pdf) | [MusicXML](editions/erlebach-ph/harmonische-freude-2-15/harmonische-freude-2-15.musicxml) |
