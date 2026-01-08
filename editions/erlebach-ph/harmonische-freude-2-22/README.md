@@ -16,12 +16,12 @@ editor: Bas Cornelissen
 files:
   - path: editions/erlebach-ph/harmonische-freude-2-22/README.md
     title: README
+  - path: editions/erlebach-ph/harmonische-freude-2-22/erlebach-II-22-full.pdf
+    title: full score
   - path: editions/erlebach-ph/harmonische-freude-2-22/erlebach-II-22-vn12.pdf
     title: vn1&2
   - path: editions/erlebach-ph/harmonische-freude-2-22/erlebach-II-22-vla12.pdf
     title: vla1&2
-  - path: editions/erlebach-ph/harmonische-freude-2-22/erlebach-II-22-full.pdf
-    title: full score
   - path: editions/erlebach-ph/harmonische-freude-2-22/erlebach-II-22-bc.pdf
     title: continuo
   - path: editions/erlebach-ph/harmonische-freude-2-22/harmonische-freude-2-22.musicxml
