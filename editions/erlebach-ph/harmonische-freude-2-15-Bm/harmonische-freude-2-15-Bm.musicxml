@@ -10,7 +10,7 @@
     <rights>Copyright © Bas Cornelissen 2025, CC BY-SA 4.0</rights>
     <encoding>
       <software>Dorico 5.1.60.2187</software>
-      <encoding-date>2025-10-23</encoding-date>
+      <encoding-date>2026-02-04</encoding-date>
       <supports type="yes" element="print" attribute="new-system" value="yes"/>
       <supports type="yes" element="print" attribute="new-page" value="yes"/>
       <supports type="yes" element="accidental"/>
@@ -57,7 +57,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
   </credit>
   <credit page="1">
     <credit-type>rights</credit-type>
-    <credit-words font-family="EB Garamond" font-size="7.5" justify="left" valign="bottom" default-x="83.75" default-y="124.375" xml:space="preserve">Copyright © Bas Cornelissen 2025, CC BY-SA 4.0. Version 23 Oct 2025.</credit-words>
+    <credit-words font-family="EB Garamond" font-size="7.5" justify="left" valign="bottom" default-x="83.75" default-y="124.375" xml:space="preserve">Copyright © Bas Cornelissen 2025, CC BY-SA 4.0. Version 4 Feb 2026.</credit-words>
   </credit>
   <credit page="1">
     <credit-words font-family="EB Garamond" font-size="7.5" justify="left" valign="bottom" default-x="83.75" default-y="104.375" xml:space="preserve">From Harmonische Freude musicalischer Freunde,  Anderer Theil. Nürnberg: Christian Sigmund Froberg, 1710. Derived from Denkmäler </credit-words>
@@ -2943,7 +2943,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -3414,7 +3414,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -3431,6 +3431,10 @@ da fehlt es hier zu keiner Zeit.</credit-words>
         <type>half</type>
         <stem>down</stem>
         <staff>1</staff>
+        <lyric number="1" placement="below" name="verse">
+          <syllabic>begin</syllabic>
+          <text>mei</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -3444,6 +3448,10 @@ da fehlt es hier zu keiner Zeit.</credit-words>
         <accidental>sharp</accidental>
         <stem>down</stem>
         <staff>1</staff>
+        <lyric number="1" placement="below" default-y="-86.875" name="verse">
+          <syllabic>end</syllabic>
+          <text>nen</text>
+        </lyric>
       </note>
     </measure>
     <measure number="36">
@@ -3465,6 +3473,10 @@ da fehlt es hier zu keiner Zeit.</credit-words>
         <staff>1</staff>
         <beam number="1">begin</beam>
         <beam number="2">begin</beam>
+        <lyric number="1" placement="below" name="verse">
+          <syllabic>begin</syllabic>
+          <text>Jam</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -3566,6 +3578,10 @@ da fehlt es hier zu keiner Zeit.</credit-words>
         <stem>down</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
+        <lyric number="1" placement="below" name="verse">
+          <syllabic>middle</syllabic>
+          <text>mer</text>
+        </lyric>
       </note>
     </measure>
     <measure number="37">
@@ -3589,6 +3605,11 @@ da fehlt es hier zu keiner Zeit.</credit-words>
         <notations>
           <tied type="start" number="1" orientation="over"/>
         </notations>
+        <lyric number="1" placement="below" default-y="-86.875" name="verse">
+          <syllabic>single</syllabic>
+          <text>stand.</text>
+          <extend type="start"/>
+        </lyric>
       </note>
     </measure>
     <measure number="38">
@@ -3618,6 +3639,9 @@ da fehlt es hier zu keiner Zeit.</credit-words>
         <voice>1</voice>
         <type>quarter</type>
         <staff>1</staff>
+        <lyric number="1" placement="below" default-y="-86.875" name="verse">
+          <extend type="stop"/>
+        </lyric>
       </note>
     </measure>
     <measure number="39">
@@ -3843,7 +3867,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -4428,7 +4452,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -5225,7 +5249,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -5305,7 +5329,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -5385,7 +5409,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -5465,7 +5489,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
         <staff-layout number="1">
           <staff-distance>60</staff-distance>
@@ -7721,7 +7745,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -7801,7 +7825,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -7881,7 +7905,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -7961,7 +7985,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
         <staff-layout number="1">
           <staff-distance>60</staff-distance>
@@ -9379,7 +9403,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -9459,7 +9483,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -9539,7 +9563,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -9619,7 +9643,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
         <staff-layout number="1">
           <staff-distance>60</staff-distance>
@@ -10619,7 +10643,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -10699,7 +10723,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -10779,7 +10803,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -10859,7 +10883,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
         <staff-layout number="1">
           <staff-distance>60</staff-distance>
@@ -11654,7 +11678,15 @@ da fehlt es hier zu keiner Zeit.</credit-words>
         </figure>
       </figured-bass>
       <forward>
-        <duration>4</duration>
+        <duration>2</duration>
+      </forward>
+      <figured-bass>
+        <figure>
+          <figure-number>5</figure-number>
+        </figure>
+      </figured-bass>
+      <forward>
+        <duration>2</duration>
       </forward>
       <figured-bass>
         <figure>
@@ -11858,6 +11890,11 @@ da fehlt es hier zu keiner Zeit.</credit-words>
       <attributes>
         <divisions>4</divisions>
       </attributes>
+      <figured-bass>
+        <figure>
+          <prefix>sharp</prefix>
+        </figure>
+      </figured-bass>
       <note>
         <pitch>
           <step>F</step>
@@ -11871,17 +11908,6 @@ da fehlt es hier zu keiner Zeit.</credit-words>
         <stem>up</stem>
         <staff>1</staff>
       </note>
-      <backup>
-        <duration>10</duration>
-      </backup>
-      <figured-bass>
-        <figure>
-          <prefix>sharp</prefix>
-        </figure>
-      </figured-bass>
-      <forward>
-        <duration>10</duration>
-      </forward>
     </measure>
     <measure number="9">
       <print new-system="no" new-page="no"/>
@@ -11924,11 +11950,25 @@ da fehlt es hier zu keiner Zeit.</credit-words>
       </backup>
       <figured-bass>
         <figure>
-          <prefix>sharp</prefix>
+          <figure-number>5</figure-number>
+        </figure>
+        <figure>
+          <figure-number>3</figure-number>
         </figure>
       </figured-bass>
       <forward>
-        <duration>4</duration>
+        <duration>2</duration>
+      </forward>
+      <figured-bass>
+        <figure>
+          <figure-number>5</figure-number>
+        </figure>
+        <figure>
+          <figure-number>3</figure-number>
+        </figure>
+      </figured-bass>
+      <forward>
+        <duration>2</duration>
       </forward>
     </measure>
     <measure number="10">
@@ -11936,6 +11976,11 @@ da fehlt es hier zu keiner Zeit.</credit-words>
       <attributes>
         <divisions>4</divisions>
       </attributes>
+      <figured-bass>
+        <figure>
+          <figure-number>5</figure-number>
+        </figure>
+      </figured-bass>
       <note>
         <pitch>
           <step>B</step>
@@ -12041,6 +12086,11 @@ da fehlt es hier zu keiner Zeit.</credit-words>
       <attributes>
         <divisions>4</divisions>
       </attributes>
+      <figured-bass>
+        <figure>
+          <figure-number>5</figure-number>
+        </figure>
+      </figured-bass>
       <note>
         <pitch>
           <step>F</step>
@@ -12387,7 +12437,15 @@ da fehlt es hier zu keiner Zeit.</credit-words>
         </figure>
       </figured-bass>
       <forward>
-        <duration>2</duration>
+        <duration>1</duration>
+      </forward>
+      <figured-bass>
+        <figure>
+          <figure-number>6</figure-number>
+        </figure>
+      </figured-bass>
+      <forward>
+        <duration>1</duration>
       </forward>
       <figured-bass>
         <figure>
@@ -12480,14 +12538,14 @@ da fehlt es hier zu keiner Zeit.</credit-words>
       </figured-bass>
       <note>
         <pitch>
-          <step>B</step>
-          <alter>-1</alter>
+          <step>A</step>
+          <alter>1</alter>
           <octave>2</octave>
         </pitch>
         <duration>4</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <accidental>flat</accidental>
+        <accidental>sharp</accidental>
         <stem>up</stem>
         <staff>1</staff>
       </note>
@@ -12510,7 +12568,6 @@ da fehlt es hier zu keiner Zeit.</credit-words>
         <duration>4</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <accidental cautionary="yes">natural</accidental>
         <stem>up</stem>
         <staff>1</staff>
       </note>
@@ -12690,7 +12747,15 @@ da fehlt es hier zu keiner Zeit.</credit-words>
         </figure>
       </figured-bass>
       <forward>
-        <duration>2</duration>
+        <duration>1</duration>
+      </forward>
+      <figured-bass>
+        <figure>
+          <figure-number>6</figure-number>
+        </figure>
+      </figured-bass>
+      <forward>
+        <duration>1</duration>
       </forward>
       <figured-bass>
         <figure>
@@ -12775,6 +12840,11 @@ da fehlt es hier zu keiner Zeit.</credit-words>
       <attributes>
         <divisions>4</divisions>
       </attributes>
+      <figured-bass>
+        <figure>
+          <figure-number>5</figure-number>
+        </figure>
+      </figured-bass>
       <note>
         <pitch>
           <step>G</step>
@@ -12808,12 +12878,17 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
       </print>
       <attributes>
         <divisions>4</divisions>
       </attributes>
+      <figured-bass>
+        <figure>
+          <figure-number>5</figure-number>
+        </figure>
+      </figured-bass>
       <note>
         <pitch>
           <step>A</step>
@@ -12845,7 +12920,10 @@ da fehlt es hier zu keiner Zeit.</credit-words>
       </attributes>
       <figured-bass>
         <figure>
-          <prefix>flat</prefix>
+          <figure-number>5</figure-number>
+        </figure>
+        <figure>
+          <figure-number>3</figure-number>
         </figure>
       </figured-bass>
       <note>
@@ -12874,7 +12952,16 @@ da fehlt es hier zu keiner Zeit.</credit-words>
         </figure>
       </figured-bass>
       <forward>
-        <duration>4</duration>
+        <duration>2</duration>
+      </forward>
+      <figured-bass>
+        <figure>
+          <prefix>flat</prefix>
+          <figure-number>6</figure-number>
+        </figure>
+      </figured-bass>
+      <forward>
+        <duration>2</duration>
       </forward>
       <figured-bass>
         <figure>
@@ -12891,10 +12978,6 @@ da fehlt es hier zu keiner Zeit.</credit-words>
         <divisions>4</divisions>
       </attributes>
       <figured-bass>
-        <figure>
-          <prefix>sharp</prefix>
-          <figure-number>6</figure-number>
-        </figure>
         <figure>
           <prefix>sharp</prefix>
           <figure-number>4</figure-number>
@@ -13085,7 +13168,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -13373,7 +13456,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -13600,7 +13683,7 @@ da fehlt es hier zu keiner Zeit.</credit-words>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>141.875</system-distance>
+          <system-distance>140</system-distance>
         </system-layout>
         <staff-layout number="1">
           <staff-distance>60</staff-distance>
@@ -13670,7 +13753,15 @@ da fehlt es hier zu keiner Zeit.</credit-words>
         </figure>
       </figured-bass>
       <forward>
-        <duration>4</duration>
+        <duration>2</duration>
+      </forward>
+      <figured-bass>
+        <figure>
+          <figure-number>3</figure-number>
+        </figure>
+      </figured-bass>
+      <forward>
+        <duration>2</duration>
       </forward>
     </measure>
     <measure number="49">
@@ -13935,7 +14026,15 @@ da fehlt es hier zu keiner Zeit.</credit-words>
         </figure>
       </figured-bass>
       <forward>
-        <duration>2</duration>
+        <duration>1</duration>
+      </forward>
+      <figured-bass>
+        <figure>
+          <figure-number>5</figure-number>
+        </figure>
+      </figured-bass>
+      <forward>
+        <duration>1</duration>
       </forward>
       <figured-bass>
         <figure>
@@ -14233,7 +14332,15 @@ da fehlt es hier zu keiner Zeit.</credit-words>
         </figure>
       </figured-bass>
       <forward>
-        <duration>2</duration>
+        <duration>1</duration>
+      </forward>
+      <figured-bass>
+        <figure>
+          <figure-number>5</figure-number>
+        </figure>
+      </figured-bass>
+      <forward>
+        <duration>1</duration>
       </forward>
       <figured-bass>
         <figure>
@@ -14261,7 +14368,15 @@ da fehlt es hier zu keiner Zeit.</credit-words>
         </figure>
       </figured-bass>
       <forward>
-        <duration>4</duration>
+        <duration>2</duration>
+      </forward>
+      <figured-bass>
+        <figure>
+          <prefix>sharp</prefix>
+        </figure>
+      </figured-bass>
+      <forward>
+        <duration>2</duration>
       </forward>
     </measure>
     <measure number="62">
@@ -14341,7 +14456,15 @@ da fehlt es hier zu keiner Zeit.</credit-words>
         </figure>
       </figured-bass>
       <forward>
-        <duration>4</duration>
+        <duration>2</duration>
+      </forward>
+      <figured-bass>
+        <figure>
+          <prefix>sharp</prefix>
+        </figure>
+      </figured-bass>
+      <forward>
+        <duration>2</duration>
       </forward>
     </measure>
     <measure number="64">

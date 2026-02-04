@@ -10,7 +10,7 @@
     <rights>Copyright © Bas Cornelissen 2025, CC BY-SA 4.0</rights>
     <encoding>
       <software>Dorico 5.1.60.2187</software>
-      <encoding-date>2025-10-23</encoding-date>
+      <encoding-date>2026-02-04</encoding-date>
       <supports type="yes" element="print" attribute="new-system" value="yes"/>
       <supports type="yes" element="print" attribute="new-page" value="yes"/>
       <supports type="yes" element="accidental"/>
@@ -57,7 +57,7 @@ was uns beschweret</credit-words>
   </credit>
   <credit page="1">
     <credit-type>rights</credit-type>
-    <credit-words font-family="EB Garamond" font-size="7.5" justify="left" valign="bottom" default-x="83.75" default-y="124.375" xml:space="preserve">Copyright © Bas Cornelissen 2025, CC BY-SA 4.0. Version 23 Oct 2025.</credit-words>
+    <credit-words font-family="EB Garamond" font-size="7.5" justify="left" valign="bottom" default-x="83.75" default-y="124.375" xml:space="preserve">Copyright © Bas Cornelissen 2025, CC BY-SA 4.0. Version 4 Feb 2026.</credit-words>
   </credit>
   <credit page="1">
     <credit-words font-family="EB Garamond" font-size="7.5" justify="left" valign="bottom" default-x="83.75" default-y="104.375" xml:space="preserve">From Harmonische Freude musicalischer Freunde, Erster Theil. Nürnberg: Christian Sigmund Froberg, 1697. Derived from Denkmäler </credit-words>
@@ -7883,9 +7883,6 @@ was uns beschweret</credit-words>
           <prefix>sharp</prefix>
           <figure-number>6</figure-number>
         </figure>
-        <figure>
-          <prefix>sharp</prefix>
-        </figure>
       </figured-bass>
       <note>
         <pitch>
@@ -8371,6 +8368,11 @@ was uns beschweret</credit-words>
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
+      <figured-bass>
+        <figure>
+          <figure-number>3</figure-number>
+        </figure>
+      </figured-bass>
       <note>
         <pitch>
           <step>A</step>
@@ -9229,6 +9231,11 @@ was uns beschweret</credit-words>
       <attributes>
         <divisions>4</divisions>
       </attributes>
+      <figured-bass>
+        <figure>
+          <figure-number>5</figure-number>
+        </figure>
+      </figured-bass>
       <note>
         <pitch>
           <step>D</step>
@@ -9480,10 +9487,6 @@ was uns beschweret</credit-words>
         </notations>
       </note>
       <figured-bass>
-        <figure>
-          <prefix>sharp</prefix>
-          <figure-number>6</figure-number>
-        </figure>
         <figure>
           <prefix>sharp</prefix>
           <figure-number>4</figure-number>
@@ -10155,7 +10158,7 @@ was uns beschweret</credit-words>
         <staff>1</staff>
       </note>
       <backup>
-        <duration>3</duration>
+        <duration>4</duration>
       </backup>
       <figured-bass>
         <figure>
@@ -10163,7 +10166,15 @@ was uns beschweret</credit-words>
         </figure>
       </figured-bass>
       <forward>
-        <duration>3</duration>
+        <duration>2</duration>
+      </forward>
+      <figured-bass>
+        <figure>
+          <figure-number>6</figure-number>
+        </figure>
+      </figured-bass>
+      <forward>
+        <duration>2</duration>
       </forward>
       <figured-bass>
         <figure>
@@ -10849,6 +10860,11 @@ was uns beschweret</credit-words>
       <attributes>
         <divisions>4</divisions>
       </attributes>
+      <figured-bass>
+        <figure>
+          <figure-number>5</figure-number>
+        </figure>
+      </figured-bass>
       <note>
         <pitch>
           <step>D</step>
@@ -11335,14 +11351,6 @@ was uns beschweret</credit-words>
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <figured-bass>
-        <figure>
-          <figure-number>4</figure-number>
-        </figure>
-        <figure>
-          <figure-number>2</figure-number>
-        </figure>
-      </figured-bass>
       <note>
         <pitch>
           <step>B</step>
@@ -11365,6 +11373,14 @@ was uns beschweret</credit-words>
       <attributes>
         <divisions>4</divisions>
       </attributes>
+      <figured-bass>
+        <figure>
+          <figure-number>4</figure-number>
+        </figure>
+        <figure>
+          <figure-number>2</figure-number>
+        </figure>
+      </figured-bass>
       <note>
         <pitch>
           <step>B</step>
@@ -11513,11 +11529,25 @@ was uns beschweret</credit-words>
       </backup>
       <figured-bass>
         <figure>
-          <prefix>sharp</prefix>
+          <figure-number>5</figure-number>
+        </figure>
+        <figure>
+          <figure-number>3</figure-number>
         </figure>
       </figured-bass>
       <forward>
-        <duration>4</duration>
+        <duration>2</duration>
+      </forward>
+      <figured-bass>
+        <figure>
+          <figure-number>5</figure-number>
+        </figure>
+        <figure>
+          <figure-number>3</figure-number>
+        </figure>
+      </figured-bass>
+      <forward>
+        <duration>2</duration>
       </forward>
       <note>
         <pitch>
