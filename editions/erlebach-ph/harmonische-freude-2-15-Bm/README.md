@@ -15,8 +15,15 @@ editor: Bas Cornelissen
 files:
   - path: editions/erlebach-ph/harmonische-freude-2-15-Bm/README.md
     title: README
-  - path: editions/erlebach-ph/harmonische-freude-2-15-Bm/harmonische-freude-2-15-Bm.musicxml
   - path: editions/erlebach-ph/harmonische-freude-2-15-Bm/harmonische-freude-2-15-Bm.pdf
+    title: full score
+  - path: editions/erlebach-ph/harmonische-freude-2-15-Bm/harmonische-freude-2-15-Bm-violins.pdf
+    title: violins
+  - path: editions/erlebach-ph/harmonische-freude-2-15-Bm/harmonische-freude-2-15-Bm-violas.pdf
+    title: violas
+  - path: editions/erlebach-ph/harmonische-freude-2-15-Bm/harmonische-freude-2-15-Bm-continuo.pdf
+    title: continuo
+  - path: editions/erlebach-ph/harmonische-freude-2-15-Bm/harmonische-freude-2-15-Bm.musicxml
 other:
   software: Dorico 5
   key: B minor
