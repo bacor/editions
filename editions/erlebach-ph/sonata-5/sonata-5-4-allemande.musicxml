@@ -10,7 +10,7 @@
     <rights>Copyright © Bas Cornelissen 2025, CC BY-SA 4.0. </rights>
     <encoding>
       <software>Dorico 5.1.60.2187</software>
-      <encoding-date>2025-10-21</encoding-date>
+      <encoding-date>2026-02-04</encoding-date>
       <supports type="yes" element="print" attribute="new-system" value="yes"/>
       <supports type="yes" element="print" attribute="new-page" value="yes"/>
       <supports type="yes" element="accidental"/>
@@ -37,12 +37,17 @@
     <word-font font-family="Academico" font-size="8.22048"/>
   </defaults>
   <credit page="1">
+    <credit-type>title</credit-type>
+    <credit-type>flow title</credit-type>
+    <credit-words font-family="EB Garamond" font-size="10" font-style="italic" justify="left" valign="top" default-x="83.75" default-y="1598.12" xml:space="preserve"> Sonata V in E minor — 4. Allemande</credit-words>
+  </credit>
+  <credit page="1">
     <credit-type>page number</credit-type>
     <credit-words font-family="EB Garamond" font-size="10" font-weight="bold" justify="right" valign="top" default-x="1103.75" default-y="1598.12" xml:space="preserve">5</credit-words>
   </credit>
   <credit page="1">
     <credit-type>flow title</credit-type>
-    <credit-words font-family="EB Garamond" font-size="16" justify="left" valign="middle" default-x="83.75" default-y="1191.25" xml:space="preserve">4. Allemande</credit-words>
+    <credit-words font-family="EB Garamond" font-size="16" justify="left" valign="middle" default-x="83.75" default-y="1534.38" xml:space="preserve">4. Allemande</credit-words>
   </credit>
   <part-list>
     <score-part id="P1">
@@ -96,7 +101,7 @@
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <top-system-distance>558.75</top-system-distance>
+          <top-system-distance>141.25</top-system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -614,7 +619,7 @@
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>96.25</system-distance>
+          <system-distance>96.875</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -1057,7 +1062,7 @@
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>96.25</system-distance>
+          <system-distance>96.875</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -1404,7 +1409,7 @@
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>96.25</system-distance>
+          <system-distance>96.875</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -1796,7 +1801,7 @@
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <top-system-distance>558.75</top-system-distance>
+          <top-system-distance>141.25</top-system-distance>
         </system-layout>
         <staff-layout number="1">
           <staff-distance>60</staff-distance>
@@ -2315,7 +2320,7 @@
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>96.25</system-distance>
+          <system-distance>96.875</system-distance>
         </system-layout>
         <staff-layout number="1">
           <staff-distance>60</staff-distance>
@@ -2708,7 +2713,7 @@
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>96.25</system-distance>
+          <system-distance>96.875</system-distance>
         </system-layout>
         <staff-layout number="1">
           <staff-distance>60</staff-distance>
@@ -3188,7 +3193,7 @@
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>96.25</system-distance>
+          <system-distance>96.875</system-distance>
         </system-layout>
         <staff-layout number="1">
           <staff-distance>60</staff-distance>
@@ -3610,7 +3615,7 @@
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <top-system-distance>558.75</top-system-distance>
+          <top-system-distance>141.25</top-system-distance>
         </system-layout>
         <staff-layout number="1">
           <staff-distance>60</staff-distance>
@@ -3817,7 +3822,7 @@
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>96.25</system-distance>
+          <system-distance>96.875</system-distance>
         </system-layout>
         <staff-layout number="1">
           <staff-distance>60</staff-distance>
@@ -3991,7 +3996,7 @@
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>96.25</system-distance>
+          <system-distance>96.875</system-distance>
         </system-layout>
         <staff-layout number="1">
           <staff-distance>60</staff-distance>
@@ -4157,7 +4162,7 @@
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <system-distance>96.25</system-distance>
+          <system-distance>96.875</system-distance>
         </system-layout>
         <staff-layout number="1">
           <staff-distance>60</staff-distance>

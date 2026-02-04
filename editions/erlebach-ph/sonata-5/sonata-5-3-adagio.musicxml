@@ -10,7 +10,7 @@
     <rights>Copyright © Bas Cornelissen 2025, CC BY-SA 4.0. </rights>
     <encoding>
       <software>Dorico 5.1.60.2187</software>
-      <encoding-date>2025-10-21</encoding-date>
+      <encoding-date>2026-02-04</encoding-date>
       <supports type="yes" element="print" attribute="new-system" value="yes"/>
       <supports type="yes" element="print" attribute="new-page" value="yes"/>
       <supports type="yes" element="accidental"/>
@@ -46,11 +46,7 @@
   </credit>
   <credit page="1">
     <credit-type>flow title</credit-type>
-    <credit-words font-family="EB Garamond" font-size="16" justify="left" valign="middle" default-x="83.75" default-y="638.125" xml:space="preserve">3. Adagio</credit-words>
-  </credit>
-  <credit page="2">
-    <credit-type>page number</credit-type>
-    <credit-words font-family="EB Garamond" font-size="10" font-weight="bold" justify="right" valign="top" default-x="1103.75" default-y="1598.12" xml:space="preserve">5</credit-words>
+    <credit-words font-family="EB Garamond" font-size="16" justify="left" valign="middle" default-x="83.75" default-y="915" xml:space="preserve">3. Adagio</credit-words>
   </credit>
   <part-list>
     <score-part id="P1">
@@ -104,7 +100,7 @@
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <top-system-distance>1231.25</top-system-distance>
+          <top-system-distance>895</top-system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -586,13 +582,13 @@
       </note>
     </measure>
     <measure number="8">
-      <print new-page="yes">
+      <print new-system="yes" new-page="no">
         <system-layout>
           <system-margins>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <top-system-distance>146.25</top-system-distance>
+          <system-distance>96.25</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -881,7 +877,7 @@
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <top-system-distance>1231.25</top-system-distance>
+          <top-system-distance>895</top-system-distance>
         </system-layout>
         <staff-layout number="1">
           <staff-distance>60</staff-distance>
@@ -1476,13 +1472,13 @@
       </note>
     </measure>
     <measure number="8">
-      <print new-page="yes">
+      <print new-system="yes" new-page="no">
         <system-layout>
           <system-margins>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <top-system-distance>146.25</top-system-distance>
+          <system-distance>96.25</system-distance>
         </system-layout>
         <staff-layout number="1">
           <staff-distance>60</staff-distance>
@@ -1767,7 +1763,7 @@
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <top-system-distance>1231.25</top-system-distance>
+          <top-system-distance>895</top-system-distance>
         </system-layout>
         <staff-layout number="1">
           <staff-distance>60</staff-distance>
@@ -2178,13 +2174,13 @@
       </note>
     </measure>
     <measure number="8">
-      <print new-page="yes">
+      <print new-system="yes" new-page="no">
         <system-layout>
           <system-margins>
             <left-margin>0</left-margin>
             <right-margin>0</right-margin>
           </system-margins>
-          <top-system-distance>146.25</top-system-distance>
+          <system-distance>96.25</system-distance>
         </system-layout>
         <staff-layout number="1">
           <staff-distance>60</staff-distance>

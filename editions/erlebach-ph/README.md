@@ -21,7 +21,7 @@ composer:
 | Erlebach, PH | Des Prahlers Worte, die zwar gleißen, sind nicht stracks echtes Gold zu heißen |  | [PDF](harmonische-freude-2-16/harmonische-freude-2-16.pdf) | [MusicXML](harmonische-freude-2-16/harmonische-freude-2-16.musicxml) |
 | Erlebach, PH | Die Zeit verkehret, was uns beschweret |  | [PDF](harmonische-freude-1-26/harmonische-freude-1-26.pdf) | [MusicXML](harmonische-freude-1-26/harmonische-freude-1-26.musicxml) |
 | Erlebach, PH | Die Zeit verkehret, was uns beschweret (transposed to Bm) |  | [PDF](harmonische-freude-1-26-Bm/harmonische-freude-1-26-Bm.pdf) | [MusicXML](harmonische-freude-1-26-Bm/harmonische-freude-1-26-Bm.musicxml) |
-| Erlebach, PH | Sonata V in E minor (for Violin, Viola da Gamba & Basso Continuo) |  | [PDF](sonata-5/sonata-5.pdf) | [MusicXML](sonata-5/sonata-5-1-adagio.musicxml) |
+| Erlebach, PH | Sonata V in E minor (for Violin, Viola da Gamba & Basso Continuo) |  | [PDF](sonata-5/sonata-5-full.pdf) | [MusicXML](sonata-5/sonata-5-1-adagio.musicxml) |
 | Erlebach, PH | Wer sich dem Himmel übergeben,  wird endlich Ruh und Glück erleben. |  | [PDF](harmonische-freude-2-22/erlebach-II-22-full.pdf) | [MusicXML](harmonische-freude-2-22/harmonische-freude-2-22.musicxml) |
 
 
