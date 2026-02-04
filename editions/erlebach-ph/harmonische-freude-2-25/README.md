@@ -17,6 +17,12 @@ files:
     title: README
   - path: editions/erlebach-ph/harmonische-freude-2-25/harmonische-freude-2-25.pdf
     title: full score
+  - path: editions/erlebach-ph/harmonische-freude-2-25/harmonische-freude-2-25-violins.pdf
+    title: violins
+  - path: editions/erlebach-ph/harmonische-freude-2-25/harmonische-freude-2-25-violas.pdf
+    title: violas
+  - path: editions/erlebach-ph/harmonische-freude-2-25/harmonische-freude-2-25-continuo.pdf
+    title: continuo
   - path: editions/erlebach-ph/harmonische-freude-2-25/harmonische-freude-2-25.musicxml
 other:
   software: Dorico 5.1.60.2187

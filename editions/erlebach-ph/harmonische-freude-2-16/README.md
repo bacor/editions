@@ -15,8 +15,15 @@ editor: Bas Cornelissen
 files:
   - path: editions/erlebach-ph/harmonische-freude-2-16/README.md
     title: README
-  - path: editions/erlebach-ph/harmonische-freude-2-16/harmonische-freude-2-16.musicxml
   - path: editions/erlebach-ph/harmonische-freude-2-16/harmonische-freude-2-16.pdf
+    title: full score
+  - path: editions/erlebach-ph/harmonische-freude-2-16/harmonische-freude-2-16-violins.pdf
+    title: violins
+  - path: editions/erlebach-ph/harmonische-freude-2-16/harmonische-freude-2-16-violas.pdf
+    title: violas
+  - path: editions/erlebach-ph/harmonische-freude-2-16/harmonische-freude-2-16-continuo.pdf
+    title: continuo
+  - path: editions/erlebach-ph/harmonische-freude-2-16/harmonische-freude-2-16.musicxml
 other:
   software: Dorico 5
   key: C major

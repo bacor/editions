@@ -140,8 +140,15 @@
   files:
   - path: editions/erlebach-ph/harmonische-freude-2-16/README.md
     title: README
-  - path: editions/erlebach-ph/harmonische-freude-2-16/harmonische-freude-2-16.musicxml
   - path: editions/erlebach-ph/harmonische-freude-2-16/harmonische-freude-2-16.pdf
+    title: full score
+  - path: editions/erlebach-ph/harmonische-freude-2-16/harmonische-freude-2-16-violins.pdf
+    title: violins
+  - path: editions/erlebach-ph/harmonische-freude-2-16/harmonische-freude-2-16-violas.pdf
+    title: violas
+  - path: editions/erlebach-ph/harmonische-freude-2-16/harmonische-freude-2-16-continuo.pdf
+    title: continuo
+  - path: editions/erlebach-ph/harmonische-freude-2-16/harmonische-freude-2-16.musicxml
   comments: 'Derived from _Denkmäler deutscher Tonkunst, Erste Folge; Bd.46-47_, Leipzig:
     Breitkopf und Härtel, 1914. P'
 - id: editions-erlebach-ph-harmonische-freude-2-22
@@ -201,6 +208,12 @@
     title: README
   - path: editions/erlebach-ph/harmonische-freude-2-25/harmonische-freude-2-25.pdf
     title: full score
+  - path: editions/erlebach-ph/harmonische-freude-2-25/harmonische-freude-2-25-violins.pdf
+    title: violins
+  - path: editions/erlebach-ph/harmonische-freude-2-25/harmonische-freude-2-25-violas.pdf
+    title: violas
+  - path: editions/erlebach-ph/harmonische-freude-2-25/harmonische-freude-2-25-continuo.pdf
+    title: continuo
   - path: editions/erlebach-ph/harmonische-freude-2-25/harmonische-freude-2-25.musicxml
   comments: 'Derived from _Denkmäler deutscher Tonkunst, Erste Folge; Bd.46-47_, Leipzig:
     Breitkopf und Härtel, 1914. P'
