@@ -11,7 +11,7 @@
     <rights>Copyright © Bas Cornelissen 2025, CC BY-SA 4.0</rights>
     <encoding>
       <software>Dorico 5.1.60.2187</software>
-      <encoding-date>2025-11-26</encoding-date>
+      <encoding-date>2026-02-27</encoding-date>
       <supports type="yes" element="print" attribute="new-system" value="yes"/>
       <supports type="yes" element="print" attribute="new-page" value="yes"/>
       <supports type="yes" element="accidental"/>
@@ -57,7 +57,7 @@
   </credit>
   <credit page="1">
     <credit-type>rights</credit-type>
-    <credit-words font-family="EB Garamond" font-size="7.5" justify="left" valign="bottom" default-x="83.75" default-y="124.375" xml:space="preserve">Copyright © Bas Cornelissen 2025, CC BY-SA 4.0. Version 26 Nov 2025.</credit-words>
+    <credit-words font-family="EB Garamond" font-size="7.5" justify="left" valign="bottom" default-x="83.75" default-y="124.375" xml:space="preserve">Copyright © Bas Cornelissen 2025, CC BY-SA 4.0. Version 27 Nov 2025.</credit-words>
   </credit>
   <credit page="1">
     <credit-words font-family="EB Garamond" font-size="7.5" justify="left" valign="bottom" default-x="83.75" default-y="104.375" xml:space="preserve">From Iphigénie en Tauride (1779). This score is derived from Paris: Des Lauriers, 1780. Rhythm in the violas differs from German editions. </credit-words>
@@ -2242,6 +2242,11 @@
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <staccato placement="below"/>
+          </articulations>
+        </notations>
       </note>
       <note>
         <pitch>
@@ -2341,6 +2346,11 @@
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <staccato placement="below"/>
+          </articulations>
+        </notations>
       </note>
       <note>
         <pitch>
@@ -2442,6 +2452,11 @@
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <staccato placement="below"/>
+          </articulations>
+        </notations>
       </note>
       <note>
         <pitch>
@@ -5059,7 +5074,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
       </note>
       <note>
         <rest/>
@@ -5078,7 +5092,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
       </note>
     </measure>
     <measure number="3">
@@ -5088,10 +5101,27 @@
       </attributes>
       <note>
         <rest/>
-        <duration>4</duration>
+        <duration>2</duration>
         <voice>1</voice>
-        <type>quarter</type>
+        <type>eighth</type>
         <staff>1</staff>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <staccato placement="below"/>
+          </articulations>
+        </notations>
       </note>
       <note>
         <pitch>
@@ -5103,7 +5133,7 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
+        <beam number="1">continue</beam>
         <notations>
           <slur type="start" number="1" orientation="under"/>
         </notations>
@@ -5147,7 +5177,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
       </note>
       <note>
         <rest/>
@@ -5166,7 +5195,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
       </note>
       <barline location="right">
         <bar-style>light-light</bar-style>
@@ -5259,7 +5287,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
       </note>
       <note>
         <rest/>
@@ -5278,7 +5305,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
       </note>
     </measure>
     <measure number="7">
@@ -5375,7 +5401,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
       </note>
       <note>
         <rest/>
@@ -5394,7 +5419,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
       </note>
     </measure>
     <measure number="9">
@@ -5479,7 +5503,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
       </note>
       <note>
         <rest/>
@@ -5498,7 +5521,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
       </note>
     </measure>
     <measure number="11">
@@ -5583,7 +5605,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
       </note>
       <note>
         <rest/>
@@ -5602,7 +5623,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
       </note>
     </measure>
     <measure number="13">
@@ -5851,7 +5871,7 @@
         <beam number="1">begin</beam>
         <notations>
           <articulations>
-            <accent placement="below"/>
+            <staccato placement="below"/>
           </articulations>
         </notations>
       </note>
@@ -6582,6 +6602,11 @@
         <stem>down</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
+        <notations>
+          <articulations>
+            <staccato placement="above"/>
+          </articulations>
+        </notations>
       </note>
       <note>
         <pitch>
@@ -6594,6 +6619,9 @@
         <stem>down</stem>
         <staff>1</staff>
         <beam number="1">continue</beam>
+        <notations>
+          <slur type="start" number="1" orientation="over"/>
+        </notations>
       </note>
       <note>
         <pitch>
@@ -6607,6 +6635,9 @@
         <stem>down</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
+        <notations>
+          <slur type="stop" number="1" orientation="over"/>
+        </notations>
       </note>
     </measure>
     <measure number="32">
@@ -7016,7 +7047,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">begin</beam>
       </note>
       <note>
         <rest/>
@@ -7035,7 +7065,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <staff>1</staff>
-        <beam number="1">end</beam>
       </note>
     </measure>
     <measure number="41">

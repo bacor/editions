@@ -43,3 +43,7 @@ From _Iphigénie en Tauride_ (1779). This score is derived from [Paris: Des Laur
 
 Note that the rhythm in the violas differs from German editions.
 The first bars and final bar are editorial suggestions, delimited by double barlines.
+
+## Credits
+
+- Thanks to Marien Abspoel for pointing out some typos.
